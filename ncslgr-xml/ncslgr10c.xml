@@ -1,0 +1,3826 @@
+<SIGNSTREAM-DATABASE DATABASE-VERSION="1.1" SIGNSTREAM-VERSION="2" SOURCE="">
+<DISTRIBUTOR>American Sign Language Linguistic Research Project, Boston University, Boston, MA.</DISTRIBUTOR>
+<AUTHOR>Mike Schlang, Robert G. Lee, Sarah Fish, Fran Conlin, and Carol Neidle. The data have been transcribed at Boston University under the supervision of C. Neidle.  We gratefully acknowledge  assistance from Lana Cook and Carla DaSilva.</AUTHOR>
+<PARTICIPANTS>
+<PARTICIPANT AGE="42 years" GENDER="male" ID="0" LABEL="Ben" LANGUAGE="ASL" NAME="Benjamin Bahan">
+<BACKGROUND>Education:&#13;MKSD (formerly known as NJSD), graduated 1974; Gallaudet University, graduated 1978; Boston University, Ph.D. 1996.</BACKGROUND>
+</PARTICIPANT>
+<PARTICIPANT AGE="29" GENDER="female" ID="1" LABEL="Norma" LANGUAGE="ASL" NAME="Norma Bowers Tourangeau">
+<BACKGROUND>Education: graduated from CSDB (Colorado School for the Deaf &amp; Blind), graduated from Gallaudet University in 1994; received masters degree in Deaf education at Boston University in 1998.</BACKGROUND>
+</PARTICIPANT>
+</PARTICIPANTS>
+<CODING-SCHEME>
+<FIELD CONSTRAINT="free-text" ID="3" LABEL="hp: jut" NAME="head pos: jut">
+<VALUE ID="2" LABEL="for" NAME="forward"/>
+<VALUE ID="10" LABEL="-for" NAME="slightly forward"/>
+<VALUE ID="8" LABEL="+for" NAME="further forward"/>
+<VALUE ID="5" LABEL="back" NAME="back"/>
+<VALUE ID="11" LABEL="-back" NAME="slightly back"/>
+<VALUE ID="12" LABEL="+back" NAME="further back"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD CONSTRAINT="free-text" ID="29" LABEL="hp: tilt fr/bk" NAME="head pos: tilt fr/bk">
+<VALUE ID="2" LABEL="front" NAME="front"/>
+<VALUE ID="5" LABEL="-front" NAME="slightly front"/>
+<VALUE ID="7" LABEL="+front" NAME="further front"/>
+<VALUE ID="3" LABEL="back" NAME="back"/>
+<VALUE ID="6" LABEL="-back" NAME="slightly back"/>
+<VALUE ID="8" LABEL="+back" NAME="further back"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD COLOR="1822cd" CONSTRAINT="free-text" ID="27" LABEL="POS" NAME="POS">
+<VALUE ID="0" LABEL="N" NAME="Noun"/>
+<VALUE ID="1" LABEL="PN" NAME="Proper Noun"/>
+<VALUE ID="2" LABEL="Pro" NAME="Pronoun"/>
+<VALUE ID="3" LABEL="Det" NAME="Determiner"/>
+<VALUE ID="4" LABEL="Quant" NAME="Quantifier"/>
+<VALUE ID="5" LABEL="Wh" NAME="Wh-word"/>
+<VALUE ID="6" LABEL="Num" NAME="Number"/>
+<VALUE ID="7" LABEL="Neg" NAME="Negation"/>
+<VALUE ID="8" LABEL="V" NAME="Verb"/>
+<VALUE ID="9" LABEL="Adj" NAME="Adjective"/>
+<VALUE ID="10" LABEL="Adv" NAME="Adverb"/>
+<VALUE ID="11" LABEL="Prep" NAME="Preposition"/>
+<VALUE ID="21" LABEL="Poss" NAME="Possessive"/>
+<VALUE ID="12" LABEL="Modal" NAME="Modal"/>
+<VALUE ID="13" LABEL="Tns" NAME="Tense"/>
+<VALUE ID="14" LABEL="CL" NAME="Classifier"/>
+<VALUE ID="15" LABEL="Conj" NAME="Conjunction"/>
+<VALUE ID="16" LABEL="Prt" NAME="Particle"/>
+<VALUE ID="28" LABEL="Refl" NAME="Reflexive"/>
+<VALUE ID="27" LABEL="Dem" NAME="Demonstrative"/>
+<VALUE ID="17" LABEL="DM" NAME="Discourse Marker"/>
+<VALUE ID="18" LABEL="Asp" NAME="Aspect"/>
+<VALUE ID="23" LABEL="Modal+Neg" NAME="Modal+Negation"/>
+<VALUE ID="25" LABEL="Neg+V" NAME="Negation+Verb"/>
+<VALUE ID="20" LABEL="Quant+Wh" NAME="Quantifier+Wh-word"/>
+<VALUE ID="24" LABEL="Tns+Neg" NAME="Tense+Negation"/>
+<VALUE ID="22" LABEL="V+Asp" NAME="Verb+Aspect"/>
+<VALUE ID="26" LABEL="Wh+Prt" NAME="Wh+Particle"/>
+<VALUE ID="29" LABEL="Tns+Asp" NAME="Tense+Aspect"/>
+<VALUE ID="30" LABEL="Neg+Asp" NAME="Negation+Aspect"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD CONSTRAINT="free-text" ID="14" LABEL="mouth" NAME="mouth">
+<VALUE ID="2" LABEL="oo" NAME="lips pursed: oo"/>
+<VALUE ID="3" LABEL="oo-tight" NAME="lips pursed: oo-tight"/>
+<VALUE ID="4" LABEL="mm" NAME="lips pursed: mm"/>
+<VALUE ID="15" LABEL="th" NAME="tongue out"/>
+<VALUE ID="6" LABEL="thp" NAME="tongue sucked in quickly"/>
+<VALUE ID="7" LABEL="tml" NAME="tongue mvmt lateral"/>
+<VALUE ID="8" LABEL="cha" NAME="cha"/>
+<VALUE ID="9" LABEL="sta" NAME="sta"/>
+<VALUE ID="10" LABEL="puh" NAME="puh"/>
+<VALUE ID="11" LABEL="pow" NAME="pow"/>
+<VALUE ID="19" LABEL="sh" NAME="sh"/>
+<VALUE ID="12" LABEL="cs" NAME="cs"/>
+<VALUE ID="13" LABEL="int" NAME="intense"/>
+<VALUE ID="14" LABEL="open" NAME="open"/>
+<VALUE ID="21" LABEL="open/rd" NAME="open &amp; round"/>
+<VALUE ID="22" LABEL="open/tns" NAME="open &amp; tense"/>
+<VALUE ID="23" LABEL="open/cd" NAME="open &amp; corners down"/>
+<VALUE ID="5" LABEL="rul" NAME="raised upper lip"/>
+<VALUE ID="24" LABEL="ls" NAME="lips spread"/>
+<VALUE ID="25" LABEL="ls/cu" NAME="lips spread &amp; crnrs up"/>
+<VALUE ID="26" LABEL="ls/cd" NAME="lips spread &amp; crnrs down"/>
+<VALUE ID="20" LABEL="bl" NAME="blow"/>
+<VALUE ID="27" LABEL="bll" NAME="bite lower lip"/>
+<VALUE ID="28" LABEL="toll" NAME="tongue on lwr lip"/>
+<VALUE ID="18" LABEL="brr" NAME="brr"/>
+<VALUE ID="31" LABEL="open-smile" NAME="smile mouth open"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD COLOR="ed181e" CONSTRAINT="free-text" ID="17" LABEL="wh question" NAME="wh question">
+<VALUE ID="2" LABEL="q/wh" NAME="whq"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD CONSTRAINT="free-text" ID="6" LABEL="hm: side&lt;-&gt;side" NAME="head mvmt: side to side">
+<VALUE ID="2" LABEL="rapid" NAME="rapid"/>
+<VALUE ID="3" LABEL="slow" NAME="slow"/>
+<VALUE ID="4" LABEL="single" NAME="single"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD CONSTRAINT="free-text" ID="1" LABEL="hp: turn" NAME="head pos: turn">
+<VALUE ID="2" LABEL="left" NAME="left"/>
+<VALUE ID="6" LABEL="-left" NAME="slightly left"/>
+<VALUE ID="8" LABEL="+left" NAME="further left"/>
+<VALUE ID="3" LABEL="right" NAME="right"/>
+<VALUE ID="5" LABEL="-right" NAME="slightly right"/>
+<VALUE ID="4" LABEL="+right" NAME="further right"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD CONSTRAINT="free-text" ID="5" LABEL="hm: shake" NAME="head mvmt: shake">
+<VALUE ID="2" LABEL="rapid" NAME="rapid"/>
+<VALUE ID="5" LABEL="-rapid" NAME="slight rapid head shake"/>
+<VALUE ID="3" LABEL="slow" NAME="slow"/>
+<VALUE ID="6" LABEL="-slow" NAME="slight slow head shake"/>
+<VALUE ID="4" LABEL="single" NAME="single"/>
+<VALUE ID="7" LABEL="-single" NAME="slight single head shake"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD CONSTRAINT="free-text" ID="33" LABEL="body mvmt" NAME="body mvmt">
+<VALUE ID="0" LABEL="down" NAME="down"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD CONSTRAINT="free-text" ID="11" LABEL="eye gaze" NAME="eye gaze" PREFIX="eg">
+<VALUE ID="0" LABEL="left" NAME="left"/>
+<VALUE ID="1" LABEL="right" NAME="right"/>
+<VALUE ID="4" LABEL="up" NAME="up"/>
+<VALUE ID="11" LABEL="up/lf" NAME="up/left"/>
+<VALUE ID="5" LABEL="up/rt" NAME="up/right"/>
+<VALUE ID="6" LABEL="down" NAME="down"/>
+<VALUE ID="10" LABEL="dn/lf" NAME="down/left"/>
+<VALUE ID="8" LABEL="dn/rt" NAME="down/right"/>
+<VALUE ID="7" LABEL="track-hd" NAME="watch hands"/>
+<VALUE ID="9" LABEL="adresee" NAME="addressee"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD CONSTRAINT="free-text" ID="15" LABEL="cheeks" NAME="cheeks">
+<VALUE ID="2" LABEL="puf" NAME="puffed"/>
+<VALUE ID="5" LABEL="puf/lf" NAME="puff left"/>
+<VALUE ID="4" LABEL="puf/rt" NAME="puff right"/>
+<VALUE ID="3" LABEL="tns" NAME="tensed"/>
+<VALUE ID="6" LABEL="-tns" NAME="less tensed"/>
+<VALUE ID="8" LABEL="tns/lf" NAME="tensed left"/>
+<VALUE ID="7" LABEL="tns/rt" NAME="tensed right"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD CONSTRAINT="free-text" ID="4" LABEL="hm: nod" NAME="head mvmt: nod">
+<VALUE ID="2" LABEL="rapid" NAME="rapid"/>
+<VALUE ID="5" LABEL="-rapid" NAME="slight rapid head nod"/>
+<VALUE ID="3" LABEL="slow" NAME="slow"/>
+<VALUE ID="6" LABEL="-slow" NAME="slight slow head nod"/>
+<VALUE ID="4" LABEL="single" NAME="single"/>
+<VALUE ID="7" LABEL="-single" NAME="slight single head nod"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD CONSTRAINT="free-text" ID="12" LABEL="eye apert" NAME="eye aperture">
+<VALUE ID="2" LABEL="bl" NAME="blink"/>
+<VALUE ID="3" LABEL="sq" NAME="squint"/>
+<VALUE ID="13" LABEL="-sq" NAME="slightly squinted"/>
+<VALUE ID="14" LABEL="+sq" NAME="further squinted"/>
+<VALUE ID="7" LABEL="low" NAME="lowered lid"/>
+<VALUE ID="9" LABEL="-low" NAME="slightly lowered"/>
+<VALUE ID="12" LABEL="+low" NAME="further lowered"/>
+<VALUE ID="4" LABEL="wide" NAME="wide"/>
+<VALUE ID="15" LABEL="+wide" NAME="wider"/>
+<VALUE ID="6" LABEL="cl" NAME="closed"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD COLOR="f63f1b" CONSTRAINT="free-text" ID="34" LABEL="rel. clause" NAME="relative clause">
+<VALUE ID="0" LABEL="rel-cl" NAME="relative clause"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD CONSTRAINT="free-text" ID="10000" LABEL="main gloss" NAME="main gloss">
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD CONSTRAINT="free-text" ID="7" LABEL="hm: jut" NAME="head mvmt: jut">
+<VALUE ID="2" LABEL="slow" NAME="slow"/>
+<VALUE ID="3" LABEL="for" NAME="forward"/>
+<VALUE ID="4" LABEL="back" NAME="back "/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD COLOR="ed181e" CONSTRAINT="free-text" ID="18" LABEL="yes-no question" NAME="yes-no question">
+<VALUE ID="2" LABEL="q/y-n" NAME="yes-no question"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD CONSTRAINT="free-text" ID="2" LABEL="hp: tilt side" NAME="head pos: tilt side">
+<VALUE ID="2" LABEL="left" NAME="left"/>
+<VALUE ID="4" LABEL="-left" NAME="slightly left"/>
+<VALUE ID="6" LABEL="+left" NAME="further left"/>
+<VALUE ID="3" LABEL="right" NAME="right"/>
+<VALUE ID="5" LABEL="-right" NAME="slightly right"/>
+<VALUE ID="7" LABEL="+right" NAME="further right"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD COLOR="ed181e" CONSTRAINT="free-text" ID="20" LABEL="topic/focus" NAME="topic/focus">
+<VALUE ID="2" LABEL="foc/top1" NAME="focus/top1"/>
+<VALUE ID="3" LABEL="top2" NAME="top2"/>
+<VALUE ID="4" LABEL="top3" NAME="top3"/>
+<VALUE ID="5" LABEL="foc/ref" NAME="foc/prop-with-ref-to"/>
+<VALUE ID="6" LABEL="foc/adv" NAME="sentence-initial adverb"/>
+<VALUE ID="7" LABEL="focus" NAME="focus"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD COLOR="ed181e" CONSTRAINT="free-text" ID="31" LABEL="negative" NAME="negative">
+<VALUE ID="0" LABEL="neg" NAME="neg"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD CONSTRAINT="free-text" ID="20000" LABEL="literal" NAME="literal translation">
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD COLOR="5b87f2" CONSTRAINT="free-text" ID="32" LABEL="POS2" NAME="Non-dominant POS">
+<VALUE ID="0" LABEL="N" NAME="Noun"/>
+<VALUE ID="1" LABEL="PN" NAME="Proper Noun"/>
+<VALUE ID="2" LABEL="Pro" NAME="Pronoun"/>
+<VALUE ID="3" LABEL="Det" NAME="Determiner"/>
+<VALUE ID="4" LABEL="Quant" NAME="Quantifier"/>
+<VALUE ID="5" LABEL="Wh" NAME="Wh-word"/>
+<VALUE ID="6" LABEL="Num" NAME="Number"/>
+<VALUE ID="7" LABEL="Neg" NAME="Negation"/>
+<VALUE ID="8" LABEL="V" NAME="Verb"/>
+<VALUE ID="9" LABEL="Adj" NAME="Adjective"/>
+<VALUE ID="10" LABEL="Adv" NAME="Adverb"/>
+<VALUE ID="11" LABEL="Prep" NAME="Preposition"/>
+<VALUE ID="12" LABEL="Poss" NAME="Possessive"/>
+<VALUE ID="13" LABEL="Modal" NAME="Modal"/>
+<VALUE ID="14" LABEL="Tns" NAME="Tense"/>
+<VALUE ID="15" LABEL="CL" NAME="Classifier"/>
+<VALUE ID="18" LABEL="Conj" NAME="Conjunction"/>
+<VALUE ID="16" LABEL="Prt" NAME="Particle"/>
+<VALUE ID="26" LABEL="Refl" NAME="Reflexive"/>
+<VALUE ID="17" LABEL="DM" NAME="Discourse Marker"/>
+<VALUE ID="19" LABEL="Asp" NAME="Aspect"/>
+<VALUE ID="21" LABEL="Modal+Neg" NAME="Modal+Negation"/>
+<VALUE ID="24" LABEL="Neg+V" NAME="Negation+Verb"/>
+<VALUE ID="23" LABEL="Quant+Wh" NAME="Quantifier+Wh-word"/>
+<VALUE ID="22" LABEL="Tns+Neg" NAME="Tense+Negation"/>
+<VALUE ID="20" LABEL="V+Asp" NAME="Verb+Aspect"/>
+<VALUE ID="25" LABEL="Wh+Prt" NAME="Wh+Particle"/>
+<VALUE ID="27" LABEL="Tns+Asp" NAME="Tense+Aspect"/>
+<VALUE ID="28" LABEL="Neg+Asp" NAME="Negation+Aspect"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD COLOR="ed181e" CONSTRAINT="free-text" ID="21" LABEL="cond/when" NAME="conditional/when">
+<VALUE ID="2" LABEL="cond" NAME="cond"/>
+<VALUE ID="3" LABEL="when" NAME="when"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD CONSTRAINT="free-text" ID="10" LABEL="eye brows" NAME="eye brows">
+<VALUE ID="2" LABEL="raised" NAME="raised"/>
+<VALUE ID="5" LABEL="-raised" NAME="slightly raised"/>
+<VALUE ID="6" LABEL="+raised" NAME="further raised"/>
+<VALUE ID="3" LABEL="lwrd" NAME="lowered"/>
+<VALUE ID="4" LABEL="-lwrd" NAME="slightly lowered"/>
+<VALUE ID="7" LABEL="+lwrd" NAME="further lowered"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD CONSTRAINT="free-text" ID="35" LABEL="neck" NAME="neck">
+<VALUE ID="0" LABEL="tns" NAME="tensed"/>
+<VALUE ID="1" LABEL="tns/lf" NAME="tensed/left"/>
+<VALUE ID="2" LABEL="tns/rt" NAME="tensed/right"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD CONSTRAINT="free-text" ID="20001" LABEL="english" NAME="English translation">
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD CONSTRAINT="free-text" ID="13" LABEL="nose" NAME="nose">
+<VALUE ID="2" LABEL="wr" NAME="wrinkle"/>
+<VALUE ID="4" LABEL="tns" NAME="tensed"/>
+<VALUE ID="5" LABEL="-tns" NAME="slightly tensed"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD CONSTRAINT="free-text" ID="10001" LABEL="nd hand gloss" NAME="non-dominant hand gloss">
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD COLOR="ed181e" CONSTRAINT="free-text" ID="26" LABEL="adv" NAME="adverbial">
+<VALUE ID="2" LABEL="far" NAME="far"/>
+<VALUE ID="3" LABEL="cs" NAME="cs"/>
+<VALUE ID="4" LABEL="stress" NAME="stress"/>
+<VALUE ID="5" LABEL="mm" NAME="mm"/>
+<VALUE ID="6" LABEL="oo" NAME="oo"/>
+<VALUE ID="7" LABEL="cha" NAME="cha"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD COLOR="ed181e" CONSTRAINT="free-text" ID="22" LABEL="role shift" NAME="role shift" PREFIX="rs">
+<VALUE ID="0" LABEL="John" NAME="John"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD CONSTRAINT="free-text" ID="9" LABEL="shoulders" NAME="shoulders">
+<VALUE ID="2" LABEL="left" NAME="left"/>
+<VALUE ID="7" LABEL="-left" NAME="slightly left"/>
+<VALUE ID="8" LABEL="lf/dn" NAME="left/down"/>
+<VALUE ID="9" LABEL="lf/raised" NAME="left/raised"/>
+<VALUE ID="3" LABEL="right" NAME="right"/>
+<VALUE ID="6" LABEL="-right" NAME="slightly right"/>
+<VALUE ID="10" LABEL="rt/dn" NAME="right/down"/>
+<VALUE ID="11" LABEL="rt/raised" NAME="right/raised"/>
+<VALUE ID="12" LABEL="down" NAME="down"/>
+<VALUE ID="13" LABEL="raised" NAME="raised"/>
+<VALUE ID="14" LABEL="+raised" NAME="further raised"/>
+<VALUE ID="4" LABEL="for" NAME="forward"/>
+<VALUE ID="15" LABEL="for/lf" NAME="forward/left"/>
+<VALUE ID="16" LABEL="for/rt" NAME="forward/right"/>
+<VALUE ID="5" LABEL="back" NAME="back"/>
+<VALUE ID="17" LABEL="bk/lf" NAME="back/left"/>
+<VALUE ID="18" LABEL="bk/rt" NAME="back/right"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD COLOR="ed181e" CONSTRAINT="free-text" ID="19" LABEL="rhq" NAME="rhetorical question">
+<VALUE ID="2" LABEL="rhq" NAME="rhq"/>
+<VALUE ID="3" LABEL="rhq/wh" NAME="wh rhq"/>
+<VALUE ID="4" LABEL="rhq/y-n" NAME="yes-no rhq"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD CONSTRAINT="free-text" ID="8" LABEL="body lean" NAME="body lean">
+<VALUE ID="2" LABEL="left" NAME="left"/>
+<VALUE ID="3" LABEL="right" NAME="right"/>
+<VALUE ID="4" LABEL="for" NAME="forward"/>
+<VALUE ID="11" LABEL="-for" NAME="slightly forward"/>
+<VALUE ID="12" LABEL="for/lf" NAME="forward/left"/>
+<VALUE ID="13" LABEL="for/rt" NAME="forward/right"/>
+<VALUE ID="5" LABEL="back" NAME="back"/>
+<VALUE ID="6" LABEL="-back" NAME="slightly back"/>
+<VALUE ID="10" LABEL="bk/lf" NAME="back/left"/>
+<VALUE ID="7" LABEL="bk/rt" NAME="back/right"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+</CODING-SCHEME>
+<MEDIA-FILES>
+<MEDIA-FILE ID="240" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:336_722_master_small.mov"/>
+<MEDIA-FILE ID="384" LEGACY-PATH="NCSLGR:video files:master:785_595_master_small.mov"/>
+<MEDIA-FILE ID="261" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:355_743_master_small.mov"/>
+<MEDIA-FILE ID="427" LEGACY-PATH="NCSLGR:video files:slave2:801_611_slave2_small.mov"/>
+<MEDIA-FILE ID="187" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:284_669_master_small.mov"/>
+<MEDIA-FILE ID="118" LEGACY-PATH="Newest coding:217_595_master_small.mov"/>
+<MEDIA-FILE ID="286" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:378_767_master_small.mov"/>
+<MEDIA-FILE ID="289" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:381_770_master_small.mov"/>
+<MEDIA-FILE ID="185" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:282_667_master_small.mov"/>
+<MEDIA-FILE ID="263" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:357_745_master_small.mov"/>
+<MEDIA-FILE ID="387" LEGACY-PATH="NCSLGR:video files:master:786_596_master_small.mov"/>
+<MEDIA-FILE ID="68" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:165_541_master_small.mov"/>
+<MEDIA-FILE ID="242" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:338_724_master_small.mov"/>
+<MEDIA-FILE ID="454" LEGACY-PATH="NCSLGR:video files:slave1:813_627_slave1_small.mov"/>
+<MEDIA-FILE ID="284" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:376_765_master_small.mov"/>
+<MEDIA-FILE ID="135" LEGACY-PATH="Newest coding:233_612_master_small.mov"/>
+<MEDIA-FILE ID="282" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:375_764_master_small.mov"/>
+<MEDIA-FILE ID="416" LEGACY-PATH="NCSLGR:video files:slave2:795_605_slave2_small.mov"/>
+<MEDIA-FILE ID="266" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:360_748_master_small.mov"/>
+<MEDIA-FILE ID="389" LEGACY-PATH="NCSLGR:video files:slave2:786_596_slave2_small.mov"/>
+<MEDIA-FILE ID="95" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:193_570_master_small.mov"/>
+<MEDIA-FILE ID="133" LEGACY-PATH="Newest coding:231_610_master_small.mov"/>
+<MEDIA-FILE ID="32" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:130_505_master_small.mov"/>
+<MEDIA-FILE ID="76" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:173_549_master_small.mov"/>
+<MEDIA-FILE ID="237" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:333_719_master_small.mov"/>
+<MEDIA-FILE ID="268" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:362_750_master_small.mov"/>
+<MEDIA-FILE ID="212" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:308_694_master_small.mov"/>
+<MEDIA-FILE ID="132" LEGACY-PATH="Newest coding:230_609_master_small.mov"/>
+<MEDIA-FILE ID="458" LEGACY-PATH="NCSLGR:video files:slave2:814_628_slave2_small.mov"/>
+<MEDIA-FILE ID="239" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:335_721_master_small.mov"/>
+<MEDIA-FILE ID="312" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:404_793_master_small.mov"/>
+<MEDIA-FILE ID="363" LEGACY-PATH="NCSLGR:video files:slave2:777_587_slave2_small.mov"/>
+<MEDIA-FILE ID="14" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:112_487_master_small.mov"/>
+<MEDIA-FILE ID="364" LEGACY-PATH="NCSLGR:video files:master:778_588_master_small.mov"/>
+<MEDIA-FILE ID="339" LEGACY-PATH="NCSLGR:video files:slave2:768_577_slave2_small.mov"/>
+<MEDIA-FILE ID="16" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:114_489_master_small.mov"/>
+<MEDIA-FILE ID="306" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:398_787_master_small.mov"/>
+<MEDIA-FILE ID="37" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:135_510_master_small.mov"/>
+<MEDIA-FILE ID="429" LEGACY-PATH="NCSLGR:video files:master:805_618_master_small.mov"/>
+<MEDIA-FILE ID="55" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:152_528_master_small.mov"/>
+<MEDIA-FILE ID="243" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:339_725_master_small.mov"/>
+<MEDIA-FILE ID="114" LEGACY-PATH="Newest coding:212_590_master_small.mov"/>
+<MEDIA-FILE ID="452" LEGACY-PATH="NCSLGR:video files:slave2:812_626_slave2_small.mov"/>
+<MEDIA-FILE ID="53" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:150_526_master_small.mov"/>
+<MEDIA-FILE ID="431" LEGACY-PATH="NCSLGR:video files:slave2:805_618_slave2_small.mov"/>
+<MEDIA-FILE ID="361" LEGACY-PATH="NCSLGR:Movies-from-CDs:NCSLGR:video files:master:777_587_master_small.mov"/>
+<MEDIA-FILE ID="382" LEGACY-PATH="NCSLGR:video files:slave1:784_594_slave1_small.mov"/>
+<MEDIA-FILE ID="181" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:278_663_master_small.mov"/>
+<MEDIA-FILE ID="93" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:191_568_master_small.mov"/>
+<MEDIA-FILE ID="435" LEGACY-PATH="NCSLGR:video files:master:807_621_master_small.mov"/>
+<MEDIA-FILE ID="179" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:276_661_master_small.mov"/>
+<MEDIA-FILE ID="130" LEGACY-PATH="Newest coding:228_607_master_small.mov"/>
+<MEDIA-FILE ID="245" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:341_727_master_small.mov"/>
+<MEDIA-FILE ID="208" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:305_690_master_small.mov"/>
+<MEDIA-FILE ID="39" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:136_512_master_small.mov"/>
+<MEDIA-FILE ID="112" LEGACY-PATH="Newest coding:210_588_master_small.mov"/>
+<MEDIA-FILE ID="103" LEGACY-PATH="Newest coding:201_578_master_small.mov"/>
+<MEDIA-FILE ID="72" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:169_545_master_small.mov"/>
+<MEDIA-FILE ID="233" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:329_715_master_small.mov"/>
+<MEDIA-FILE ID="314" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:406_795_master_small.mov"/>
+<MEDIA-FILE ID="410" LEGACY-PATH="NCSLGR:video files:slave2:793_603_slave2_small.mov"/>
+<MEDIA-FILE ID="329" LEGACY-PATH="NCSLGR:video files:slave1:765_574_slave1_small.mov"/>
+<MEDIA-FILE ID="358" LEGACY-PATH="NCSLGR:Movies-from-CDs:NCSLGR:video files:master:776_586_master_small.mov"/>
+<MEDIA-FILE ID="74" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:171_547_master_small.mov"/>
+<MEDIA-FILE ID="18" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:116_491_master_small.mov"/>
+<MEDIA-FILE ID="214" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:310_696_master_small.mov"/>
+<MEDIA-FILE ID="337" LEGACY-PATH="NCSLGR:video files:master:768_577_master_small.mov"/>
+<MEDIA-FILE ID="35" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:133_508_master_small.mov"/>
+<MEDIA-FILE ID="177" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:274_659_master_small.mov"/>
+<MEDIA-FILE ID="174" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:270_655_master_small.mov"/>
+<MEDIA-FILE ID="51" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:148_524_master_small.mov"/>
+<MEDIA-FILE ID="335" LEGACY-PATH="NCSLGR:video files:slave1:767_576_slave1_small.mov"/>
+<MEDIA-FILE ID="176" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:273_658_master_small.mov"/>
+<MEDIA-FILE ID="70" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:167_543_master_small.mov"/>
+<MEDIA-FILE ID="456" LEGACY-PATH="NCSLGR:video files:master:814_628_master_small.mov"/>
+<MEDIA-FILE ID="151" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:249_632_master_small.mov"/>
+<MEDIA-FILE ID="137" LEGACY-PATH="Newest coding:234_617_master_small.mov"/>
+<MEDIA-FILE ID="437" LEGACY-PATH="NCSLGR:video files:slave2:807_621_slave2_small.mov"/>
+<MEDIA-FILE ID="99" LEGACY-PATH="Newest coding:197_574_master_small.mov"/>
+<MEDIA-FILE ID="56" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:153_529_master_small.mov"/>
+<MEDIA-FILE ID="89" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:186_564_master_small.mov"/>
+<MEDIA-FILE ID="316" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:408_797_master_small.mov"/>
+<MEDIA-FILE ID="97" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:195_572_master_small.mov"/>
+<MEDIA-FILE ID="156" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:254_637_master_small.mov"/>
+<MEDIA-FILE ID="308" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:400_789_master_small.mov"/>
+<MEDIA-FILE ID="116" LEGACY-PATH="Newest coding:215_593_master_small.mov"/>
+<MEDIA-FILE ID="21" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:119_494_master_small.mov"/>
+<MEDIA-FILE ID="22" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:120_495_master_small.mov"/>
+<MEDIA-FILE ID="280" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:373_762_master_small.mov"/>
+<MEDIA-FILE ID="139" LEGACY-PATH="Newest coding:236_619_master_small.mov"/>
+<MEDIA-FILE ID="153" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:251_634_master_small.mov"/>
+<MEDIA-FILE ID="355" LEGACY-PATH="NCSLGR:Movies-from-CDs:NCSLGR:video files:master:775_585_master_small.mov"/>
+<MEDIA-FILE ID="323" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:Coding:409_798_master_small.mov"/>
+<MEDIA-FILE ID="143" LEGACY-PATH="Newest coding:241_624_master_small.mov"/>
+<MEDIA-FILE ID="352" LEGACY-PATH="NCSLGR:video files:master:774_584_master_small.mov"/>
+<MEDIA-FILE ID="304" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:396_785_master_small.mov"/>
+<MEDIA-FILE ID="275" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:368_757_master_small.mov"/>
+<MEDIA-FILE ID="225" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:321_707_master_small.mov"/>
+<MEDIA-FILE ID="348" LEGACY-PATH="NCSLGR:video files:slave2:771_580_slave2_small.mov"/>
+<MEDIA-FILE ID="252" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:347_734_master_small.mov"/>
+<MEDIA-FILE ID="148" LEGACY-PATH="Newest coding:246_629_master_small.mov"/>
+<MEDIA-FILE ID="127" LEGACY-PATH="Newest coding:225_604_master_small.mov"/>
+<MEDIA-FILE ID="422" LEGACY-PATH="NCSLGR:video files:slave2:797_607_slave2_small.mov"/>
+<MEDIA-FILE ID="350" LEGACY-PATH="NCSLGR:video files:slave1:773_583_slave1_small.mov"/>
+<MEDIA-FILE ID="392" LEGACY-PATH="NCSLGR:video files:slave2:787_597_slave2_small.mov"/>
+<MEDIA-FILE ID="141" LEGACY-PATH="Newest coding:239_622_master_small.mov"/>
+<MEDIA-FILE ID="78" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:175_551_master_small.mov"/>
+<MEDIA-FILE ID="146" LEGACY-PATH="Newest coding:244_627_master_small.mov"/>
+<MEDIA-FILE ID="327" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:Coding:413_820_master_small.mov"/>
+<MEDIA-FILE ID="451" LEGACY-PATH="NCSLGR:video files:slave1:812_626_slave1_small.mov"/>
+<MEDIA-FILE ID="420" LEGACY-PATH="NCSLGR:Movies-from-CDs:NCSLGR:video files:master:797_607_master_small.mov"/>
+<MEDIA-FILE ID="125" LEGACY-PATH="Newest coding:223_602_master_small.mov"/>
+<MEDIA-FILE ID="167" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:263_648_master_small.mov"/>
+<MEDIA-FILE ID="271" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:365_753_master_small.mov"/>
+<MEDIA-FILE ID="64" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:161_537_master_small.mov"/>
+<MEDIA-FILE ID="43" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:140_516_master_small.mov"/>
+<MEDIA-FILE ID="144" LEGACY-PATH="Newest coding:242_625_master_small.mov"/>
+<MEDIA-FILE ID="87" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:184_560_master_small.mov"/>
+<MEDIA-FILE ID="414" LEGACY-PATH="NCSLGR:video files:master:795_605_master_small.mov"/>
+<MEDIA-FILE ID="346" LEGACY-PATH="NCSLGR:video files:master:771_580_master_small.mov"/>
+<MEDIA-FILE ID="9" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:108_482_master_small.mov"/>
+<MEDIA-FILE ID="90" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:187_565_master_small.mov"/>
+<MEDIA-FILE ID="396" LEGACY-PATH="NCSLGR:video files:master:789_599_master_small.mov"/>
+<MEDIA-FILE ID="302" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:394_783_master_small.mov"/>
+<MEDIA-FILE ID="200" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:297_682_master_small.mov"/>
+<MEDIA-FILE ID="41" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:138_514_master_small.mov"/>
+<MEDIA-FILE ID="412" LEGACY-PATH="NCSLGR:video files:slave1:794_604_slave1_small.mov"/>
+<MEDIA-FILE ID="195" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:292_677_master_small.mov"/>
+<MEDIA-FILE ID="60" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:157_533_master_small.mov"/>
+<MEDIA-FILE ID="397" LEGACY-PATH="NCSLGR:video files:slave1:789_599_slave1_small.mov"/>
+<MEDIA-FILE ID="248" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:344_730_master_small.mov"/>
+<MEDIA-FILE ID="408" LEGACY-PATH="NCSLGR:Movies-from-CDs:NCSLGR:video files:master:793_603_master_small.mov"/>
+<MEDIA-FILE ID="59" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:156_532_master_small.mov"/>
+<MEDIA-FILE ID="353" LEGACY-PATH="NCSLGR:video files:slave1:774_584_slave1_small.mov"/>
+<MEDIA-FILE ID="62" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:159_535_master_small.mov"/>
+<MEDIA-FILE ID="321" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:Coding:306_692_master_small.mov"/>
+<MEDIA-FILE ID="193" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:290_675_master_small.mov"/>
+<MEDIA-FILE ID="406" LEGACY-PATH="NCSLGR:video files:slave1:792_602_slave1_small.mov"/>
+<MEDIA-FILE ID="7" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:106_480_master_small.mov"/>
+<MEDIA-FILE ID="191" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:288_673_master_small.mov"/>
+<MEDIA-FILE ID="278" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:371_760_master_small.mov"/>
+<MEDIA-FILE ID="106" LEGACY-PATH="Newest coding:204_582_master_small.mov"/>
+<MEDIA-FILE ID="234" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:330_716_master_small.mov"/>
+<MEDIA-FILE ID="202" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:299_684_master_small.mov"/>
+<MEDIA-FILE ID="403" LEGACY-PATH="NCSLGR:video files:slave1:791_601_slave1_small.mov"/>
+<MEDIA-FILE ID="231" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:327_713_master_small.mov"/>
+<MEDIA-FILE ID="367" LEGACY-PATH="NCSLGR:video files:master:779_589_master_small.mov"/>
+<MEDIA-FILE ID="390" LEGACY-PATH="NCSLGR:video files:master:787_597_master_small.mov"/>
+<MEDIA-FILE ID="197" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:294_679_master_small.mov"/>
+<MEDIA-FILE ID="110" LEGACY-PATH="Newest coding:208_586_master_small.mov"/>
+<MEDIA-FILE ID="433" LEGACY-PATH="NCSLGR:video files:slave1:806_619_slave1_small.mov"/>
+<MEDIA-FILE ID="66" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:163_539_master_small.mov"/>
+<MEDIA-FILE ID="342" LEGACY-PATH="NCSLGR:video files:slave2:769_578_slave2_small.mov"/>
+<MEDIA-FILE ID="29" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:127_502_master_small.mov"/>
+<MEDIA-FILE ID="83" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:180_556_master_small.mov"/>
+<MEDIA-FILE ID="23" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:121_496_master_small.mov"/>
+<MEDIA-FILE ID="170" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:266_651_master_small.mov"/>
+<MEDIA-FILE ID="444" LEGACY-PATH="NCSLGR:video files:master:810_624_master_small.mov"/>
+<MEDIA-FILE ID="120" LEGACY-PATH="Newest coding:219_597_master_small.mov"/>
+<MEDIA-FILE ID="369" LEGACY-PATH="NCSLGR:video files:slave2:779_589_slave2_small.mov"/>
+<MEDIA-FILE ID="30" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:128_503_master_small.mov"/>
+<MEDIA-FILE ID="439" LEGACY-PATH="NCSLGR:video files:slave1:808_622_slave1_small.mov"/>
+<MEDIA-FILE ID="257" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:351_739_master_small.mov"/>
+<MEDIA-FILE ID="442" LEGACY-PATH="NCSLGR:video files:slave1:809_623_slave1_small.mov"/>
+<MEDIA-FILE ID="344" LEGACY-PATH="NCSLGR:video files:slave1:770_579_slave1_small.mov"/>
+<MEDIA-FILE ID="25" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:123_498_master_small.mov"/>
+<MEDIA-FILE ID="221" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:317_703_master_small.mov"/>
+<MEDIA-FILE ID="259" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:353_741_master_small.mov"/>
+<MEDIA-FILE ID="188" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:285_670_master_small.mov"/>
+<MEDIA-FILE ID="325" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:Coding:411_800_master_small.mov"/>
+<MEDIA-FILE ID="123" LEGACY-PATH="Newest coding:221_600_master_small.mov"/>
+<MEDIA-FILE ID="250" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:346_732_master_small.mov"/>
+<MEDIA-FILE ID="373" LEGACY-PATH="NCSLGR:video files:master:781_591_master_small.mov"/>
+<MEDIA-FILE ID="100" LEGACY-PATH="Newest coding:198_575_master_small.mov"/>
+<MEDIA-FILE ID="164" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:260_645_master_small.mov"/>
+<MEDIA-FILE ID="223" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:319_705_master_small.mov"/>
+<MEDIA-FILE ID="310" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:402_791_master_small.mov"/>
+<MEDIA-FILE ID="85" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:182_558_master_small.mov"/>
+<MEDIA-FILE ID="3" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:103_477_master_small.mov"/>
+<MEDIA-FILE ID="129" LEGACY-PATH="Newest coding:227_606_master_small.mov"/>
+<MEDIA-FILE ID="446" LEGACY-PATH="NCSLGR:video files:slave2:810_624_slave2_small.mov"/>
+<MEDIA-FILE ID="27" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:125_500_master_small.mov"/>
+<MEDIA-FILE ID="290" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:382_771_master_small.mov"/>
+<MEDIA-FILE ID="1" LEGACY-PATH="Coding:101_475_master_small.mov"/>
+<MEDIA-FILE ID="46" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:143_519_master_small.mov"/>
+<MEDIA-FILE ID="206" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:303_688_master_small.mov"/>
+<MEDIA-FILE ID="255" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:349_737_master_small.mov"/>
+<MEDIA-FILE ID="460" LEGACY-PATH="NCSLGR:video files:slave1:815_629_slave1_small.mov"/>
+<MEDIA-FILE ID="104" LEGACY-PATH="Newest coding:202_579_master_small.mov"/>
+<MEDIA-FILE ID="11" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:110_484_master_small.mov"/>
+<MEDIA-FILE ID="418" LEGACY-PATH="NCSLGR:video files:slave1:796_606_slave1_small.mov"/>
+<MEDIA-FILE ID="276" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:369_758_master_small.mov"/>
+<MEDIA-FILE ID="12" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:111_485_master_small.mov"/>
+<MEDIA-FILE ID="229" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:325_711_master_small.mov"/>
+<MEDIA-FILE ID="204" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:301_686_master_small.mov"/>
+<MEDIA-FILE ID="81" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:178_554_master_small.mov"/>
+<MEDIA-FILE ID="371" LEGACY-PATH="NCSLGR:video files:slave1:780_590_slave1_small.mov"/>
+<MEDIA-FILE ID="162" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:259_643_master_small.mov"/>
+<MEDIA-FILE ID="394" LEGACY-PATH="NCSLGR:video files:slave1:788_598_slave1_small.mov"/>
+<MEDIA-FILE ID="108" LEGACY-PATH="Newest coding:206_584_master_small.mov"/>
+<MEDIA-FILE ID="292" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:384_773_master_small.mov"/>
+<MEDIA-FILE ID="448" LEGACY-PATH="NCSLGR:video files:slave1:811_625_slave1_small.mov"/>
+<MEDIA-FILE ID="273" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:367_755_master_small.mov"/>
+<MEDIA-FILE ID="318" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:248_631_master_small.mov"/>
+<MEDIA-FILE ID="157" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:255_638_master_small.mov"/>
+<MEDIA-FILE ID="92" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:190_567_master_small.mov"/>
+<MEDIA-FILE ID="115" LEGACY-PATH="Newest coding:213_591_master_small.mov"/>
+<MEDIA-FILE ID="264" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:358_746_master_small.mov"/>
+<MEDIA-FILE ID="267" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:361_749_master_small.mov"/>
+<MEDIA-FILE ID="360" LEGACY-PATH="NCSLGR:video files:slave2:776_586_slave2_small.mov"/>
+<MEDIA-FILE ID="285" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:377_766_master_small.mov"/>
+<MEDIA-FILE ID="94" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:192_569_master_small.mov"/>
+<MEDIA-FILE ID="265" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:359_747_master_small.mov"/>
+<MEDIA-FILE ID="67" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:164_540_master_small.mov"/>
+<MEDIA-FILE ID="388" LEGACY-PATH="NCSLGR:video files:slave1:786_596_slave1_small.mov"/>
+<MEDIA-FILE ID="136" LEGACY-PATH="Newest coding:234_616_master_small.mov"/>
+<MEDIA-FILE ID="417" LEGACY-PATH="NCSLGR:video files:master:796_606_master_small.mov"/>
+<MEDIA-FILE ID="52" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:149_525_master_small.mov"/>
+<MEDIA-FILE ID="288" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:380_769_master_small.mov"/>
+<MEDIA-FILE ID="69" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:166_542_master_small.mov"/>
+<MEDIA-FILE ID="96" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:194_571_master_small.mov"/>
+<MEDIA-FILE ID="386" LEGACY-PATH="NCSLGR:video files:slave2:785_595_slave2_small.mov"/>
+<MEDIA-FILE ID="281" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:374_763_master_small.mov"/>
+<MEDIA-FILE ID="152" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:250_633_master_small.mov"/>
+<MEDIA-FILE ID="341" LEGACY-PATH="NCSLGR:video files:slave1:769_578_slave1_small.mov"/>
+<MEDIA-FILE ID="155" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:253_636_master_small.mov"/>
+<MEDIA-FILE ID="13" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:112_486_master_small.mov"/>
+<MEDIA-FILE ID="117" LEGACY-PATH="Newest coding:216_594_master_small.mov"/>
+<MEDIA-FILE ID="269" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:363_751_master_small.mov"/>
+<MEDIA-FILE ID="362" LEGACY-PATH="NCSLGR:video files:slave1:777_587_slave1_small.mov"/>
+<MEDIA-FILE ID="455" LEGACY-PATH="NCSLGR:video files:slave2:813_627_slave2_small.mov"/>
+<MEDIA-FILE ID="238" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:334_720_master_small.mov"/>
+<MEDIA-FILE ID="311" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:403_792_master_small.mov"/>
+<MEDIA-FILE ID="365" LEGACY-PATH="NCSLGR:video files:slave1:778_588_slave1_small.mov"/>
+<MEDIA-FILE ID="180" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:277_662_master_small.mov"/>
+<MEDIA-FILE ID="17" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:115_490_master_small.mov"/>
+<MEDIA-FILE ID="36" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:134_509_master_small.mov"/>
+<MEDIA-FILE ID="213" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:309_695_master_small.mov"/>
+<MEDIA-FILE ID="459" LEGACY-PATH="NCSLGR:video files:master:815_629_master_small.mov"/>
+<MEDIA-FILE ID="33" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:131_506_master_small.mov"/>
+<MEDIA-FILE ID="15" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:113_488_master_small.mov"/>
+<MEDIA-FILE ID="161" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:258_642_master_small.mov"/>
+<MEDIA-FILE ID="453" LEGACY-PATH="NCSLGR:video files:master:813_627_master_small.mov"/>
+<MEDIA-FILE ID="260" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:354_742_master_small.mov"/>
+<MEDIA-FILE ID="430" LEGACY-PATH="NCSLGR:video files:slave1:805_618_slave1_small.mov"/>
+<MEDIA-FILE ID="246" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:342_728_master_small.mov"/>
+<MEDIA-FILE ID="184" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:281_666_master_small.mov"/>
+<MEDIA-FILE ID="31" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:129_504_master_small.mov"/>
+<MEDIA-FILE ID="241" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:337_723_master_small.mov"/>
+<MEDIA-FILE ID="383" LEGACY-PATH="NCSLGR:video files:slave2:784_594_slave2_small.mov"/>
+<MEDIA-FILE ID="428" LEGACY-PATH="NCSLGR:video files:slave1:801_611_slave1_small.mov"/>
+<MEDIA-FILE ID="54" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:151_527_master_small.mov"/>
+<MEDIA-FILE ID="48" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:145_521_master_small.mov"/>
+<MEDIA-FILE ID="186" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:283_668_master_small.mov"/>
+<MEDIA-FILE ID="381" LEGACY-PATH="NCSLGR:video files:master:784_594_master_small.mov"/>
+<MEDIA-FILE ID="102" LEGACY-PATH="Newest coding:200_577_master_small.mov"/>
+<MEDIA-FILE ID="173" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:269_654_master_small.mov"/>
+<MEDIA-FILE ID="434" LEGACY-PATH="NCSLGR:video files:slave2:806_619_slave2_small.mov"/>
+<MEDIA-FILE ID="328" LEGACY-PATH="NCSLGR:video files:master:765_574_master_small.mov"/>
+<MEDIA-FILE ID="50" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:147_523_master_small.mov"/>
+<MEDIA-FILE ID="113" LEGACY-PATH="Newest coding:211_589_master_small.mov"/>
+<MEDIA-FILE ID="34" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:132_507_master_small.mov"/>
+<MEDIA-FILE ID="131" LEGACY-PATH="Newest coding:229_608_master_small.mov"/>
+<MEDIA-FILE ID="359" LEGACY-PATH="NCSLGR:video files:slave1:776_586_slave1_small.mov"/>
+<MEDIA-FILE ID="215" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:311_697_master_small.mov"/>
+<MEDIA-FILE ID="338" LEGACY-PATH="NCSLGR:video files:slave1:768_577_slave1_small.mov"/>
+<MEDIA-FILE ID="357" LEGACY-PATH="NCSLGR:video files:slave2:775_585_slave2_small.mov"/>
+<MEDIA-FILE ID="111" LEGACY-PATH="Newest coding:209_587_master_small.mov"/>
+<MEDIA-FILE ID="57" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:154_530_master_small.mov"/>
+<MEDIA-FILE ID="199" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:296_681_master_small.mov"/>
+<MEDIA-FILE ID="209" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:305_691_master_small.mov"/>
+<MEDIA-FILE ID="244" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:340_726_master_small.mov"/>
+<MEDIA-FILE ID="175" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:272_657_master_small.mov"/>
+<MEDIA-FILE ID="19" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:117_492_master_small.mov"/>
+<MEDIA-FILE ID="313" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:405_794_master_small.mov"/>
+<MEDIA-FILE ID="411" LEGACY-PATH="NCSLGR:video files:master:794_604_master_small.mov"/>
+<MEDIA-FILE ID="334" LEGACY-PATH="NCSLGR:video files:master:767_576_master_small.mov"/>
+<MEDIA-FILE ID="211" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:307_693_master_small.mov"/>
+<MEDIA-FILE ID="232" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:328_714_master_small.mov"/>
+<MEDIA-FILE ID="457" LEGACY-PATH="NCSLGR:video files:slave1:814_628_slave1_small.mov"/>
+<MEDIA-FILE ID="154" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:252_635_master_small.mov"/>
+<MEDIA-FILE ID="309" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:401_790_master_small.mov"/>
+<MEDIA-FILE ID="80" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:177_553_master_small.mov"/>
+<MEDIA-FILE ID="336" LEGACY-PATH="NCSLGR:video files:slave2:767_576_slave2_small.mov"/>
+<MEDIA-FILE ID="134" LEGACY-PATH="Newest coding:232_611_master_small.mov"/>
+<MEDIA-FILE ID="262" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:356_744_master_small.mov"/>
+<MEDIA-FILE ID="236" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:332_718_master_small.mov"/>
+<MEDIA-FILE ID="385" LEGACY-PATH="NCSLGR:video files:slave1:785_595_slave1_small.mov"/>
+<MEDIA-FILE ID="40" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:137_513_master_small.mov"/>
+<MEDIA-FILE ID="77" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:174_550_master_small.mov"/>
+<MEDIA-FILE ID="415" LEGACY-PATH="NCSLGR:video files:slave1:795_605_slave1_small.mov"/>
+<MEDIA-FILE ID="119" LEGACY-PATH="Newest coding:218_596_master_small.mov"/>
+<MEDIA-FILE ID="38" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:135_511_master_small.mov"/>
+<MEDIA-FILE ID="178" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:275_660_master_small.mov"/>
+<MEDIA-FILE ID="75" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:172_548_master_small.mov"/>
+<MEDIA-FILE ID="315" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:407_796_master_small.mov"/>
+<MEDIA-FILE ID="71" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:168_544_master_small.mov"/>
+<MEDIA-FILE ID="138" LEGACY-PATH="Newest coding:235_618_master_small.mov"/>
+<MEDIA-FILE ID="73" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:170_546_master_small.mov"/>
+<MEDIA-FILE ID="436" LEGACY-PATH="NCSLGR:video files:slave1:807_621_slave1_small.mov"/>
+<MEDIA-FILE ID="98" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:196_573_master_small.mov"/>
+<MEDIA-FILE ID="91" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:189_566_master_small.mov"/>
+<MEDIA-FILE ID="254" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:348_736_master_small.mov"/>
+<MEDIA-FILE ID="251" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:347_733_master_small.mov"/>
+<MEDIA-FILE ID="374" LEGACY-PATH="NCSLGR:video files:slave1:781_591_slave1_small.mov"/>
+<MEDIA-FILE ID="326" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:Coding:412_819_master_small.mov"/>
+<MEDIA-FILE ID="230" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:326_712_master_small.mov"/>
+<MEDIA-FILE ID="375" LEGACY-PATH="NCSLGR:video files:slave2:781_591_slave2_small.mov"/>
+<MEDIA-FILE ID="274" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:367_756_master_small.mov"/>
+<MEDIA-FILE ID="330" LEGACY-PATH="NCSLGR:video files:slave2:765_574_slave2_small.mov"/>
+<MEDIA-FILE ID="279" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:372_761_master_small.mov"/>
+<MEDIA-FILE ID="291" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:383_772_master_small.mov"/>
+<MEDIA-FILE ID="450" LEGACY-PATH="NCSLGR:video files:master:812_626_master_small.mov"/>
+<MEDIA-FILE ID="421" LEGACY-PATH="NCSLGR:video files:slave1:797_607_slave1_small.mov"/>
+<MEDIA-FILE ID="194" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:291_676_master_small.mov"/>
+<MEDIA-FILE ID="277" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:370_759_master_small.mov"/>
+<MEDIA-FILE ID="86" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:183_559_master_small.mov"/>
+<MEDIA-FILE ID="20" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:118_493_master_small.mov"/>
+<MEDIA-FILE ID="42" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:139_515_master_small.mov"/>
+<MEDIA-FILE ID="145" LEGACY-PATH="Newest coding:243_626_master_small.mov"/>
+<MEDIA-FILE ID="126" LEGACY-PATH="Newest coding:224_603_master_small.mov"/>
+<MEDIA-FILE ID="270" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:364_752_master_small.mov"/>
+<MEDIA-FILE ID="347" LEGACY-PATH="NCSLGR:video files:slave1:771_580_slave1_small.mov"/>
+<MEDIA-FILE ID="196" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:293_678_master_small.mov"/>
+<MEDIA-FILE ID="79" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:176_552_master_small.mov"/>
+<MEDIA-FILE ID="398" LEGACY-PATH="NCSLGR:video files:slave2:789_599_slave2_small.mov"/>
+<MEDIA-FILE ID="426" LEGACY-PATH="NCSLGR:Movies-from-CDs:NCSLGR:video files:master:801_611_master_small.mov"/>
+<MEDIA-FILE ID="253" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:347_735_master_small.mov"/>
+<MEDIA-FILE ID="303" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:395_784_master_small.mov"/>
+<MEDIA-FILE ID="44" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:141_517_master_small.mov"/>
+<MEDIA-FILE ID="88" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:185_561_master_small.mov"/>
+<MEDIA-FILE ID="449" LEGACY-PATH="NCSLGR:video files:slave2:811_625_slave2_small.mov"/>
+<MEDIA-FILE ID="198" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:295_680_master_small.mov"/>
+<MEDIA-FILE ID="402" LEGACY-PATH="NCSLGR:video files:master:791_601_master_small.mov"/>
+<MEDIA-FILE ID="149" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:247_630_master_small.mov"/>
+<MEDIA-FILE ID="354" LEGACY-PATH="NCSLGR:video files:slave2:774_584_slave2_small.mov"/>
+<MEDIA-FILE ID="58" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:155_531_master_small.mov"/>
+<MEDIA-FILE ID="368" LEGACY-PATH="NCSLGR:video files:slave1:779_589_slave1_small.mov"/>
+<MEDIA-FILE ID="405" LEGACY-PATH="NCSLGR:video files:master:792_602_master_small.mov"/>
+<MEDIA-FILE ID="122" LEGACY-PATH="Newest coding:220_599_master_small.mov"/>
+<MEDIA-FILE ID="391" LEGACY-PATH="NCSLGR:video files:slave1:787_597_slave1_small.mov"/>
+<MEDIA-FILE ID="6" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:105_479_master_small.mov"/>
+<MEDIA-FILE ID="413" LEGACY-PATH="NCSLGR:video files:slave2:794_604_slave2_small.mov"/>
+<MEDIA-FILE ID="356" LEGACY-PATH="NCSLGR:video files:slave1:775_585_slave1_small.mov"/>
+<MEDIA-FILE ID="407" LEGACY-PATH="NCSLGR:video files:slave2:792_602_slave2_small.mov"/>
+<MEDIA-FILE ID="320" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:Coding:304_689_master_small.mov"/>
+<MEDIA-FILE ID="305" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:397_786_master_small.mov"/>
+<MEDIA-FILE ID="432" LEGACY-PATH="NCSLGR:video files:master:806_619_master_small.mov"/>
+<MEDIA-FILE ID="258" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:352_740_master_small.mov"/>
+<MEDIA-FILE ID="235" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:331_717_master_small.mov"/>
+<MEDIA-FILE ID="249" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:345_731_master_small.mov"/>
+<MEDIA-FILE ID="322" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:Coding:320_706_master_small.mov"/>
+<MEDIA-FILE ID="409" LEGACY-PATH="NCSLGR:video files:slave1:793_603_slave1_small.mov"/>
+<MEDIA-FILE ID="65" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:162_538_master_small.mov"/>
+<MEDIA-FILE ID="107" LEGACY-PATH="Newest coding:205_583_master_small.mov"/>
+<MEDIA-FILE ID="351" LEGACY-PATH="NCSLGR:video files:slave2:773_583_slave2_small.mov"/>
+<MEDIA-FILE ID="201" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:298_683_master_small.mov"/>
+<MEDIA-FILE ID="404" LEGACY-PATH="NCSLGR:video files:slave2:791_601_slave2_small.mov"/>
+<MEDIA-FILE ID="8" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:107_481_master_small.mov"/>
+<MEDIA-FILE ID="147" LEGACY-PATH="Newest coding:245_628_master_small.mov"/>
+<MEDIA-FILE ID="222" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:318_704_master_small.mov"/>
+<MEDIA-FILE ID="247" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:343_729_master_small.mov"/>
+<MEDIA-FILE ID="319" LEGACY-PATH="Coding:100_474_master_small.mov"/>
+<MEDIA-FILE ID="443" LEGACY-PATH="NCSLGR:video files:slave2:809_623_slave2_small.mov"/>
+<MEDIA-FILE ID="165" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:261_646_master_small.mov"/>
+<MEDIA-FILE ID="345" LEGACY-PATH="NCSLGR:video files:slave2:770_579_slave2_small.mov"/>
+<MEDIA-FILE ID="190" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:287_672_master_small.mov"/>
+<MEDIA-FILE ID="49" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:146_522_master_small.mov"/>
+<MEDIA-FILE ID="82" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:179_555_master_small.mov"/>
+<MEDIA-FILE ID="317" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:160_536_master_small.mov"/>
+<MEDIA-FILE ID="24" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:122_497_master_small.mov"/>
+<MEDIA-FILE ID="61" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:158_534_master_small.mov"/>
+<MEDIA-FILE ID="121" LEGACY-PATH="Newest coding:220_598_master_small.mov"/>
+<MEDIA-FILE ID="343" LEGACY-PATH="NCSLGR:video files:master:770_579_master_small.mov"/>
+<MEDIA-FILE ID="182" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:279_664_master_small.mov"/>
+<MEDIA-FILE ID="440" LEGACY-PATH="NCSLGR:video files:slave2:808_622_slave2_small.mov"/>
+<MEDIA-FILE ID="366" LEGACY-PATH="NCSLGR:video files:slave2:778_588_slave2_small.mov"/>
+<MEDIA-FILE ID="438" LEGACY-PATH="NCSLGR:video files:master:808_622_master_small.mov"/>
+<MEDIA-FILE ID="101" LEGACY-PATH="Newest coding:199_576_master_small.mov"/>
+<MEDIA-FILE ID="189" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:286_671_master_small.mov"/>
+<MEDIA-FILE ID="445" LEGACY-PATH="NCSLGR:video files:slave1:810_624_slave1_small.mov"/>
+<MEDIA-FILE ID="256" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:350_738_master_small.mov"/>
+<MEDIA-FILE ID="340" LEGACY-PATH="NCSLGR:video files:master:769_578_master_small.mov"/>
+<MEDIA-FILE ID="441" LEGACY-PATH="NCSLGR:video files:master:809_623_master_small.mov"/>
+<MEDIA-FILE ID="166" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:262_647_master_small.mov"/>
+<MEDIA-FILE ID="26" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:124_499_master_small.mov"/>
+<MEDIA-FILE ID="324" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:Coding:410_799_master_small.mov"/>
+<MEDIA-FILE ID="28" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:126_501_master_small.mov"/>
+<MEDIA-FILE ID="105" LEGACY-PATH="Newest coding:203_580_master_small.mov"/>
+<MEDIA-FILE ID="203" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:300_685_master_small.mov"/>
+<MEDIA-FILE ID="228" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:324_710_master_small.mov"/>
+<MEDIA-FILE ID="372" LEGACY-PATH="NCSLGR:video files:slave2:780_590_slave2_small.mov"/>
+<MEDIA-FILE ID="163" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:259_644_master_small.mov"/>
+<MEDIA-FILE ID="4" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:104_478_master_small.mov"/>
+<MEDIA-FILE ID="461" LEGACY-PATH="NCSLGR:video files:slave2:815_629_slave2_small.mov"/>
+<MEDIA-FILE ID="124" LEGACY-PATH="Newest coding:222_601_master_small.mov"/>
+<MEDIA-FILE ID="84" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:181_557_master_small.mov"/>
+<MEDIA-FILE ID="205" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:302_687_master_small.mov"/>
+<MEDIA-FILE ID="45" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:142_518_master_small.mov"/>
+<MEDIA-FILE ID="349" LEGACY-PATH="NCSLGR:video files:master:773_583_master_small.mov"/>
+<MEDIA-FILE ID="370" LEGACY-PATH="NCSLGR:video files:master:780_590_master_small.mov"/>
+<MEDIA-FILE ID="395" LEGACY-PATH="NCSLGR:video files:slave2:788_598_slave2_small.mov"/>
+<MEDIA-FILE ID="2" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:102_476_master_small.mov"/>
+<MEDIA-FILE ID="109" LEGACY-PATH="Newest coding:207_585_master_small.mov"/>
+<MEDIA-FILE ID="47" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:144_520_master_small.mov"/>
+<MEDIA-FILE ID="140" LEGACY-PATH="Newest coding:238_621_master_small.mov"/>
+<MEDIA-FILE ID="419" LEGACY-PATH="NCSLGR:video files:slave2:796_606_slave2_small.mov"/>
+<MEDIA-FILE ID="10" LEGACY-PATH="RAID Video:Desktop Folder:NEWEST-MASTER-VIDEOS:Compressed files:109_483_master_small.mov"/>
+<MEDIA-FILE ID="393" LEGACY-PATH="NCSLGR:video files:master:788_598_master_small.mov"/>
+<MEDIA-FILE ID="128" LEGACY-PATH="Newest coding:226_605_master_small.mov"/>
+<MEDIA-FILE ID="447" LEGACY-PATH="NCSLGR:video files:master:811_625_master_small.mov"/>
+<MEDIA-FILE ID="142" LEGACY-PATH="Newest coding:240_623_master_small.mov"/>
+</MEDIA-FILES>
+<UTTERANCES>
+<UTTERANCE E="2300" EXCERPT="fs-JOHN WANT BUY BOOK (" ID="28" S="33">
+<NOTES></NOTES>
+<MEDIA-REF ID="426"/>
+<MEDIA-REF ID="427"/>
+<MEDIA-REF ID="428"/>
+<SEGMENT PARTICIPANT-ID="1" PRIMARY="true">
+<TRACK FID="10000">
+<A E="500" S="333">fs-JOHN</A>
+<A E="767" S="633">WANT</A>
+<A E="1000" S="867">BUY</A>
+<A E="1333" S="1167">BOOK</A>
+<A E="1767" S="1533">(1h)HOW-MANY/MANY</A>
+</TRACK>
+<TRACK FID="3">
+<A E="733" S="600" VID="400001"/>
+<A E="1000" S="767" VID="5"/>
+<A E="1167" S="1033" VID="400002"/>
+</TRACK>
+<TRACK FID="10">
+<A E="1333" S="1233" VID="400001"/>
+<A E="1767" S="1367" VID="3"/>
+<A E="1933" S="1800" VID="400002"/>
+</TRACK>
+<TRACK FID="5">
+<A E="1767" S="1533" VID="5"/>
+</TRACK>
+<TRACK FID="29">
+<A E="1633" S="1433" VID="400001"/>
+<A E="1833" S="1667" VID="5"/>
+<A E="2167" S="1867" VID="400002"/>
+</TRACK>
+<TRACK FID="20001">
+<A E="2267" S="0">How many books does John want to buy?</A>
+</TRACK>
+<TRACK FID="13">
+<A E="1367" S="1267" VID="400001"/>
+<A E="1767" S="1400" VID="4"/>
+<A E="1867" S="1800" VID="400002"/>
+</TRACK>
+<TRACK FID="2">
+<A E="467" S="200" VID="400001"/>
+<A E="1767" S="500" VID="5"/>
+<A E="2067" S="1800" VID="400002"/>
+</TRACK>
+<TRACK FID="27">
+<A E="500" S="333" VID="1"/>
+<A E="767" S="633" VID="8"/>
+<A E="1000" S="867" VID="8"/>
+<A E="1333" S="1167" VID="0"/>
+<A E="1767" S="1533" VID="20"/>
+</TRACK>
+<TRACK FID="17">
+<A E="1767" S="1367" VID="2"/>
+</TRACK>
+<TRACK FID="12">
+<A E="67" S="33" VID="400001"/>
+<A E="133" S="100" VID="2"/>
+<A E="233" S="167" VID="400002"/>
+<A E="1333" S="1267" VID="400001"/>
+<A E="1767" S="1367" VID="3"/>
+<A E="1967" S="1800" VID="9"/>
+<A E="2067" S="2000" VID="2"/>
+<A E="2267" S="2100" VID="9"/>
+</TRACK>
+<TRACK FID="1">
+<A E="1467" S="1433" VID="400001"/>
+<A E="1667" S="1500" VID="6"/>
+<A E="2067" S="1700" VID="400002"/>
+</TRACK>
+</SEGMENT>
+</UTTERANCE>
+<UTTERANCE E="2366" EXCERPT="fs-JOHN FUTURE^NOT LIKE" ID="3" S="266">
+<NOTES></NOTES>
+<MEDIA-REF ID="340"/>
+<MEDIA-REF ID="342"/>
+<MEDIA-REF ID="341"/>
+<SEGMENT PARTICIPANT-ID="0" PRIMARY="true">
+<TRACK FID="10000">
+<A E="334" S="134">fs-JOHN</A>
+<A E="767" S="567">FUTURE^NOT</A>
+<A E="934" S="867">LIKE</A>
+<A E="1134" S="1067">IX-3p:i</A>
+<A E="1400" S="1367">MOVIE</A>
+<A E="1500" S="1467">IX-3p:i</A>
+</TRACK>
+<TRACK FID="3">
+<A E="1567" S="767" VID="5"/>
+</TRACK>
+<TRACK FID="2">
+<A E="1034" S="934" VID="400001"/>
+<A E="1134" S="1067" VID="4"/>
+<A E="1400" S="1167" VID="400002"/>
+</TRACK>
+<TRACK FID="27">
+<A E="334" S="134" VID="1"/>
+<A E="767" S="567" VID="24"/>
+<A E="934" S="867" VID="8"/>
+<A E="1134" S="1067" VID="3"/>
+<A E="1400" S="1367" VID="0"/>
+<A E="1500" S="1467" VID="2"/>
+</TRACK>
+<TRACK FID="31">
+<A E="2100" S="567" VID="0"/>
+</TRACK>
+<TRACK FID="14">
+<A E="2100" S="1500" VID="26"/>
+</TRACK>
+<TRACK FID="1"/>
+<TRACK FID="10">
+<A E="2100" S="0" VID="3"/>
+</TRACK>
+<TRACK FID="5">
+<A E="534" S="200" VID="400001"/>
+<A E="2100" S="567" VID="3"/>
+</TRACK>
+<TRACK FID="13">
+<A E="434" S="267" VID="400001"/>
+<A E="2100" S="467" VID="4"/>
+</TRACK>
+<TRACK FID="20001">
+<A E="2100" S="0">John will not like the movie.</A>
+</TRACK>
+<TRACK FID="11">
+<A E="1067" S="767" VID="0"/>
+</TRACK>
+<TRACK FID="12">
+<A E="267" S="0" VID="9"/>
+<A E="367" S="300" VID="400001"/>
+<A E="1634" S="400" VID="3"/>
+<A E="1734" S="1667" VID="400001"/>
+<A E="2100" S="1767" VID="6"/>
+</TRACK>
+</SEGMENT>
+</UTTERANCE>
+<UTTERANCE E="1366" EXCERPT="TEACH+AGENT LIKE MOVIE" ID="29" S="166">
+<NOTES></NOTES>
+<MEDIA-REF ID="429"/>
+<MEDIA-REF ID="430"/>
+<MEDIA-REF ID="431"/>
+<SEGMENT PARTICIPANT-ID="1" PRIMARY="true">
+<TRACK FID="10000">
+<A E="300" S="234">TEACH+AGENT</A>
+<A E="634" S="534">LIKE</A>
+<A E="1000" S="767">MOVIE</A>
+</TRACK>
+<TRACK FID="3">
+<A E="167" S="0" VID="400001"/>
+<A E="734" S="200" VID="5"/>
+<A E="1067" S="767" VID="400002"/>
+</TRACK>
+<TRACK FID="20001">
+<A E="1200" S="0">The teacher likes movies.</A>
+</TRACK>
+<TRACK FID="27">
+<A E="300" S="234" VID="0"/>
+<A E="634" S="534" VID="8"/>
+<A E="1000" S="767" VID="0"/>
+</TRACK>
+<TRACK FID="15">
+<A E="67" S="0" VID="400001"/>
+<A E="300" S="100" VID="3"/>
+<A E="367" S="334" VID="400002"/>
+</TRACK>
+<TRACK FID="14">
+<A E="300" S="100" VID="13"/>
+</TRACK>
+<TRACK FID="1">
+<A E="300" S="134" VID="400001"/>
+<A E="1067" S="334" VID="5"/>
+<A E="1200" S="1100" VID="400002"/>
+</TRACK>
+</SEGMENT>
+</UTTERANCE>
+<UTTERANCE E="2000" EXCERPT="fs-JOHN BUY BOOK (1h)HO" ID="27" S="266">
+<NOTES></NOTES>
+<MEDIA-REF ID="422"/>
+<MEDIA-REF ID="420"/>
+<MEDIA-REF ID="421"/>
+<SEGMENT PARTICIPANT-ID="1" PRIMARY="true">
+<TRACK FID="10000">
+<A E="267" S="100">fs-JOHN</A>
+<A E="567" S="434">BUY</A>
+<A E="900" S="767">BOOK</A>
+<A E="1434" S="1134">(1h)HOW-MANY/MANY</A>
+</TRACK>
+<TRACK FID="3">
+<A E="367" S="167" VID="400001"/>
+<A E="1034" S="400" VID="5"/>
+<A E="1300" S="1067" VID="400002"/>
+</TRACK>
+<TRACK FID="33">
+<A E="434" S="334" VID="400001"/>
+<A E="1367" S="467" VID="5"/>
+<A E="1600" S="1400" VID="400002"/>
+</TRACK>
+<TRACK FID="2">
+<A E="334" S="167" VID="400001"/>
+<A E="567" S="367" VID="5"/>
+<A E="734" S="600" VID="400002"/>
+<A E="1134" S="967" VID="400001"/>
+<A E="1434" S="1167" VID="5"/>
+<A E="1734" S="1467" VID="400002"/>
+</TRACK>
+<TRACK FID="27">
+<A E="267" S="100" VID="1"/>
+<A E="567" S="434" VID="8"/>
+<A E="900" S="767" VID="0"/>
+<A E="1434" S="1134" VID="20"/>
+</TRACK>
+<TRACK FID="17">
+<A E="1434" S="900" VID="2"/>
+</TRACK>
+<TRACK FID="1">
+<A E="33" S="0" VID="6"/>
+<A E="167" S="34" VID="400002"/>
+<A E="434" S="334" VID="400001"/>
+<A E="867" S="467" VID="5"/>
+<A E="1167" S="900" VID="400001"/>
+<A E="1434" S="1200" VID="3"/>
+<A E="1734" S="1467" VID="5"/>
+</TRACK>
+<TRACK FID="32">
+<A E="900" S="767" VID="0"/>
+</TRACK>
+<TRACK FID="10">
+<A E="867" S="834" VID="400001"/>
+<A E="1434" S="900" VID="3"/>
+<A E="1634" S="1467" VID="400002"/>
+</TRACK>
+<TRACK FID="5">
+<A E="1434" S="1034" VID="5"/>
+</TRACK>
+<TRACK FID="20001">
+<A E="1734" S="0">How many books did John buy?</A>
+</TRACK>
+<TRACK FID="10001">
+<A E="900" S="767">BOOK</A>
+<A E="1134" S="767" VID="400000"/>
+</TRACK>
+<TRACK FID="11">
+<A E="500" S="400" VID="6"/>
+</TRACK>
+<TRACK FID="12">
+<A E="900" S="800" VID="400001"/>
+<A E="1434" S="934" VID="3"/>
+<A E="1500" S="1467" VID="400001"/>
+<A E="1567" S="1534" VID="2"/>
+<A E="1734" S="1600" VID="400002"/>
+</TRACK>
+</SEGMENT>
+</UTTERANCE>
+<UTTERANCE E="2066" EXCERPT="MOTHER LIKE IX-3p:i MOV" ID="0" S="566">
+<NOTES></NOTES>
+<MEDIA-REF ID="330"/>
+<MEDIA-REF ID="328"/>
+<MEDIA-REF ID="329"/>
+<SEGMENT PARTICIPANT-ID="0" PRIMARY="true">
+<TRACK FID="10000">
+<A E="267" S="167">MOTHER</A>
+<A E="467" S="367">LIKE</A>
+<A E="667" S="600">IX-3p:i</A>
+<A E="1167" S="967">MOVIE</A>
+</TRACK>
+<TRACK FID="3">
+<A E="334" S="134" VID="400001"/>
+<A E="667" S="367" VID="5"/>
+<A E="834" S="700" VID="400002"/>
+</TRACK>
+<TRACK FID="29">
+<A E="300" S="100" VID="400001"/>
+<A E="567" S="334" VID="5"/>
+<A E="767" S="600" VID="400002"/>
+</TRACK>
+<TRACK FID="27">
+<A E="267" S="167" VID="0"/>
+<A E="467" S="367" VID="8"/>
+<A E="667" S="600" VID="3"/>
+<A E="1167" S="967" VID="0"/>
+</TRACK>
+<TRACK FID="20">
+<A E="267" S="0" VID="2"/>
+</TRACK>
+<TRACK FID="14">
+<A E="567" S="500" VID="400001"/>
+<A E="634" S="600" VID="12"/>
+<A E="700" S="667" VID="400002"/>
+</TRACK>
+<TRACK FID="1">
+<A E="267" S="34" VID="400001"/>
+<A E="1500" S="300" VID="3"/>
+</TRACK>
+<TRACK FID="10">
+<A E="200" S="0" VID="2"/>
+<A E="467" S="234" VID="400001"/>
+<A E="667" S="500" VID="7"/>
+<A E="733" S="700" VID="400001"/>
+<A E="1500" S="734" VID="4"/>
+</TRACK>
+<TRACK FID="35">
+<A E="567" S="400" VID="400001"/>
+<A E="667" S="600" VID="1"/>
+<A E="800" S="700" VID="400002"/>
+</TRACK>
+<TRACK FID="20001">
+<A E="1500" S="0">Mother likes the movie.</A>
+</TRACK>
+<TRACK FID="13">
+<A E="534" S="467" VID="400001"/>
+<A E="634" S="567" VID="2"/>
+<A E="734" S="667" VID="400002"/>
+</TRACK>
+<TRACK FID="11">
+<A E="600" S="367" VID="0"/>
+</TRACK>
+<TRACK FID="15">
+<A E="467" S="434" VID="400001"/>
+<A E="634" S="500" VID="3"/>
+<A E="700" S="667" VID="400002"/>
+</TRACK>
+<TRACK FID="4">
+<A E="1400" S="67" VID="3"/>
+</TRACK>
+<TRACK FID="8">
+<A E="267" S="100" VID="400001"/>
+<A E="467" S="300" VID="5"/>
+<A E="600" S="500" VID="400001"/>
+<A E="1034" S="634" VID="7"/>
+<A E="1400" S="1067" VID="400002"/>
+</TRACK>
+<TRACK FID="12">
+<A E="67" S="0" VID="400001"/>
+<A E="267" S="100" VID="4"/>
+<A E="400" S="300" VID="400001"/>
+<A E="634" S="434" VID="3"/>
+<A E="700" S="667" VID="400002"/>
+</TRACK>
+</SEGMENT>
+</UTTERANCE>
+<UTTERANCE E="2233" EXCERPT="TEACH+AGENT NOT IN HOUS" ID="14" S="333">
+<NOTES></NOTES>
+<MEDIA-REF ID="375"/>
+<MEDIA-REF ID="374"/>
+<MEDIA-REF ID="373"/>
+<SEGMENT PARTICIPANT-ID="0" PRIMARY="true">
+<TRACK FID="10000">
+<A E="400" S="300">TEACH+AGENT</A>
+<A E="700" S="533">NOT</A>
+<A E="867" S="800">IN</A>
+<A E="1167" S="1000">HOUSE</A>
+<A E="1433" S="1400">IX-loc:i</A>
+</TRACK>
+<TRACK FID="10">
+<A E="133" S="0" VID="3"/>
+<A E="333" S="167" VID="400001"/>
+<A E="1900" S="367" VID="7"/>
+</TRACK>
+<TRACK FID="5">
+<A E="500" S="333" VID="400001"/>
+<A E="1900" S="533" VID="2"/>
+</TRACK>
+<TRACK FID="29">
+<A E="1400" S="1233" VID="400001"/>
+<A E="1667" S="1433" VID="5"/>
+<A E="1800" S="1700" VID="400001"/>
+<A E="1900" S="1833" VID="2"/>
+</TRACK>
+<TRACK FID="20001">
+<A E="1900" S="0">The teacher is not in the house.</A>
+</TRACK>
+<TRACK FID="2">
+<A E="500" S="400" VID="400001"/>
+<A E="1300" S="533" VID="4"/>
+<A E="1433" S="1333" VID="400001"/>
+<A E="1900" S="1467" VID="2"/>
+</TRACK>
+<TRACK FID="27">
+<A E="400" S="300" VID="0"/>
+<A E="700" S="533" VID="7"/>
+<A E="867" S="800" VID="11"/>
+<A E="1167" S="1000" VID="0"/>
+<A E="1433" S="1400" VID="10"/>
+</TRACK>
+<TRACK FID="31">
+<A E="1433" S="533" VID="0"/>
+</TRACK>
+<TRACK FID="12">
+<A E="33" S="0" VID="400001"/>
+<A E="367" S="67" VID="9"/>
+<A E="467" S="400" VID="400001"/>
+<A E="633" S="500" VID="12"/>
+<A E="1200" S="667" VID="7"/>
+<A E="1266" S="1233" VID="400001"/>
+<A E="1900" S="1267" VID="6"/>
+</TRACK>
+<TRACK FID="1">
+<A E="467" S="333" VID="400001"/>
+<A E="567" S="500" VID="2"/>
+<A E="700" S="600" VID="6"/>
+<A E="1900" S="733" VID="2"/>
+</TRACK>
+</SEGMENT>
+</UTTERANCE>
+<UTTERANCE E="2433" EXCERPT="TEACH+AGENT BUY HOUSE Y" ID="17" S="333">
+<NOTES></NOTES>
+<MEDIA-REF ID="387"/>
+<MEDIA-REF ID="389"/>
+<MEDIA-REF ID="388"/>
+<SEGMENT PARTICIPANT-ID="0" PRIMARY="true">
+<TRACK FID="10000">
+<A E="400" S="267">TEACH+AGENT</A>
+<A E="633" S="533">BUY</A>
+<A E="967" S="733">HOUSE</A>
+<A E="1400" S="1200">YESTERDAY</A>
+<A E="1933" S="1633">QMwg</A>
+</TRACK>
+<TRACK FID="3">
+<A E="433" S="267" VID="400001"/>
+<A E="767" S="467" VID="5"/>
+<A E="933" S="800" VID="400002"/>
+<A E="1367" S="1033" VID="400001"/>
+<A E="1933" S="1400" VID="2"/>
+<A E="2100" S="1967" VID="400002"/>
+</TRACK>
+<TRACK FID="10">
+<A E="133" S="0" VID="400001"/>
+<A E="1833" S="167" VID="2"/>
+<A E="2100" S="1867" VID="400002"/>
+</TRACK>
+<TRACK FID="29">
+<A E="400" S="300" VID="400001"/>
+<A E="1867" S="433" VID="5"/>
+<A E="2100" S="1900" VID="400002"/>
+</TRACK>
+<TRACK FID="20001">
+<A E="2100" S="0">Did the teacher buy a house yesterday?</A>
+</TRACK>
+<TRACK FID="18">
+<A E="1933" S="267" VID="2"/>
+</TRACK>
+<TRACK FID="2">
+<A E="100" S="0" VID="5"/>
+<A E="333" S="133" VID="400001"/>
+<A E="1900" S="367" VID="3"/>
+<A E="2100" S="1933" VID="400002"/>
+</TRACK>
+<TRACK FID="27">
+<A E="400" S="267" VID="0"/>
+<A E="633" S="533" VID="8"/>
+<A E="967" S="733" VID="0"/>
+<A E="1400" S="1200" VID="10"/>
+<A E="1933" S="1633" VID="16"/>
+</TRACK>
+<TRACK FID="9">
+<A E="1267" S="1133" VID="400001"/>
+<A E="2100" S="1300" VID="4"/>
+</TRACK>
+<TRACK FID="12">
+<A E="133" S="0" VID="400001"/>
+<A E="1833" S="167" VID="4"/>
+<A E="2100" S="1867" VID="400002"/>
+</TRACK>
+<TRACK FID="1">
+<A E="200" S="0" VID="400001"/>
+<A E="1167" S="233" VID="6"/>
+<A E="1333" S="1200" VID="400001"/>
+<A E="1900" S="1367" VID="2"/>
+<A E="2100" S="1933" VID="400002"/>
+</TRACK>
+</SEGMENT>
+</UTTERANCE>
+<UTTERANCE E="2166" EXCERPT="MOTHER BUY CAR FOR fs-J" ID="39" S="100">
+<NOTES></NOTES>
+<MEDIA-REF ID="459"/>
+<MEDIA-REF ID="460"/>
+<MEDIA-REF ID="461"/>
+<SEGMENT PARTICIPANT-ID="1" PRIMARY="true">
+<TRACK FID="10000">
+<A E="333" S="300">MOTHER</A>
+<A E="633" S="466">BUY</A>
+<A E="833" S="733">CAR</A>
+<A E="1000" S="966">FOR</A>
+<A E="1266" S="1066">fs-JOHN</A>
+<A E="1466" S="1333">#NO</A>
+<A E="1800" S="1333" VID="400000"/>
+</TRACK>
+<TRACK FID="3">
+<A E="333" S="233" VID="400001"/>
+<A E="1300" S="366" VID="5"/>
+<A E="1466" S="1333" VID="400002"/>
+</TRACK>
+<TRACK FID="2">
+<A E="466" S="300" VID="400001"/>
+<A E="1366" S="500" VID="3"/>
+<A E="1800" S="1400" VID="400002"/>
+</TRACK>
+<TRACK FID="27">
+<A E="333" S="300" VID="0"/>
+<A E="633" S="466" VID="8"/>
+<A E="833" S="733" VID="0"/>
+<A E="1000" S="966" VID="11"/>
+<A E="1266" S="1066" VID="1"/>
+<A E="1466" S="1333" VID="7"/>
+</TRACK>
+<TRACK FID="31">
+<A E="1800" S="1333" VID="0"/>
+</TRACK>
+<TRACK FID="14">
+<A E="566" S="100" VID="26"/>
+<A E="1700" S="1366" VID="26"/>
+</TRACK>
+<TRACK FID="1">
+<A E="300" S="200" VID="400001"/>
+<A E="466" S="333" VID="5"/>
+<A E="866" S="500" VID="400002"/>
+<A E="1366" S="1266" VID="400001"/>
+<A E="1900" S="1400" VID="3"/>
+<A E="2066" S="1933" VID="400002"/>
+</TRACK>
+<TRACK FID="32">
+<A E="833" S="733" VID="0"/>
+</TRACK>
+<TRACK FID="10">
+<A E="166" S="0" VID="400001"/>
+<A E="1266" S="200" VID="2"/>
+<A E="1533" S="1300" VID="400002"/>
+</TRACK>
+<TRACK FID="5">
+<A E="1833" S="1300" VID="2"/>
+</TRACK>
+<TRACK FID="20001">
+<A E="2066" S="0">Did mother buy a car for John? No, she did not.</A>
+</TRACK>
+<TRACK FID="13">
+<A E="133" S="0" VID="400001"/>
+<A E="1633" S="166" VID="4"/>
+<A E="1833" S="1666" VID="400002"/>
+</TRACK>
+<TRACK FID="10001">
+<A E="833" S="733">CAR</A>
+<A E="1800" S="733" VID="400000"/>
+</TRACK>
+<TRACK FID="11">
+<A E="400" S="266" VID="8"/>
+</TRACK>
+<TRACK FID="15">
+<A E="133" S="0" VID="400001"/>
+<A E="1633" S="166" VID="3"/>
+<A E="1833" S="1666" VID="400002"/>
+</TRACK>
+<TRACK FID="19">
+<A E="1266" S="200" VID="4"/>
+</TRACK>
+<TRACK FID="12">
+<A E="166" S="0" VID="400001"/>
+<A E="1233" S="200" VID="4"/>
+<A E="1300" S="1266" VID="400001"/>
+<A E="1366" S="1333" VID="2"/>
+<A E="1533" S="1366" VID="9"/>
+<A E="1733" S="1566" VID="400002"/>
+</TRACK>
+</SEGMENT>
+</UTTERANCE>
+<UTTERANCE E="2666" EXCERPT="fs-JOHN BUY CAR YESTERD" ID="36" S="0">
+<NOTES></NOTES>
+<MEDIA-REF ID="451"/>
+<MEDIA-REF ID="452"/>
+<MEDIA-REF ID="450"/>
+<SEGMENT PARTICIPANT-ID="1" PRIMARY="true">
+<TRACK FID="10000">
+<A E="533" S="333">fs-JOHN</A>
+<A E="833" S="766">BUY</A>
+<A E="1000" S="900">CAR</A>
+<A E="1466" S="1200">YESTERDAY</A>
+<A E="1833" S="1566">(1h)GIFT:j</A>
+<A E="2300" S="2033">MOTHERwg</A>
+</TRACK>
+<TRACK FID="3">
+<A E="833" S="466" VID="400001"/>
+<A E="1833" S="866" VID="5"/>
+<A E="2200" S="1866" VID="400002"/>
+</TRACK>
+<TRACK FID="29">
+<A E="1766" S="1533" VID="400001"/>
+<A E="2000" S="1800" VID="6"/>
+<A E="2266" S="2033" VID="400002"/>
+</TRACK>
+<TRACK FID="2">
+<A E="533" S="166" VID="400001"/>
+<A E="1966" S="566" VID="5"/>
+<A E="2466" S="2000" VID="400002"/>
+</TRACK>
+<TRACK FID="27">
+<A E="533" S="333" VID="1"/>
+<A E="833" S="766" VID="8"/>
+<A E="1000" S="900" VID="0"/>
+<A E="1466" S="1200" VID="10"/>
+<A E="1833" S="1566" VID="8"/>
+<A E="2300" S="2033" VID="0"/>
+</TRACK>
+<TRACK FID="20">
+<A E="1466" S="266" VID="5"/>
+</TRACK>
+<TRACK FID="1">
+<A E="1666" S="1466" VID="400001"/>
+<A E="2266" S="1700" VID="5"/>
+<A E="2633" S="2300" VID="400002"/>
+</TRACK>
+<TRACK FID="32">
+<A E="1000" S="900" VID="0"/>
+</TRACK>
+<TRACK FID="10">
+<A E="233" S="133" VID="400001"/>
+<A E="1466" S="266" VID="2"/>
+<A E="1600" S="1500" VID="400002"/>
+</TRACK>
+<TRACK FID="20001">
+<A E="2666" S="0">John bought a car yesterday and gave it to mother.</A>
+</TRACK>
+<TRACK FID="13">
+<A E="633" S="533" VID="400001"/>
+<A E="1366" S="666" VID="4"/>
+<A E="1533" S="1400" VID="400002"/>
+</TRACK>
+<TRACK FID="10001">
+<A E="1000" S="900">CAR</A>
+<A E="2300" S="900" VID="400000"/>
+</TRACK>
+<TRACK FID="11">
+<A E="733" S="500" VID="8"/>
+</TRACK>
+<TRACK FID="15">
+<A E="700" S="533" VID="400001"/>
+<A E="1366" S="733" VID="3"/>
+<A E="1500" S="1400" VID="400002"/>
+</TRACK>
+<TRACK FID="4">
+<A E="1533" S="566" VID="5"/>
+</TRACK>
+<TRACK FID="12">
+<A E="133" S="66" VID="2"/>
+<A E="333" S="166" VID="400001"/>
+<A E="933" S="366" VID="4"/>
+<A E="1166" S="966" VID="400001"/>
+<A E="1366" S="1200" VID="3"/>
+<A E="1433" S="1400" VID="2"/>
+</TRACK>
+</SEGMENT>
+</UTTERANCE>
+<UTTERANCE E="2000" EXCERPT="FATHER FUTURE LIKE THAT" ID="6" S="266">
+<NOTES></NOTES>
+<MEDIA-REF ID="349"/>
+<MEDIA-REF ID="350"/>
+<MEDIA-REF ID="351"/>
+<SEGMENT PARTICIPANT-ID="0" PRIMARY="true">
+<TRACK FID="10000">
+<A E="434" S="400">FATHER</A>
+<A E="667" S="567">FUTURE</A>
+<A E="867" S="800">LIKE</A>
+<A E="1100" S="1034">THAT:i</A>
+<A E="1334" S="1267">BOOK</A>
+<A E="1533" S="1500">IX-loc:i</A>
+</TRACK>
+<TRACK FID="29">
+<A E="600" S="367" VID="400001"/>
+<A E="867" S="634" VID="5"/>
+<A E="1067" S="900" VID="400002"/>
+</TRACK>
+<TRACK FID="2">
+<A E="134" S="0" VID="400001"/>
+<A E="434" S="167" VID="3"/>
+<A E="700" S="467" VID="400002"/>
+<A E="1267" S="1167" VID="400001"/>
+<A E="1734" S="1300" VID="4"/>
+</TRACK>
+<TRACK FID="27">
+<A E="434" S="400" VID="0"/>
+<A E="667" S="567" VID="13"/>
+<A E="867" S="800" VID="8"/>
+<A E="1100" S="1034" VID="27"/>
+<A E="1334" S="1267" VID="0"/>
+<A E="1533" S="1500" VID="10"/>
+</TRACK>
+<TRACK FID="14">
+<A E="1734" S="1534" VID="26"/>
+</TRACK>
+<TRACK FID="1">
+<A E="67" S="0" VID="400001"/>
+<A E="600" S="100" VID="5"/>
+<A E="1000" S="634" VID="400001"/>
+<A E="1267" S="1034" VID="6"/>
+<A E="1734" S="1300" VID="2"/>
+</TRACK>
+<TRACK FID="10">
+<A E="434" S="0" VID="3"/>
+<A E="1000" S="467" VID="7"/>
+<A E="1734" S="1034" VID="3"/>
+</TRACK>
+<TRACK FID="13">
+<A E="700" S="600" VID="400001"/>
+<A E="1067" S="734" VID="5"/>
+<A E="1167" S="1100" VID="400002"/>
+</TRACK>
+<TRACK FID="20001">
+<A E="1734" S="0">Father will like that book.</A>
+</TRACK>
+<TRACK FID="11">
+<A E="1167" S="867" VID="1"/>
+</TRACK>
+<TRACK FID="4">
+<A E="1600" S="434" VID="3"/>
+</TRACK>
+<TRACK FID="8">
+<A E="1034" S="967" VID="400001"/>
+<A E="1534" S="1067" VID="6"/>
+<A E="1700" S="1567" VID="400002"/>
+</TRACK>
+<TRACK FID="12">
+<A E="334" S="0" VID="3"/>
+<A E="834" S="367" VID="6"/>
+<A E="900" S="867" VID="400001"/>
+<A E="1467" S="934" VID="3"/>
+<A E="1533" S="1500" VID="400001"/>
+<A E="1734" S="1534" VID="2"/>
+</TRACK>
+</SEGMENT>
+</UTTERANCE>
+<UTTERANCE E="1366" EXCERPT="MOTHER LIKE IX-3p:i BOO" ID="1" S="233">
+<NOTES></NOTES>
+<MEDIA-REF ID="334"/>
+<MEDIA-REF ID="336"/>
+<MEDIA-REF ID="335"/>
+<SEGMENT PARTICIPANT-ID="0" PRIMARY="true">
+<TRACK FID="10000">
+<A E="167" S="100">MOTHER</A>
+<A E="333" S="267">LIKE</A>
+<A E="500" S="433">IX-3p:i</A>
+<A E="967" S="700">BOOK</A>
+</TRACK>
+<TRACK FID="3">
+<A E="167" S="133" VID="400001"/>
+<A E="567" S="200" VID="5"/>
+<A E="800" S="600" VID="400002"/>
+</TRACK>
+<TRACK FID="29">
+<A E="467" S="367" VID="400001"/>
+<A E="567" S="500" VID="5"/>
+<A E="800" S="600" VID="400002"/>
+</TRACK>
+<TRACK FID="2">
+<A E="367" S="267" VID="400001"/>
+<A E="900" S="400" VID="4"/>
+<A E="1133" S="933" VID="400002"/>
+</TRACK>
+<TRACK FID="27">
+<A E="167" S="100" VID="0"/>
+<A E="333" S="267" VID="8"/>
+<A E="500" S="433" VID="3"/>
+<A E="967" S="700" VID="0"/>
+</TRACK>
+<TRACK FID="14">
+<A E="500" S="433" VID="12"/>
+</TRACK>
+<TRACK FID="1"/>
+<TRACK FID="10">
+<A E="167" S="0" VID="400001"/>
+<A E="567" S="200" VID="7"/>
+<A E="667" S="600" VID="400001"/>
+<A E="867" S="700" VID="4"/>
+<A E="1033" S="900" VID="400002"/>
+</TRACK>
+<TRACK FID="35">
+<A E="400" S="233" VID="400001"/>
+<A E="500" S="433" VID="1"/>
+<A E="633" S="533" VID="400002"/>
+</TRACK>
+<TRACK FID="20001">
+<A E="1133" S="0">Mother likes that book.</A>
+</TRACK>
+<TRACK FID="13">
+<A E="200" S="33" VID="400001"/>
+<A E="500" S="233" VID="2"/>
+<A E="633" S="533" VID="400002"/>
+</TRACK>
+<TRACK FID="11">
+<A E="633" S="267" VID="0"/>
+</TRACK>
+<TRACK FID="15">
+<A E="200" S="33" VID="400001"/>
+<A E="500" S="233" VID="3"/>
+<A E="633" S="533" VID="400002"/>
+</TRACK>
+<TRACK FID="4">
+<A E="1067" S="33" VID="3"/>
+</TRACK>
+<TRACK FID="12">
+<A E="133" S="0" VID="400001"/>
+<A E="500" S="167" VID="3"/>
+<A E="600" S="533" VID="400002"/>
+<A E="1066" S="1033" VID="400001"/>
+<A E="1100" S="1067" VID="2"/>
+</TRACK>
+</SEGMENT>
+</UTTERANCE>
+<UTTERANCE E="2900" EXCERPT="FATHER FUTURE LIKE THAT" ID="5" S="300">
+<NOTES></NOTES>
+<MEDIA-REF ID="347"/>
+<MEDIA-REF ID="346"/>
+<MEDIA-REF ID="348"/>
+<SEGMENT PARTICIPANT-ID="0" PRIMARY="true">
+<TRACK FID="10000">
+<A E="733" S="700">FATHER</A>
+<A E="933" S="866">FUTURE</A>
+<A E="1100" S="1033">LIKE</A>
+<A E="1233" S="1200">THAT:i</A>
+<A E="1400" S="1366">BOOK</A>
+<A E="1500" S="1466">IX-loc:i</A>
+<A E="2033" S="1666">QMwg</A>
+</TRACK>
+<TRACK FID="3">
+<A E="600" S="366" VID="400001"/>
+<A E="1266" S="633" VID="5"/>
+<A E="2600" S="1300" VID="11"/>
+</TRACK>
+<TRACK FID="10">
+<A E="400" S="0" VID="400001"/>
+<A E="2100" S="433" VID="2"/>
+<A E="2400" S="2133" VID="400002"/>
+</TRACK>
+<TRACK FID="29">
+<A E="2600" S="0" VID="2"/>
+</TRACK>
+<TRACK FID="20001">
+<A E="2600" S="0">Will father like that book?</A>
+</TRACK>
+<TRACK FID="13">
+<A E="666" S="400" VID="400001"/>
+<A E="2033" S="700" VID="5"/>
+</TRACK>
+<TRACK FID="18">
+<A E="2100" S="500" VID="2"/>
+</TRACK>
+<TRACK FID="2">
+<A E="533" S="400" VID="400001"/>
+<A E="733" S="566" VID="5"/>
+<A E="900" S="766" VID="400002"/>
+</TRACK>
+<TRACK FID="27">
+<A E="733" S="700" VID="0"/>
+<A E="933" S="866" VID="13"/>
+<A E="1100" S="1033" VID="8"/>
+<A E="1233" S="1200" VID="27"/>
+<A E="1400" S="1366" VID="0"/>
+<A E="1500" S="1466" VID="10"/>
+<A E="2033" S="1666" VID="16"/>
+</TRACK>
+<TRACK FID="4">
+<A E="266" S="33" VID="4"/>
+<A E="1500" S="833" VID="6"/>
+</TRACK>
+<TRACK FID="12">
+<A E="100" S="33" VID="400001"/>
+<A E="2033" S="133" VID="4"/>
+<A E="2100" S="2066" VID="400001"/>
+<A E="2166" S="2133" VID="2"/>
+<A E="2300" S="2200" VID="400002"/>
+</TRACK>
+<TRACK FID="1">
+<A E="200" S="0" VID="400001"/>
+<A E="2100" S="233" VID="6"/>
+<A E="2400" S="2133" VID="400002"/>
+</TRACK>
+</SEGMENT>
+</UTTERANCE>
+<UTTERANCE E="2366" EXCERPT="LEARN+AGENT BUY CAR YES" ID="16" S="266">
+<NOTES></NOTES>
+<MEDIA-REF ID="384"/>
+<MEDIA-REF ID="385"/>
+<MEDIA-REF ID="386"/>
+<SEGMENT PARTICIPANT-ID="0" PRIMARY="true">
+<TRACK FID="10000">
+<A E="600" S="367">LEARN+AGENT</A>
+<A E="800" S="700">BUY</A>
+<A E="1034" S="867">CAR</A>
+<A E="1367" S="1200">YESTERDAY</A>
+<A E="1800" S="1534">QMwg</A>
+</TRACK>
+<TRACK FID="3">
+<A E="1300" S="1067" VID="400001"/>
+<A E="1800" S="1334" VID="2"/>
+<A E="2000" S="1834" VID="400002"/>
+</TRACK>
+<TRACK FID="10">
+<A E="200" S="0" VID="400001"/>
+<A E="1800" S="234" VID="2"/>
+<A E="2034" S="1834" VID="400002"/>
+</TRACK>
+<TRACK FID="29">
+<A E="667" S="0" VID="5"/>
+<A E="2100" S="700" VID="2"/>
+</TRACK>
+<TRACK FID="20001">
+<A E="2100" S="0">Did the student buy a car yesterday?</A>
+</TRACK>
+<TRACK FID="18">
+<A E="1800" S="367" VID="2"/>
+</TRACK>
+<TRACK FID="2">
+<A E="367" S="100" VID="400001"/>
+<A E="900" S="400" VID="5"/>
+<A E="1334" S="934" VID="400002"/>
+</TRACK>
+<TRACK FID="27">
+<A E="600" S="367" VID="0"/>
+<A E="800" S="700" VID="8"/>
+<A E="1034" S="867" VID="0"/>
+<A E="1367" S="1200" VID="10"/>
+<A E="1800" S="1534" VID="16"/>
+</TRACK>
+<TRACK FID="12">
+<A E="34" S="0" VID="7"/>
+<A E="100" S="67" VID="2"/>
+<A E="267" S="134" VID="400001"/>
+<A E="1767" S="300" VID="4"/>
+<A E="2000" S="1800" VID="400002"/>
+</TRACK>
+<TRACK FID="1">
+<A E="600" S="200" VID="400001"/>
+<A E="1167" S="634" VID="6"/>
+<A E="1800" S="1200" VID="2"/>
+<A E="2000" S="1834" VID="400002"/>
+</TRACK>
+</SEGMENT>
+</UTTERANCE>
+<UTTERANCE E="3566" EXCERPT="LEARN+AGENT EACH IX-loc" ID="24" S="600">
+<NOTES></NOTES>
+<MEDIA-REF ID="412"/>
+<MEDIA-REF ID="411"/>
+<MEDIA-REF ID="413"/>
+<SEGMENT PARTICIPANT-ID="0" PRIMARY="true">
+<TRACK FID="10000">
+<A E="266" S="233">LEARN+AGENT</A>
+<A E="600" S="466">EACH</A>
+<A E="1033" S="833">IX-loc-arc</A>
+<A E="1833" S="1233">(1h)GIFT-distributive:i</A>
+<A E="2300" S="2100">TEACH+AGENT</A>
+<A E="2666" S="2433">BOOK</A>
+</TRACK>
+<TRACK FID="3">
+<A E="500" S="366" VID="400001"/>
+<A E="700" S="533" VID="5"/>
+<A E="900" S="733" VID="400002"/>
+</TRACK>
+<TRACK FID="29">
+<A E="100" S="0" VID="400001"/>
+<A E="400" S="133" VID="6"/>
+<A E="533" S="433" VID="400002"/>
+<A E="1300" S="1000" VID="400001"/>
+<A E="2000" S="1333" VID="6"/>
+<A E="2500" S="2033" VID="400002"/>
+</TRACK>
+<TRACK FID="2">
+<A E="200" S="0" VID="5"/>
+<A E="466" S="233" VID="400001"/>
+<A E="1233" S="500" VID="3"/>
+<A E="1333" S="1266" VID="400001"/>
+<A E="1666" S="1366" VID="7"/>
+<A E="1866" S="1700" VID="400001"/>
+<A E="2500" S="1900" VID="3"/>
+<A E="2966" S="2533" VID="400002"/>
+</TRACK>
+<TRACK FID="27">
+<A E="266" S="233" VID="0"/>
+<A E="600" S="466" VID="4"/>
+<A E="1033" S="833" VID="10"/>
+<A E="1833" S="1233" VID="8"/>
+<A E="2300" S="2100" VID="0"/>
+<A E="2666" S="2433" VID="0"/>
+</TRACK>
+<TRACK FID="14">
+<A E="1766" S="966" VID="5"/>
+</TRACK>
+<TRACK FID="1">
+<A E="366" S="0" VID="5"/>
+<A E="500" S="400" VID="400001"/>
+<A E="2700" S="533" VID="3"/>
+<A E="2966" S="2733" VID="400002"/>
+</TRACK>
+<TRACK FID="10">
+<A E="266" S="0" VID="4"/>
+<A E="433" S="300" VID="400001"/>
+<A E="700" S="466" VID="3"/>
+<A E="966" S="733" VID="400001"/>
+<A E="2966" S="1000" VID="4"/>
+</TRACK>
+<TRACK FID="20001">
+<A E="2966" S="0">Each of the students gave the teacher a book.</A>
+</TRACK>
+<TRACK FID="11">
+<A E="733" S="466" VID="1"/>
+<A E="1900" S="1133" VID="7"/>
+</TRACK>
+<TRACK FID="4">
+<A E="2000" S="1166" VID="5"/>
+</TRACK>
+<TRACK FID="8">
+<A E="433" S="300" VID="400001"/>
+<A E="566" S="466" VID="2"/>
+<A E="933" S="600" VID="400002"/>
+</TRACK>
+<TRACK FID="12">
+<A E="233" S="0" VID="9"/>
+<A E="366" S="266" VID="400001"/>
+<A E="966" S="400" VID="3"/>
+<A E="1066" S="1000" VID="2"/>
+<A E="1600" S="1100" VID="7"/>
+<A E="2666" S="1633" VID="9"/>
+<A E="2733" S="2700" VID="2"/>
+<A E="2966" S="2766" VID="7"/>
+</TRACK>
+</SEGMENT>
+</UTTERANCE>
+<UTTERANCE E="3133" EXCERPT="fs-MARY BUY POSS-3p:i M" ID="37" S="33">
+<NOTES></NOTES>
+<MEDIA-REF ID="453"/>
+<MEDIA-REF ID="454"/>
+<MEDIA-REF ID="455"/>
+<SEGMENT PARTICIPANT-ID="1" PRIMARY="true">
+<TRACK FID="10000">
+<A E="500" S="300">fs-MARY</A>
+<A E="1000" S="767">BUY</A>
+<A E="1200" S="1067">POSS-3p:i</A>
+<A E="1400" S="1367">MOTHER</A>
+<A E="1933" S="1567">CAR</A>
+<A E="2233" S="2033">(1h)GIFT:k</A>
+<A E="2700" S="2367">fs-JOHN</A>
+</TRACK>
+<TRACK FID="3">
+<A E="733" S="533" VID="400001"/>
+<A E="2100" S="767" VID="5"/>
+<A E="2367" S="2133" VID="400002"/>
+</TRACK>
+<TRACK FID="29">
+<A E="167" S="0" VID="400001"/>
+<A E="500" S="200" VID="3"/>
+<A E="633" S="533" VID="400002"/>
+<A E="1767" S="1400" VID="400001"/>
+<A E="1867" S="1800" VID="5"/>
+<A E="2067" S="1900" VID="400002"/>
+</TRACK>
+<TRACK FID="2">
+<A E="400" S="133" VID="400001"/>
+<A E="1067" S="433" VID="5"/>
+<A E="1300" S="1100" VID="400002"/>
+<A E="2167" S="1933" VID="400001"/>
+<A E="2233" S="2200" VID="4"/>
+<A E="2400" S="2267" VID="400002"/>
+</TRACK>
+<TRACK FID="20">
+<A E="500" S="300" VID="2"/>
+</TRACK>
+<TRACK FID="27">
+<A E="500" S="300" VID="1"/>
+<A E="1000" S="767" VID="8"/>
+<A E="1200" S="1067" VID="21"/>
+<A E="1400" S="1367" VID="0"/>
+<A E="1933" S="1567" VID="0"/>
+<A E="2233" S="2033" VID="8"/>
+<A E="2700" S="2367" VID="1"/>
+</TRACK>
+<TRACK FID="1">
+<A E="1100" S="967" VID="400001"/>
+<A E="1933" S="1133" VID="3"/>
+<A E="2200" S="1967" VID="400002"/>
+</TRACK>
+<TRACK FID="32">
+<A E="1000" S="767" VID="8"/>
+<A E="1933" S="1567" VID="0"/>
+</TRACK>
+<TRACK FID="10">
+<A E="267" S="0" VID="400001"/>
+<A E="500" S="300" VID="2"/>
+<A E="700" S="533" VID="400002"/>
+<A E="1533" S="1333" VID="400001"/>
+<A E="1767" S="1567" VID="4"/>
+<A E="1933" S="1800" VID="400001"/>
+<A E="2100" S="1967" VID="5"/>
+<A E="2200" S="2133" VID="400002"/>
+</TRACK>
+<TRACK FID="20001">
+<A E="3100" S="0">Mary bought her mother's car and gave it to John.</A>
+</TRACK>
+<TRACK FID="10001">
+<A E="1000" S="767">BUY</A>
+<A E="1400" S="767" VID="400000"/>
+<A E="1933" S="1567">CAR</A>
+<A E="2133" S="1567" VID="400000"/>
+</TRACK>
+<TRACK FID="11">
+<A E="667" S="533" VID="1"/>
+<A E="2133" S="2000" VID="0"/>
+</TRACK>
+<TRACK FID="4">
+<A E="2033" S="1433" VID="4"/>
+</TRACK>
+<TRACK FID="12">
+<A E="100" S="67" VID="2"/>
+<A E="300" S="133" VID="400001"/>
+<A E="500" S="333" VID="4"/>
+<A E="667" S="533" VID="400002"/>
+<A E="1600" S="1533" VID="400001"/>
+<A E="1833" S="1633" VID="9"/>
+<A E="1900" S="1867" VID="2"/>
+<A E="1967" S="1900" VID="400002"/>
+<A E="2800" S="2767" VID="2"/>
+</TRACK>
+</SEGMENT>
+</UTTERANCE>
+<UTTERANCE E="1766" EXCERPT="TEACH+AGENT IX-3p:i LIK" ID="33" S="300">
+<NOTES></NOTES>
+<MEDIA-REF ID="441"/>
+<MEDIA-REF ID="443"/>
+<MEDIA-REF ID="442"/>
+<SEGMENT PARTICIPANT-ID="1" PRIMARY="true">
+<TRACK FID="10000">
+<A E="166" S="66">TEACH+AGENT</A>
+<A E="333" S="300">IX-3p:i</A>
+<A E="600" S="500">LIKE</A>
+<A E="866" S="766">MOVIE</A>
+<A E="1066" S="1033">IX-3p:i</A>
+</TRACK>
+<TRACK FID="3">
+<A E="300" S="166" VID="400001"/>
+<A E="1166" S="333" VID="5"/>
+<A E="1366" S="1200" VID="400002"/>
+</TRACK>
+<TRACK FID="10">
+<A E="100" S="0" VID="400001"/>
+<A E="1133" S="133" VID="2"/>
+<A E="1400" S="1166" VID="400002"/>
+</TRACK>
+<TRACK FID="29">
+<A E="333" S="66" VID="400001"/>
+<A E="1233" S="366" VID="2"/>
+<A E="1366" S="1266" VID="400002"/>
+</TRACK>
+<TRACK FID="20001">
+<A E="1466" S="0">The teacher, does s/he like movies?</A>
+</TRACK>
+<TRACK FID="18">
+<A E="1133" S="133" VID="2"/>
+</TRACK>
+<TRACK FID="2">
+<A E="500" S="100" VID="400001"/>
+<A E="1200" S="533" VID="5"/>
+<A E="1466" S="1233" VID="400002"/>
+</TRACK>
+<TRACK FID="27">
+<A E="166" S="66" VID="0"/>
+<A E="333" S="300" VID="2"/>
+<A E="600" S="500" VID="8"/>
+<A E="866" S="766" VID="0"/>
+<A E="1066" S="1033" VID="2"/>
+</TRACK>
+<TRACK FID="12">
+<A E="100" S="0" VID="400001"/>
+<A E="633" S="133" VID="4"/>
+<A E="699" S="666" VID="400001"/>
+<A E="733" S="700" VID="2"/>
+<A E="866" S="733" VID="400001"/>
+<A E="1133" S="900" VID="4"/>
+<A E="1233" S="1166" VID="400001"/>
+<A E="1366" S="1266" VID="6"/>
+<A E="1466" S="1400" VID="400002"/>
+</TRACK>
+<TRACK FID="1">
+<A E="366" S="133" VID="400001"/>
+<A E="1200" S="400" VID="6"/>
+<A E="1466" S="1233" VID="400002"/>
+</TRACK>
+</SEGMENT>
+</UTTERANCE>
+<UTTERANCE E="1733" EXCERPT="TEACH+AGENT NOW IN IX-3" ID="11" S="66">
+<NOTES></NOTES>
+<MEDIA-REF ID="364"/>
+<MEDIA-REF ID="366"/>
+<MEDIA-REF ID="365"/>
+<SEGMENT PARTICIPANT-ID="0" PRIMARY="true">
+<TRACK FID="10000">
+<A E="467" S="367">TEACH+AGENT</A>
+<A E="700" S="600">NOW</A>
+<A E="934" S="867">IN</A>
+<A E="1100" S="1067">IX-3p:i</A>
+<A E="1500" S="1300">HOUSE</A>
+<A E="1634" S="1567">IX-loc:i</A>
+</TRACK>
+<TRACK FID="3">
+<A E="567" S="400" VID="400001"/>
+<A E="1134" S="600" VID="5"/>
+<A E="1300" S="1167" VID="400002"/>
+</TRACK>
+<TRACK FID="29">
+<A E="634" S="500" VID="400001"/>
+<A E="1100" S="667" VID="5"/>
+<A E="1200" S="1134" VID="400002"/>
+</TRACK>
+<TRACK FID="2">
+<A E="267" S="0" VID="400001"/>
+<A E="667" S="300" VID="5"/>
+<A E="800" S="700" VID="400002"/>
+</TRACK>
+<TRACK FID="27">
+<A E="467" S="367" VID="0"/>
+<A E="700" S="600" VID="29"/>
+<A E="934" S="867" VID="11"/>
+<A E="1100" S="1067" VID="3"/>
+<A E="1500" S="1300" VID="0"/>
+<A E="1634" S="1567" VID="10"/>
+</TRACK>
+<TRACK FID="20">
+<A E="467" S="367" VID="2"/>
+</TRACK>
+<TRACK FID="14">
+<A E="1100" S="1067" VID="12"/>
+</TRACK>
+<TRACK FID="6">
+<A E="800" S="767" VID="400001"/>
+</TRACK>
+<TRACK FID="1">
+<A E="1300" S="1200" VID="400001"/>
+<A E="1667" S="1334" VID="6"/>
+</TRACK>
+<TRACK FID="10">
+<A E="100" S="0" VID="400001"/>
+<A E="300" S="134" VID="2"/>
+<A E="600" S="334" VID="400001"/>
+<A E="767" S="634" VID="7"/>
+<A E="867" S="800" VID="400001"/>
+<A E="1100" S="900" VID="3"/>
+<A E="1667" S="1134" VID="4"/>
+</TRACK>
+<TRACK FID="35">
+<A E="567" S="400" VID="400001"/>
+<A E="1067" S="600" VID="0"/>
+<A E="1534" S="1100" VID="400002"/>
+</TRACK>
+<TRACK FID="20001">
+<A E="1667" S="0">The teacher is in the house there right now.</A>
+</TRACK>
+<TRACK FID="13">
+<A E="434" S="234" VID="400001"/>
+<A E="500" S="467" VID="4"/>
+<A E="767" S="534" VID="2"/>
+<A E="834" S="800" VID="4"/>
+<A E="934" S="867" VID="400002"/>
+</TRACK>
+<TRACK FID="11">
+<A E="1134" S="700" VID="1"/>
+</TRACK>
+<TRACK FID="15">
+<A E="200" S="0" VID="400001"/>
+<A E="467" S="234" VID="6"/>
+<A E="834" S="500" VID="3"/>
+<A E="1100" S="867" VID="400002"/>
+</TRACK>
+<TRACK FID="8">
+<A E="1300" S="867" VID="2"/>
+</TRACK>
+<TRACK FID="12">
+<A E="34" S="0" VID="2"/>
+<A E="100" S="67" VID="400001"/>
+<A E="434" S="134" VID="9"/>
+<A E="534" S="467" VID="400001"/>
+<A E="800" S="567" VID="3"/>
+<A E="1100" S="834" VID="400002"/>
+</TRACK>
+</SEGMENT>
+</UTTERANCE>
+<UTTERANCE E="1866" EXCERPT="LEARN+AGENT BUY CAR YES" ID="15" S="166">
+<NOTES></NOTES>
+<MEDIA-REF ID="382"/>
+<MEDIA-REF ID="383"/>
+<MEDIA-REF ID="381"/>
+<SEGMENT PARTICIPANT-ID="0" PRIMARY="true">
+<TRACK FID="10000">
+<A E="534" S="300">LEARN+AGENT</A>
+<A E="767" S="667">BUY</A>
+<A E="1134" S="867">CAR</A>
+<A E="1600" S="1367">YESTERDAY</A>
+<A E="1700" S="1367" VID="400000"/>
+</TRACK>
+<TRACK FID="10">
+<A E="67" S="0" VID="400001"/>
+<A E="1700" S="100" VID="3"/>
+</TRACK>
+<TRACK FID="29">
+<A E="600" S="367" VID="400001"/>
+<A E="1100" S="634" VID="6"/>
+<A E="1334" S="1134" VID="400002"/>
+</TRACK>
+<TRACK FID="20001">
+<A E="1700" S="0">The student bought a car yesterday.</A>
+</TRACK>
+<TRACK FID="2">
+<A E="434" S="0" VID="5"/>
+<A E="834" S="467" VID="400001"/>
+<A E="1600" S="867" VID="2"/>
+<A E="1700" S="1634" VID="400002"/>
+</TRACK>
+<TRACK FID="27">
+<A E="534" S="300" VID="0"/>
+<A E="767" S="667" VID="8"/>
+<A E="1134" S="867" VID="0"/>
+<A E="1600" S="1367" VID="10"/>
+</TRACK>
+<TRACK FID="12">
+<A E="34" S="0" VID="2"/>
+<A E="100" S="67" VID="400001"/>
+<A E="400" S="134" VID="3"/>
+<A E="567" S="434" VID="6"/>
+<A E="667" S="600" VID="400001"/>
+<A E="834" S="700" VID="3"/>
+<A E="1100" S="867" VID="400001"/>
+<A E="1267" S="1134" VID="9"/>
+<A E="1700" S="1300" VID="400002"/>
+</TRACK>
+<TRACK FID="1">
+<A E="800" S="534" VID="400001"/>
+<A E="1700" S="834" VID="2"/>
+</TRACK>
+</SEGMENT>
+</UTTERANCE>
+<UTTERANCE E="1966" EXCERPT="FATHER FUTURE LIKE THAT" ID="4" S="300">
+<NOTES></NOTES>
+<MEDIA-REF ID="345"/>
+<MEDIA-REF ID="343"/>
+<MEDIA-REF ID="344"/>
+<SEGMENT PARTICIPANT-ID="0" PRIMARY="true">
+<TRACK FID="10000">
+<A E="333" S="166">FATHER</A>
+<A E="633" S="366">FUTURE</A>
+<A E="833" S="766">LIKE</A>
+<A E="1033" S="1000">THAT:i</A>
+<A E="1200" S="1133">BOOK</A>
+<A E="1400" S="1300">IX-loc:i</A>
+</TRACK>
+<TRACK FID="10">
+<A E="133" S="0" VID="400001"/>
+<A E="266" S="166" VID="2"/>
+<A E="366" S="300" VID="400001"/>
+<A E="1500" S="400" VID="4"/>
+<A E="1666" S="1533" VID="400002"/>
+</TRACK>
+<TRACK FID="20001">
+<A E="1666" S="0">Father will like that book there.</A>
+</TRACK>
+<TRACK FID="2">
+<A E="233" S="0" VID="400001"/>
+<A E="433" S="266" VID="5"/>
+<A E="566" S="466" VID="400002"/>
+</TRACK>
+<TRACK FID="27">
+<A E="333" S="166" VID="0"/>
+<A E="633" S="366" VID="13"/>
+<A E="833" S="766" VID="8"/>
+<A E="1033" S="1000" VID="27"/>
+<A E="1200" S="1133" VID="0"/>
+<A E="1400" S="1300" VID="10"/>
+</TRACK>
+<TRACK FID="20">
+<A E="333" S="166" VID="2"/>
+</TRACK>
+<TRACK FID="11">
+<A E="666" S="566" VID="6"/>
+<A E="1066" S="800" VID="0"/>
+<A E="1666" S="1633" VID="6"/>
+</TRACK>
+<TRACK FID="4">
+<A E="1666" S="300" VID="3"/>
+</TRACK>
+<TRACK FID="12">
+<A E="66" S="0" VID="400001"/>
+<A E="200" S="100" VID="4"/>
+<A E="300" S="233" VID="400001"/>
+<A E="633" S="333" VID="6"/>
+<A E="766" S="666" VID="400002"/>
+<A E="1633" S="1600" VID="400001"/>
+<A E="1699" S="1666" VID="7"/>
+</TRACK>
+<TRACK FID="1">
+<A E="466" S="300" VID="400001"/>
+<A E="1666" S="500" VID="5"/>
+</TRACK>
+</SEGMENT>
+</UTTERANCE>
+<UTTERANCE E="4433" EXCERPT="LEARN+AGENT IX-loc-arc " ID="23" S="333">
+<NOTES></NOTES>
+<MEDIA-REF ID="408"/>
+<MEDIA-REF ID="410"/>
+<MEDIA-REF ID="409"/>
+<SEGMENT PARTICIPANT-ID="0" PRIMARY="true">
+<TRACK FID="10000">
+<A E="967" S="900">LEARN+AGENT</A>
+<A E="1200" S="1033">IX-loc-arc</A>
+<A E="1700" S="1533">PCL:crvd-5"group-together"</A>
+<A E="2200" S="2033">(flat-O)PAY/SPEND</A>
+<A E="2667" S="2500">(1h)GIFT:j</A>
+<A E="3067" S="2933">TEACH+AGENT</A>
+<A E="3433" S="3233">BOOK</A>
+</TRACK>
+<TRACK FID="29">
+<A E="567" S="0" VID="400001"/>
+<A E="1500" S="600" VID="6"/>
+<A E="1633" S="1533" VID="400002"/>
+<A E="2500" S="2200" VID="400001"/>
+<A E="2833" S="2533" VID="3"/>
+<A E="3433" S="2867" VID="400002"/>
+</TRACK>
+<TRACK FID="20001">
+<A E="4100" S="0">The students contributed money to buy the teacher a book.</A>
+</TRACK>
+<TRACK FID="2">
+<A E="2233" S="0" VID="5"/>
+<A E="2533" S="2267" VID="400001"/>
+<A E="2767" S="2567" VID="3"/>
+<A E="3033" S="2800" VID="5"/>
+<A E="4100" S="3067" VID="400002"/>
+</TRACK>
+<TRACK FID="27">
+<A E="967" S="900" VID="0"/>
+<A E="1200" S="1033" VID="10"/>
+<A E="1700" S="1533" VID="14"/>
+<A E="2200" S="2033" VID="8"/>
+<A E="2667" S="2500" VID="8"/>
+<A E="3067" S="2933" VID="0"/>
+<A E="3433" S="3233" VID="0"/>
+</TRACK>
+<TRACK FID="11">
+<A E="1067" S="900" VID="1"/>
+<A E="2167" S="1500" VID="7"/>
+</TRACK>
+<TRACK FID="8">
+<A E="2700" S="2433" VID="6"/>
+</TRACK>
+<TRACK FID="14">
+<A E="2667" S="1500" VID="5"/>
+</TRACK>
+<TRACK FID="12">
+<A E="133" S="0" VID="7"/>
+<A E="300" S="167" VID="2"/>
+<A E="1067" S="333" VID="7"/>
+<A E="1167" S="1100" VID="2"/>
+<A E="1400" S="1200" VID="7"/>
+<A E="1500" S="1433" VID="2"/>
+<A E="2633" S="1533" VID="7"/>
+<A E="3100" S="2667" VID="400002"/>
+<A E="3500" S="3433" VID="400001"/>
+<A E="3567" S="3533" VID="2"/>
+<A E="4100" S="3600" VID="7"/>
+</TRACK>
+<TRACK FID="1">
+<A E="967" S="167" VID="400001"/>
+<A E="2800" S="1000" VID="3"/>
+<A E="3200" S="2833" VID="400002"/>
+</TRACK>
+</SEGMENT>
+</UTTERANCE>
+<UTTERANCE E="2133" EXCERPT="TEACH+AGENT IN HOUSE IX" ID="12" S="533">
+<NOTES></NOTES>
+<MEDIA-REF ID="369"/>
+<MEDIA-REF ID="367"/>
+<MEDIA-REF ID="368"/>
+<SEGMENT PARTICIPANT-ID="0" PRIMARY="true">
+<TRACK FID="10000">
+<A E="433" S="267">TEACH+AGENT</A>
+<A E="633" S="567">IN</A>
+<A E="867" S="767">HOUSE</A>
+<A E="1000" S="933">IX-loc:i</A>
+<A E="1567" S="1267">QMwg</A>
+</TRACK>
+<TRACK FID="3">
+<A E="1000" S="867" VID="400001"/>
+<A E="1600" S="1033" VID="5"/>
+</TRACK>
+<TRACK FID="10">
+<A E="200" S="0" VID="400001"/>
+<A E="1567" S="233" VID="2"/>
+<A E="1633" S="1600" VID="400002"/>
+</TRACK>
+<TRACK FID="29">
+<A E="367" S="100" VID="400001"/>
+<A E="867" S="400" VID="2"/>
+<A E="1600" S="900" VID="5"/>
+</TRACK>
+<TRACK FID="20001">
+<A E="1600" S="0">Is the teacher in that house?</A>
+</TRACK>
+<TRACK FID="18">
+<A E="1567" S="233" VID="2"/>
+</TRACK>
+<TRACK FID="27">
+<A E="433" S="267" VID="0"/>
+<A E="633" S="567" VID="11"/>
+<A E="867" S="767" VID="0"/>
+<A E="1000" S="933" VID="10"/>
+<A E="1567" S="1267" VID="16"/>
+</TRACK>
+<TRACK FID="11">
+<A E="933" S="733" VID="1"/>
+</TRACK>
+<TRACK FID="12">
+<A E="33" S="0" VID="400001"/>
+<A E="1567" S="67" VID="4"/>
+<A E="1633" S="1600" VID="400002"/>
+</TRACK>
+<TRACK FID="1">
+<A E="333" S="167" VID="400001"/>
+<A E="733" S="367" VID="6"/>
+<A E="833" S="767" VID="400002"/>
+<A E="967" S="933" VID="400001"/>
+<A E="1600" S="1000" VID="6"/>
+</TRACK>
+</SEGMENT>
+</UTTERANCE>
+<UTTERANCE E="2133" EXCERPT="TEACH+AGENT (2h)LOOK MO" ID="34" S="100">
+<NOTES></NOTES>
+<MEDIA-REF ID="446"/>
+<MEDIA-REF ID="445"/>
+<MEDIA-REF ID="444"/>
+<SEGMENT PARTICIPANT-ID="1" PRIMARY="true">
+<TRACK FID="10000">
+<A E="333" S="200">TEACH+AGENT</A>
+<A E="500" S="466">(2h)LOOK</A>
+<A E="766" S="666">MOVIE</A>
+<A E="1166" S="1066">LIKE</A>
+<A E="1500" S="1233">part:indef</A>
+<A E="1666" S="1233" VID="400000"/>
+</TRACK>
+<TRACK FID="29">
+<A E="200" S="0" VID="6"/>
+<A E="433" S="233" VID="400002"/>
+<A E="966" S="866" VID="400001"/>
+<A E="1400" S="1000" VID="5"/>
+<A E="1666" S="1433" VID="400002"/>
+</TRACK>
+<TRACK FID="18">
+<A E="1500" S="1066" VID="2"/>
+</TRACK>
+<TRACK FID="2">
+<A E="233" S="0" VID="400001"/>
+<A E="1400" S="266" VID="5"/>
+<A E="1900" S="1433" VID="400002"/>
+</TRACK>
+<TRACK FID="27">
+<A E="333" S="200" VID="0"/>
+<A E="500" S="466" VID="8"/>
+<A E="766" S="666" VID="0"/>
+<A E="1166" S="1066" VID="8"/>
+<A E="1500" S="1233" VID="16"/>
+</TRACK>
+<TRACK FID="20">
+<A E="800" S="166" VID="5"/>
+</TRACK>
+<TRACK FID="14">
+<A E="1500" S="1233" VID="5"/>
+</TRACK>
+<TRACK FID="1">
+<A E="533" S="366" VID="400001"/>
+<A E="900" S="566" VID="6"/>
+<A E="1533" S="933" VID="2"/>
+<A E="1966" S="1566" VID="400002"/>
+</TRACK>
+<TRACK FID="32">
+<A E="500" S="466" VID="8"/>
+</TRACK>
+<TRACK FID="10">
+<A E="133" S="0" VID="400001"/>
+<A E="800" S="166" VID="2"/>
+<A E="1033" S="833" VID="400001"/>
+<A E="1500" S="1066" VID="5"/>
+<A E="1833" S="1533" VID="400002"/>
+</TRACK>
+<TRACK FID="5">
+<A E="1500" S="1200" VID="5"/>
+</TRACK>
+<TRACK FID="35">
+<A E="1033" S="733" VID="400001"/>
+<A E="1466" S="1066" VID="2"/>
+<A E="1833" S="1500" VID="400002"/>
+</TRACK>
+<TRACK FID="20001">
+<A E="2033" S="0">Did the teacher like the movie that s/he saw?</A>
+</TRACK>
+<TRACK FID="13">
+<A E="766" S="700" VID="400001"/>
+<A E="1466" S="800" VID="2"/>
+<A E="1633" S="1500" VID="400002"/>
+</TRACK>
+<TRACK FID="11">
+<A E="333" S="166" VID="1"/>
+</TRACK>
+<TRACK FID="15">
+<A E="766" S="700" VID="400001"/>
+<A E="1466" S="800" VID="3"/>
+<A E="1633" S="1500" VID="400002"/>
+</TRACK>
+<TRACK FID="12">
+<A E="100" S="0" VID="400001"/>
+<A E="1466" S="133" VID="4"/>
+<A E="1533" S="1500" VID="400001"/>
+<A E="1599" S="1566" VID="2"/>
+<A E="1700" S="1600" VID="400002"/>
+</TRACK>
+</SEGMENT>
+</UTTERANCE>
+<UTTERANCE E="3000" EXCERPT="TEACH+AGENT LIKE MOVIE " ID="30" S="200">
+<NOTES></NOTES>
+<MEDIA-REF ID="432"/>
+<MEDIA-REF ID="433"/>
+<MEDIA-REF ID="434"/>
+<SEGMENT PARTICIPANT-ID="1" PRIMARY="true">
+<TRACK FID="10000">
+<A E="300" S="233">TEACH+AGENT</A>
+<A E="500" S="400">LIKE</A>
+<A E="766" S="666">MOVIE</A>
+<A E="1199" S="1166">IX-3p:i</A>
+<A E="1500" S="1366">LEARN+AGENT</A>
+<A E="1733" S="1700">NOT</A>
+<A E="2100" S="1866">LIKE</A>
+</TRACK>
+<TRACK FID="3">
+<A E="300" S="0" VID="400001"/>
+<A E="766" S="333" VID="5"/>
+<A E="1200" S="800" VID="400001"/>
+<A E="1500" S="1233" VID="2"/>
+<A E="1666" S="1533" VID="400001"/>
+<A E="2266" S="1700" VID="5"/>
+<A E="2566" S="2300" VID="400002"/>
+</TRACK>
+<TRACK FID="29">
+<A E="1200" S="966" VID="400001"/>
+<A E="1500" S="1233" VID="6"/>
+<A E="1633" S="1533" VID="400002"/>
+</TRACK>
+<TRACK FID="2">
+<A E="1166" S="866" VID="400001"/>
+<A E="1600" S="1200" VID="3"/>
+<A E="2100" S="1633" VID="5"/>
+<A E="2566" S="2133" VID="400002"/>
+</TRACK>
+<TRACK FID="27">
+<A E="300" S="233" VID="0"/>
+<A E="500" S="400" VID="8"/>
+<A E="766" S="666" VID="0"/>
+<A E="1199" S="1166" VID="3"/>
+<A E="1500" S="1366" VID="0"/>
+<A E="1733" S="1700" VID="7"/>
+<A E="2100" S="1866" VID="8"/>
+</TRACK>
+<TRACK FID="20">
+<A E="333" S="200" VID="2"/>
+<A E="1500" S="833" VID="3"/>
+</TRACK>
+<TRACK FID="31">
+<A E="2333" S="1700" VID="0"/>
+</TRACK>
+<TRACK FID="14">
+<A E="333" S="233" VID="13"/>
+<A E="2366" S="1766" VID="22"/>
+</TRACK>
+<TRACK FID="1">
+<A E="1000" S="700" VID="400001"/>
+<A E="1166" S="1033" VID="5"/>
+<A E="1300" S="1200" VID="400002"/>
+<A E="1733" S="1500" VID="400001"/>
+<A E="2500" S="1766" VID="3"/>
+<A E="2733" S="2533" VID="400002"/>
+</TRACK>
+<TRACK FID="32">
+<A E="1500" S="1366" VID="0"/>
+</TRACK>
+<TRACK FID="10">
+<A E="166" S="0" VID="400001"/>
+<A E="333" S="200" VID="5"/>
+<A E="400" S="366" VID="400001"/>
+<A E="666" S="433" VID="4"/>
+<A E="800" S="700" VID="400001"/>
+<A E="1466" S="833" VID="2"/>
+<A E="1700" S="1500" VID="400001"/>
+<A E="2333" S="1733" VID="7"/>
+<A E="2500" S="2366" VID="400002"/>
+</TRACK>
+<TRACK FID="5">
+<A E="1666" S="1500" VID="400001"/>
+<A E="2333" S="1700" VID="3"/>
+</TRACK>
+<TRACK FID="20001">
+<A E="2800" S="0">The teacher liked the movie but the student didn't.</A>
+</TRACK>
+<TRACK FID="13">
+<A E="266" S="100" VID="400001"/>
+<A E="333" S="300" VID="4"/>
+<A E="500" S="366" VID="400002"/>
+<A E="1533" S="1400" VID="400001"/>
+<A E="2233" S="1566" VID="2"/>
+<A E="2433" S="2266" VID="400002"/>
+</TRACK>
+<TRACK FID="10001">
+<A E="1500" S="1366">LEARN+AGENT</A>
+<A E="1866" S="1366" VID="400000"/>
+</TRACK>
+<TRACK FID="11">
+<A E="533" S="400" VID="0"/>
+<A E="1166" S="933" VID="1"/>
+</TRACK>
+<TRACK FID="15">
+<A E="233" S="100" VID="400001"/>
+<A E="300" S="266" VID="3"/>
+<A E="400" S="333" VID="400002"/>
+</TRACK>
+<TRACK FID="4">
+<A E="766" S="233" VID="5"/>
+</TRACK>
+<TRACK FID="12">
+<A E="866" S="800" VID="2"/>
+<A E="1200" S="900" VID="400001"/>
+<A E="1433" S="1233" VID="4"/>
+<A E="1600" S="1466" VID="400001"/>
+<A E="2333" S="1633" VID="3"/>
+<A E="2400" S="2366" VID="400001"/>
+<A E="2600" S="2433" VID="6"/>
+<A E="2800" S="2633" VID="400002"/>
+</TRACK>
+</SEGMENT>
+</UTTERANCE>
+<UTTERANCE E="2800" EXCERPT="FATHER LIKE THAT BOOK F" ID="7" S="433">
+<NOTES></NOTES>
+<MEDIA-REF ID="353"/>
+<MEDIA-REF ID="352"/>
+<MEDIA-REF ID="354"/>
+<SEGMENT PARTICIPANT-ID="0" PRIMARY="true">
+<TRACK FID="10000">
+<A E="800" S="767">FATHER</A>
+<A E="1000" S="967">LIKE</A>
+<A E="1133" S="1100">THAT</A>
+<A E="1333" S="1267">BOOK</A>
+<A E="1533" S="1500">FUTURE</A>
+<A E="2067" S="1767">QMwg</A>
+</TRACK>
+<TRACK FID="3">
+<A E="567" S="267" VID="400001"/>
+<A E="1267" S="600" VID="11"/>
+<A E="1633" S="1300" VID="5"/>
+<A E="2367" S="1667" VID="11"/>
+</TRACK>
+<TRACK FID="29">
+<A E="667" S="167" VID="400001"/>
+<A E="1233" S="700" VID="2"/>
+<A E="1433" S="1267" VID="400001"/>
+<A E="1600" S="1467" VID="7"/>
+<A E="2367" S="1633" VID="2"/>
+</TRACK>
+<TRACK FID="18">
+<A E="2067" S="1467" VID="2"/>
+</TRACK>
+<TRACK FID="2">
+<A E="600" S="433" VID="400001"/>
+<A E="800" S="633" VID="5"/>
+<A E="1000" S="833" VID="400002"/>
+</TRACK>
+<TRACK FID="20">
+<A E="1433" S="700" VID="3"/>
+</TRACK>
+<TRACK FID="27">
+<A E="800" S="767" VID="0"/>
+<A E="1000" S="967" VID="8"/>
+<A E="1133" S="1100" VID="27"/>
+<A E="1333" S="1267" VID="0"/>
+<A E="1533" S="1500" VID="13"/>
+<A E="2067" S="1767" VID="16"/>
+</TRACK>
+<TRACK FID="1">
+<A E="1100" S="0" VID="6"/>
+<A E="1267" S="1133" VID="400001"/>
+<A E="2133" S="1300" VID="2"/>
+<A E="2367" S="2167" VID="400002"/>
+</TRACK>
+<TRACK FID="10">
+<A E="133" S="0" VID="400001"/>
+<A E="667" S="167" VID="400001"/>
+<A E="2133" S="700" VID="2"/>
+<A E="2367" S="2167" VID="400002"/>
+</TRACK>
+<TRACK FID="13">
+<A E="367" S="100" VID="400001"/>
+<A E="2367" S="400" VID="4"/>
+</TRACK>
+<TRACK FID="20001">
+<A E="2367" S="0">As for father liking that book, will he?</A>
+</TRACK>
+<TRACK FID="11">
+<A E="533" S="300" VID="1"/>
+</TRACK>
+<TRACK FID="12">
+<A E="133" S="0" VID="400001"/>
+<A E="2067" S="167" VID="4"/>
+<A E="2133" S="2100" VID="400001"/>
+<A E="2200" S="2167" VID="2"/>
+<A E="2367" S="2200" VID="7"/>
+</TRACK>
+</SEGMENT>
+</UTTERANCE>
+<UTTERANCE E="2100" EXCERPT="MOTHER BUY BOOK YESTERD" ID="18" S="300">
+<NOTES></NOTES>
+<MEDIA-REF ID="390"/>
+<MEDIA-REF ID="392"/>
+<MEDIA-REF ID="391"/>
+<SEGMENT PARTICIPANT-ID="0" PRIMARY="true">
+<TRACK FID="10000">
+<A E="500" S="400">MOTHER</A>
+<A E="766" S="600">BUY</A>
+<A E="1000" S="866">BOOK</A>
+<A E="1500" S="1266">YESTERDAY</A>
+</TRACK>
+<TRACK FID="3">
+<A E="966" S="733" VID="400001"/>
+<A E="1233" S="1000" VID="5"/>
+<A E="1800" S="1266" VID="400002"/>
+</TRACK>
+<TRACK FID="10">
+<A E="1800" S="0" VID="4"/>
+</TRACK>
+<TRACK FID="29">
+<A E="266" S="0" VID="400001"/>
+<A E="800" S="300" VID="6"/>
+<A E="966" S="833" VID="400002"/>
+<A E="1533" S="1300" VID="400001"/>
+<A E="1800" S="1566" VID="2"/>
+</TRACK>
+<TRACK FID="20001">
+<A E="1800" S="0">Mother bought a book yesterday.</A>
+</TRACK>
+<TRACK FID="2">
+<A E="300" S="0" VID="400001"/>
+<A E="1366" S="333" VID="3"/>
+<A E="1800" S="1400" VID="400002"/>
+</TRACK>
+<TRACK FID="27">
+<A E="500" S="400" VID="0"/>
+<A E="766" S="600" VID="8"/>
+<A E="1000" S="866" VID="0"/>
+<A E="1500" S="1266" VID="10"/>
+</TRACK>
+<TRACK FID="12">
+<A E="466" S="0" VID="7"/>
+<A E="533" S="500" VID="2"/>
+<A E="700" S="566" VID="400001"/>
+<A E="1366" S="733" VID="7"/>
+<A E="1500" S="1400" VID="2"/>
+<A E="1800" S="1533" VID="7"/>
+</TRACK>
+<TRACK FID="1">
+<A E="866" S="266" VID="400001"/>
+<A E="1333" S="900" VID="3"/>
+<A E="1800" S="1366" VID="400002"/>
+</TRACK>
+</SEGMENT>
+</UTTERANCE>
+<UTTERANCE E="2100" EXCERPT="fs-JOHN BUY MOTHER CAR " ID="38" S="133">
+<NOTES></NOTES>
+<MEDIA-REF ID="457"/>
+<MEDIA-REF ID="456"/>
+<MEDIA-REF ID="458"/>
+<SEGMENT PARTICIPANT-ID="1" PRIMARY="true">
+<TRACK FID="10000">
+<A E="333" S="167">fs-JOHN</A>
+<A E="667" S="533">BUY</A>
+<A E="867" S="833">MOTHER</A>
+<A E="1100" S="967">CAR</A>
+<A E="1433" S="1267">NOT</A>
+</TRACK>
+<TRACK FID="3">
+<A E="33" S="0" VID="2"/>
+<A E="433" S="33" VID="400001"/>
+<A E="933" S="467" VID="5"/>
+<A E="1067" S="967" VID="400002"/>
+</TRACK>
+<TRACK FID="29">
+<A E="133" S="0" VID="400001"/>
+<A E="200" S="167" VID="6"/>
+<A E="367" S="233" VID="400002"/>
+<A E="1033" S="900" VID="400001"/>
+<A E="1600" S="1067" VID="6"/>
+<A E="1867" S="1633" VID="400002"/>
+</TRACK>
+<TRACK FID="2">
+<A E="333" S="100" VID="400001"/>
+<A E="933" S="367" VID="5"/>
+<A E="1067" S="967" VID="400002"/>
+</TRACK>
+<TRACK FID="27">
+<A E="333" S="167" VID="1"/>
+<A E="667" S="533" VID="8"/>
+<A E="867" S="833" VID="0"/>
+<A E="1100" S="967" VID="0"/>
+<A E="1433" S="1267" VID="7"/>
+</TRACK>
+<TRACK FID="31">
+<A E="1533" S="1233" VID="0"/>
+</TRACK>
+<TRACK FID="14">
+<A E="900" S="300" VID="26"/>
+<A E="1667" S="1067" VID="26"/>
+</TRACK>
+<TRACK FID="1">
+<A E="700" S="433" VID="400001"/>
+<A E="933" S="733" VID="5"/>
+<A E="1567" S="967" VID="3"/>
+<A E="1800" S="1600" VID="400002"/>
+</TRACK>
+<TRACK FID="32">
+<A E="667" S="533" VID="8"/>
+<A E="1100" S="967" VID="0"/>
+</TRACK>
+<TRACK FID="10">
+<A E="133" S="0" VID="400001"/>
+<A E="967" S="167" VID="2"/>
+<A E="1100" S="1000" VID="400002"/>
+</TRACK>
+<TRACK FID="5">
+<A E="1200" S="1067" VID="400001"/>
+<A E="1533" S="1233" VID="2"/>
+</TRACK>
+<TRACK FID="20001">
+<A E="1967" S="0">Did John buy mother's car? No, he did not.</A>
+</TRACK>
+<TRACK FID="13">
+<A E="333" S="133" VID="400001"/>
+<A E="933" S="367" VID="4"/>
+<A E="1267" S="1100" VID="400001"/>
+<A E="1500" S="1300" VID="4"/>
+<A E="1733" S="1533" VID="400002"/>
+</TRACK>
+<TRACK FID="10001">
+<A E="667" S="533">BUY</A>
+<A E="800" S="533" VID="400000"/>
+<A E="1100" S="967">CAR</A>
+<A E="1433" S="967" VID="400000"/>
+</TRACK>
+<TRACK FID="11">
+<A E="433" S="300" VID="1"/>
+</TRACK>
+<TRACK FID="15">
+<A E="367" S="233" VID="400001"/>
+<A E="867" S="400" VID="3"/>
+<A E="1000" S="900" VID="400002"/>
+</TRACK>
+<TRACK FID="19">
+<A E="1100" S="167" VID="4"/>
+</TRACK>
+<TRACK FID="12">
+<A E="133" S="0" VID="400001"/>
+<A E="867" S="167" VID="4"/>
+<A E="967" S="900" VID="400001"/>
+<A E="1033" S="1000" VID="2"/>
+<A E="1467" S="1033" VID="9"/>
+<A E="1733" S="1500" VID="400002"/>
+</TRACK>
+</SEGMENT>
+</UTTERANCE>
+<UTTERANCE E="2333" EXCERPT="MOTHER IX-3p:j NOT LIKE" ID="2" S="533">
+<NOTES></NOTES>
+<MEDIA-REF ID="339"/>
+<MEDIA-REF ID="338"/>
+<MEDIA-REF ID="337"/>
+<SEGMENT PARTICIPANT-ID="0" PRIMARY="true">
+<TRACK FID="10000">
+<A E="333" S="267">MOTHER</A>
+<A E="500" S="467">IX-3p:j</A>
+<A E="667" S="567">NOT</A>
+<A E="833" S="767">LIKE</A>
+<A E="933" S="867">IX-3p:i</A>
+<A E="1300" S="1267">MOVIE</A>
+<A E="1466" S="1433">IX-3p:j</A>
+</TRACK>
+<TRACK FID="3">
+<A E="433" S="300" VID="400001"/>
+<A E="733" S="467" VID="11"/>
+<A E="1800" S="767" VID="5"/>
+</TRACK>
+<TRACK FID="29">
+<A E="1700" S="1533" VID="400001"/>
+<A E="1800" S="1733" VID="5"/>
+</TRACK>
+<TRACK FID="27">
+<A E="333" S="267" VID="0"/>
+<A E="500" S="467" VID="2"/>
+<A E="667" S="567" VID="7"/>
+<A E="833" S="767" VID="8"/>
+<A E="933" S="867" VID="3"/>
+<A E="1300" S="1267" VID="0"/>
+<A E="1466" S="1433" VID="2"/>
+</TRACK>
+<TRACK FID="31">
+<A E="1800" S="500" VID="0"/>
+</TRACK>
+<TRACK FID="14">
+<A E="700" S="467" VID="26"/>
+<A E="1500" S="1433" VID="4"/>
+</TRACK>
+<TRACK FID="1"/>
+<TRACK FID="10">
+<A E="467" S="0" VID="3"/>
+<A E="667" S="500" VID="400001"/>
+<A E="1800" S="700" VID="7"/>
+</TRACK>
+<TRACK FID="5">
+<A E="467" S="200" VID="400001"/>
+<A E="1800" S="500" VID="3"/>
+</TRACK>
+<TRACK FID="35">
+<A E="833" S="567" VID="400001"/>
+<A E="1800" S="867" VID="1"/>
+</TRACK>
+<TRACK FID="20001">
+<A E="1800" S="0">Mother does not like the movie.</A>
+</TRACK>
+<TRACK FID="13">
+<A E="400" S="0" VID="5"/>
+<A E="1800" S="433" VID="4"/>
+</TRACK>
+<TRACK FID="11">
+<A E="967" S="700" VID="0"/>
+</TRACK>
+<TRACK FID="15">
+<A E="567" S="400" VID="400001"/>
+<A E="1800" S="600" VID="3"/>
+</TRACK>
+<TRACK FID="12">
+<A E="267" S="0" VID="9"/>
+<A E="400" S="300" VID="400001"/>
+<A E="600" S="433" VID="6"/>
+<A E="667" S="633" VID="400001"/>
+<A E="933" S="700" VID="3"/>
+<A E="1133" S="967" VID="400001"/>
+<A E="1800" S="1167" VID="7"/>
+</TRACK>
+</SEGMENT>
+</UTTERANCE>
+<UTTERANCE E="1933" EXCERPT="MOTHER BUY ONE BOOK YES" ID="20" S="300">
+<NOTES></NOTES>
+<MEDIA-REF ID="398"/>
+<MEDIA-REF ID="396"/>
+<MEDIA-REF ID="397"/>
+<SEGMENT PARTICIPANT-ID="0" PRIMARY="true">
+<TRACK FID="10000">
+<A E="300" S="200">MOTHER</A>
+<A E="533" S="400">BUY</A>
+<A E="733" S="633">ONE</A>
+<A E="933" S="900">BOOK</A>
+<A E="1400" S="1166">YESTERDAY</A>
+</TRACK>
+<TRACK FID="3">
+<A E="833" S="633" VID="400001"/>
+<A E="1066" S="866" VID="5"/>
+<A E="1200" S="1100" VID="400002"/>
+</TRACK>
+<TRACK FID="10">
+<A E="1633" S="0" VID="4"/>
+</TRACK>
+<TRACK FID="29">
+<A E="533" S="433" VID="400001"/>
+<A E="666" S="566" VID="6"/>
+<A E="766" S="700" VID="400002"/>
+<A E="1400" S="1300" VID="400001"/>
+<A E="1633" S="1433" VID="5"/>
+</TRACK>
+<TRACK FID="20001">
+<A E="1633" S="0">Mother bought one book yesterday.</A>
+</TRACK>
+<TRACK FID="2">
+<A E="66" S="0" VID="5"/>
+<A E="400" S="100" VID="400001"/>
+<A E="1166" S="433" VID="3"/>
+<A E="1633" S="1200" VID="400002"/>
+</TRACK>
+<TRACK FID="27">
+<A E="300" S="200" VID="0"/>
+<A E="533" S="400" VID="8"/>
+<A E="733" S="633" VID="6"/>
+<A E="933" S="900" VID="0"/>
+<A E="1400" S="1166" VID="10"/>
+</TRACK>
+<TRACK FID="14">
+<A E="100" S="0" VID="26"/>
+</TRACK>
+<TRACK FID="12">
+<A E="466" S="0" VID="7"/>
+<A E="533" S="500" VID="2"/>
+<A E="600" S="566" VID="400001"/>
+<A E="1033" S="633" VID="7"/>
+<A E="1300" S="1066" VID="9"/>
+<A E="1400" S="1333" VID="2"/>
+<A E="1633" S="1433" VID="7"/>
+</TRACK>
+<TRACK FID="1">
+<A E="266" S="66" VID="400001"/>
+<A E="566" S="300" VID="5"/>
+<A E="700" S="600" VID="400001"/>
+<A E="1200" S="733" VID="3"/>
+<A E="1633" S="1233" VID="400002"/>
+</TRACK>
+</SEGMENT>
+</UTTERANCE>
+<UTTERANCE E="1500" EXCERPT="TEACH+AGENT NOT LIKE MO" ID="31" S="300">
+<NOTES></NOTES>
+<MEDIA-REF ID="435"/>
+<MEDIA-REF ID="437"/>
+<MEDIA-REF ID="436"/>
+<SEGMENT PARTICIPANT-ID="1" PRIMARY="true">
+<TRACK FID="10000">
+<A E="100" S="66">TEACH+AGENT</A>
+<A E="300" S="266">NOT</A>
+<A E="533" S="433">LIKE</A>
+<A E="766" S="666">MOVIE</A>
+<A E="933" S="900">IX-loc:i</A>
+</TRACK>
+<TRACK FID="3">
+<A E="266" S="133" VID="400001"/>
+<A E="966" S="300" VID="5"/>
+<A E="1200" S="1000" VID="400002"/>
+</TRACK>
+<TRACK FID="29">
+<A E="300" S="200" VID="400001"/>
+<A E="1200" S="333" VID="6"/>
+</TRACK>
+<TRACK FID="27">
+<A E="100" S="66" VID="0"/>
+<A E="300" S="266" VID="7"/>
+<A E="533" S="433" VID="8"/>
+<A E="766" S="666" VID="0"/>
+<A E="933" S="900" VID="10"/>
+</TRACK>
+<TRACK FID="31">
+<A E="933" S="200" VID="0"/>
+</TRACK>
+<TRACK FID="14">
+<A E="933" S="766" VID="5"/>
+</TRACK>
+<TRACK FID="1"/>
+<TRACK FID="10">
+<A E="66" S="0" VID="400001"/>
+<A E="933" S="100" VID="3"/>
+<A E="1200" S="966" VID="400002"/>
+</TRACK>
+<TRACK FID="5">
+<A E="166" S="100" VID="400001"/>
+<A E="933" S="200" VID="5"/>
+</TRACK>
+<TRACK FID="20001">
+<A E="1200" S="0">The teacher doesn't like the movie.</A>
+</TRACK>
+<TRACK FID="13">
+<A E="100" S="0" VID="400001"/>
+<A E="933" S="133" VID="2"/>
+<A E="1066" S="966" VID="400002"/>
+</TRACK>
+<TRACK FID="15">
+<A E="100" S="0" VID="400001"/>
+<A E="900" S="133" VID="3"/>
+<A E="1033" S="933" VID="400002"/>
+</TRACK>
+<TRACK FID="8">
+<A E="333" S="0" VID="400001"/>
+<A E="1200" S="366" VID="5"/>
+</TRACK>
+<TRACK FID="12">
+<A E="100" S="0" VID="400001"/>
+<A E="933" S="133" VID="3"/>
+<A E="1200" S="966" VID="6"/>
+</TRACK>
+</SEGMENT>
+</UTTERANCE>
+<UTTERANCE E="2366" EXCERPT="TEACH+AGENT (1h)GIFT-di" ID="25" S="333">
+<NOTES></NOTES>
+<MEDIA-REF ID="414"/>
+<MEDIA-REF ID="416"/>
+<MEDIA-REF ID="415"/>
+<SEGMENT PARTICIPANT-ID="0" PRIMARY="true">
+<TRACK FID="10000">
+<A E="233" S="100">TEACH+AGENT</A>
+<A E="967" S="500">(1h)GIFT-distributive-3p-pl-arc</A>
+<A E="1267" S="1100">BOOK</A>
+<A E="1767" S="1467">LEARN+AGENT</A>
+</TRACK>
+<TRACK FID="10">
+<A E="400" S="0" VID="4"/>
+<A E="867" S="433" VID="3"/>
+<A E="2033" S="900" VID="4"/>
+</TRACK>
+<TRACK FID="29">
+<A E="1767" S="0" VID="6"/>
+</TRACK>
+<TRACK FID="20001">
+<A E="2033" S="0">The teacher gave each student a book.</A>
+</TRACK>
+<TRACK FID="2">
+<A E="933" S="0" VID="5"/>
+<A E="1467" S="967" VID="400001"/>
+<A E="1867" S="1500" VID="4"/>
+<A E="2033" S="1900" VID="400002"/>
+</TRACK>
+<TRACK FID="27">
+<A E="233" S="100" VID="0"/>
+<A E="967" S="500" VID="8"/>
+<A E="1267" S="1100" VID="0"/>
+<A E="1767" S="1467" VID="0"/>
+</TRACK>
+<TRACK FID="15">
+<A E="933" S="433" VID="2"/>
+</TRACK>
+<TRACK FID="11">
+<A E="300" S="200" VID="0"/>
+<A E="833" S="400" VID="6"/>
+</TRACK>
+<TRACK FID="4">
+<A E="967" S="433" VID="5"/>
+</TRACK>
+<TRACK FID="14">
+<A E="867" S="433" VID="5"/>
+</TRACK>
+<TRACK FID="12">
+<A E="33" S="0" VID="400001"/>
+<A E="300" S="67" VID="7"/>
+<A E="367" S="333" VID="2"/>
+<A E="467" S="400" VID="400001"/>
+<A E="900" S="500" VID="7"/>
+<A E="1500" S="933" VID="9"/>
+<A E="1767" S="1533" VID="400002"/>
+<A E="1900" S="1833" VID="2"/>
+<A E="2033" S="1933" VID="12"/>
+</TRACK>
+<TRACK FID="1">
+<A E="700" S="533" VID="400001"/>
+<A E="867" S="733" VID="5"/>
+<A E="967" S="900" VID="400002"/>
+<A E="1400" S="1233" VID="400001"/>
+<A E="1833" S="1433" VID="6"/>
+<A E="2000" S="1867" VID="400002"/>
+</TRACK>
+</SEGMENT>
+</UTTERANCE>
+<UTTERANCE E="2500" EXCERPT="TEACH+AGENT LIKE BOOK M" ID="32" S="66">
+<NOTES></NOTES>
+<MEDIA-REF ID="440"/>
+<MEDIA-REF ID="438"/>
+<MEDIA-REF ID="439"/>
+<SEGMENT PARTICIPANT-ID="1" PRIMARY="true">
+<TRACK FID="10000">
+<A E="534" S="434">TEACH+AGENT</A>
+<A E="900" S="834">LIKE</A>
+<A E="1100" S="1034">BOOK</A>
+<A E="1267" S="1034" VID="400000"/>
+<A E="1667" S="1600">MOVIE</A>
+<A E="1767" S="1600" VID="400000"/>
+<A E="2100" S="1900">NOT</A>
+</TRACK>
+<TRACK FID="3">
+<A E="600" S="234" VID="400001"/>
+<A E="1200" S="634" VID="5"/>
+<A E="1334" S="1234" VID="400002"/>
+<A E="1667" S="1467" VID="400001"/>
+<A E="1767" S="1700" VID="2"/>
+<A E="1900" S="1800" VID="400002"/>
+</TRACK>
+<TRACK FID="29">
+<A E="234" S="100" VID="400001"/>
+<A E="600" S="267" VID="6"/>
+<A E="700" S="634" VID="400001"/>
+<A E="800" S="734" VID="3"/>
+<A E="867" S="834" VID="400001"/>
+<A E="1200" S="900" VID="6"/>
+<A E="1534" S="1234" VID="400001"/>
+<A E="1634" S="1567" VID="5"/>
+<A E="1734" S="1667" VID="400002"/>
+</TRACK>
+<TRACK FID="2">
+<A E="434" S="100" VID="400001"/>
+<A E="1267" S="467" VID="5"/>
+<A E="1400" S="1300" VID="400001"/>
+<A E="1634" S="1434" VID="4"/>
+<A E="1734" S="1667" VID="400002"/>
+</TRACK>
+<TRACK FID="27">
+<A E="534" S="434" VID="0"/>
+<A E="900" S="834" VID="8"/>
+<A E="1100" S="1034" VID="0"/>
+<A E="1667" S="1600" VID="0"/>
+<A E="2100" S="1900" VID="7"/>
+</TRACK>
+<TRACK FID="20">
+<A E="1267" S="234" VID="5"/>
+<A E="1667" S="1300" VID="2"/>
+</TRACK>
+<TRACK FID="31">
+<A E="2267" S="1900" VID="0"/>
+</TRACK>
+<TRACK FID="14">
+<A E="600" S="500" VID="400001"/>
+<A E="900" S="634" VID="13"/>
+<A E="2234" S="1767" VID="5"/>
+</TRACK>
+<TRACK FID="1">
+<A E="1000" S="800" VID="400001"/>
+<A E="1667" S="1034" VID="3"/>
+<A E="2434" S="1700" VID="5"/>
+</TRACK>
+<TRACK FID="10">
+<A E="200" S="0" VID="400001"/>
+<A E="1667" S="234" VID="2"/>
+<A E="1834" S="1700" VID="400001"/>
+<A E="2267" S="1867" VID="3"/>
+<A E="2434" S="2300" VID="400002"/>
+</TRACK>
+<TRACK FID="5">
+<A E="1867" S="1800" VID="400001"/>
+<A E="2267" S="1900" VID="2"/>
+</TRACK>
+<TRACK FID="20001">
+<A E="2434" S="0">The teacher likes books, but doesn't like movies.</A>
+</TRACK>
+<TRACK FID="13">
+<A E="600" S="500" VID="400001"/>
+<A E="1100" S="634" VID="4"/>
+<A E="1234" S="1134" VID="400002"/>
+<A E="1734" S="1634" VID="400001"/>
+<A E="2234" S="1767" VID="2"/>
+<A E="2334" S="2267" VID="400002"/>
+</TRACK>
+<TRACK FID="11">
+<A E="434" S="267" VID="1"/>
+<A E="1400" S="1300" VID="0"/>
+</TRACK>
+<TRACK FID="15">
+<A E="600" S="500" VID="400001"/>
+<A E="1100" S="634" VID="3"/>
+<A E="1200" S="1134" VID="400002"/>
+<A E="1734" S="1634" VID="400001"/>
+<A E="2234" S="1767" VID="3"/>
+<A E="2334" S="2267" VID="400002"/>
+</TRACK>
+<TRACK FID="12">
+<A E="67" S="0" VID="6"/>
+<A E="300" S="100" VID="400001"/>
+<A E="1034" S="334" VID="4"/>
+<A E="1100" S="1067" VID="400001"/>
+<A E="1167" S="1134" VID="2"/>
+<A E="1267" S="1200" VID="400001"/>
+<A E="1600" S="1300" VID="4"/>
+<A E="1667" S="1634" VID="400001"/>
+<A E="1734" S="1667" VID="2"/>
+<A E="2234" S="1767" VID="3"/>
+<A E="2300" S="2267" VID="400001"/>
+<A E="2367" S="2300" VID="2"/>
+<A E="2434" S="2400" VID="400002"/>
+</TRACK>
+</SEGMENT>
+</UTTERANCE>
+<UTTERANCE E="2300" EXCERPT="TEACH+AGENT neu:GIVE:i " ID="21" S="0">
+<NOTES></NOTES>
+<MEDIA-REF ID="403"/>
+<MEDIA-REF ID="402"/>
+<MEDIA-REF ID="404"/>
+<SEGMENT PARTICIPANT-ID="0" PRIMARY="true">
+<TRACK FID="10000">
+<A E="533" S="433">TEACH+AGENT</A>
+<A E="966" S="766">neu:GIVE:i</A>
+<A E="1266" S="1133">LEARN+AGENT</A>
+<A E="1500" S="1400">ONE</A>
+<A E="1800" S="1666">BOOK</A>
+</TRACK>
+<TRACK FID="3">
+<A E="1500" S="1366" VID="400001"/>
+<A E="1800" S="1533" VID="11"/>
+<A E="1966" S="1833" VID="400002"/>
+</TRACK>
+<TRACK FID="10">
+<A E="2300" S="0" VID="3"/>
+</TRACK>
+<TRACK FID="29">
+<A E="700" S="566" VID="400001"/>
+<A E="1466" S="733" VID="3"/>
+<A E="1766" S="1500" VID="400002"/>
+<A E="2033" S="1833" VID="400001"/>
+<A E="2300" S="2066" VID="2"/>
+</TRACK>
+<TRACK FID="20001">
+<A E="2300" S="0">The teacher gave the student one book.</A>
+</TRACK>
+<TRACK FID="2">
+<A E="433" S="0" VID="400001"/>
+<A E="1900" S="466" VID="3"/>
+<A E="2300" S="1933" VID="400002"/>
+</TRACK>
+<TRACK FID="27">
+<A E="533" S="433" VID="0"/>
+<A E="966" S="766" VID="8"/>
+<A E="1266" S="1133" VID="0"/>
+<A E="1500" S="1400" VID="6"/>
+<A E="1800" S="1666" VID="0"/>
+</TRACK>
+<TRACK FID="4">
+<A E="1033" S="833" VID="7"/>
+</TRACK>
+<TRACK FID="14">
+<A E="933" S="800" VID="18"/>
+</TRACK>
+<TRACK FID="12">
+<A E="100" S="0" VID="7"/>
+<A E="166" S="133" VID="2"/>
+<A E="533" S="200" VID="7"/>
+<A E="600" S="566" VID="2"/>
+<A E="900" S="633" VID="7"/>
+<A E="1000" S="933" VID="2"/>
+<A E="1266" S="1033" VID="400001"/>
+<A E="1700" S="1300" VID="9"/>
+<A E="1766" S="1733" VID="400001"/>
+<A E="1900" S="1800" VID="2"/>
+<A E="2300" S="1933" VID="7"/>
+</TRACK>
+<TRACK FID="1">
+<A E="833" S="566" VID="400001"/>
+<A E="1800" S="866" VID="3"/>
+<A E="2300" S="1833" VID="400002"/>
+</TRACK>
+</SEGMENT>
+</UTTERANCE>
+<UTTERANCE E="2633" EXCERPT="TEACH+AGENT (1h)GIFT:j " ID="10" S="600">
+<NOTES></NOTES>
+<MEDIA-REF ID="363"/>
+<MEDIA-REF ID="361"/>
+<MEDIA-REF ID="362"/>
+<SEGMENT PARTICIPANT-ID="0" PRIMARY="true">
+<TRACK FID="10000">
+<A E="466" S="233">TEACH+AGENT</A>
+<A E="733" S="633">(1h)GIFT:j</A>
+<A E="1066" S="800">fs-JOHN</A>
+<A E="1366" S="1233">HOW-MANY/MANY</A>
+<A E="1633" S="1466">BOOK</A>
+<A E="1900" S="1766">part:indef</A>
+</TRACK>
+<TRACK FID="10">
+<A E="866" S="0" VID="4"/>
+<A E="1100" S="900" VID="400001"/>
+<A E="1900" S="1133" VID="3"/>
+<A E="2033" S="1933" VID="400002"/>
+</TRACK>
+<TRACK FID="5">
+<A E="1900" S="1133" VID="2"/>
+</TRACK>
+<TRACK FID="29">
+<A E="333" S="0" VID="400001"/>
+<A E="466" S="366" VID="6"/>
+<A E="1566" S="500" VID="3"/>
+<A E="1800" S="1600" VID="6"/>
+<A E="2033" S="1833" VID="400002"/>
+</TRACK>
+<TRACK FID="20001">
+<A E="2033" S="0">How many books did the teacher give John?</A>
+</TRACK>
+<TRACK FID="2">
+<A E="466" S="0" VID="5"/>
+<A E="2033" S="500" VID="3"/>
+</TRACK>
+<TRACK FID="27">
+<A E="466" S="233" VID="0"/>
+<A E="733" S="633" VID="8"/>
+<A E="1066" S="800" VID="1"/>
+<A E="1366" S="1233" VID="20"/>
+<A E="1633" S="1466" VID="0"/>
+<A E="1900" S="1766" VID="16"/>
+</TRACK>
+<TRACK FID="15">
+<A E="733" S="600" VID="2"/>
+</TRACK>
+<TRACK FID="14">
+<A E="733" S="600" VID="18"/>
+</TRACK>
+<TRACK FID="17">
+<A E="1900" S="1233" VID="2"/>
+</TRACK>
+<TRACK FID="12">
+<A E="66" S="0" VID="400001"/>
+<A E="800" S="100" VID="9"/>
+<A E="1000" S="833" VID="400001"/>
+<A E="1900" S="1033" VID="3"/>
+<A E="2033" S="1933" VID="2"/>
+</TRACK>
+<TRACK FID="1">
+<A E="1133" S="1033" VID="400001"/>
+<A E="1766" S="1166" VID="6"/>
+<A E="2033" S="1800" VID="400002"/>
+</TRACK>
+</SEGMENT>
+</UTTERANCE>
+<UTTERANCE E="2300" EXCERPT="MOTHER BUY CAR (1h)GIFT" ID="35" S="233">
+<NOTES></NOTES>
+<MEDIA-REF ID="449"/>
+<MEDIA-REF ID="448"/>
+<MEDIA-REF ID="447"/>
+<SEGMENT PARTICIPANT-ID="1" PRIMARY="true">
+<TRACK FID="10000">
+<A E="233" S="200">MOTHER</A>
+<A E="533" S="400">BUY</A>
+<A E="867" S="600">CAR</A>
+<A E="1233" S="1000">(1h)GIFT:j</A>
+<A E="1667" S="1367">fs-JOHN</A>
+<A E="1867" S="1367" VID="400000"/>
+</TRACK>
+<TRACK FID="3">
+<A E="200" S="0" VID="400001"/>
+<A E="1267" S="233" VID="5"/>
+<A E="1467" S="1300" VID="400002"/>
+</TRACK>
+<TRACK FID="29">
+<A E="433" S="300" VID="400001"/>
+<A E="533" S="467" VID="5"/>
+<A E="900" S="567" VID="400002"/>
+<A E="1267" S="1033" VID="400001"/>
+<A E="1400" S="1300" VID="6"/>
+<A E="1633" S="1433" VID="400002"/>
+</TRACK>
+<TRACK FID="2">
+<A E="367" S="133" VID="400001"/>
+<A E="500" S="400" VID="5"/>
+<A E="733" S="533" VID="400002"/>
+</TRACK>
+<TRACK FID="27">
+<A E="233" S="200" VID="0"/>
+<A E="533" S="400" VID="8"/>
+<A E="867" S="600" VID="0"/>
+<A E="1233" S="1000" VID="8"/>
+<A E="1667" S="1367" VID="1"/>
+</TRACK>
+<TRACK FID="20">
+<A E="867" S="0" VID="5"/>
+</TRACK>
+<TRACK FID="14">
+<A E="167" S="0" VID="26"/>
+<A E="800" S="300" VID="25"/>
+</TRACK>
+<TRACK FID="1">
+<A E="267" S="67" VID="400001"/>
+<A E="500" S="300" VID="5"/>
+<A E="700" S="533" VID="400002"/>
+</TRACK>
+<TRACK FID="32">
+<A E="867" S="600" VID="0"/>
+</TRACK>
+<TRACK FID="10">
+<A E="633" S="0" VID="2"/>
+<A E="1000" S="667" VID="400002"/>
+</TRACK>
+<TRACK FID="20001">
+<A E="2067" S="0">Mother bought a car and gave it to John.</A>
+</TRACK>
+<TRACK FID="13">
+<A E="133" S="0" VID="400001"/>
+<A E="767" S="167" VID="4"/>
+<A E="933" S="800" VID="400002"/>
+</TRACK>
+<TRACK FID="10001">
+<A E="867" S="600">CAR</A>
+<A E="1867" S="600" VID="400000"/>
+</TRACK>
+<TRACK FID="11">
+<A E="467" S="233" VID="8"/>
+<A E="1033" S="933" VID="0"/>
+</TRACK>
+<TRACK FID="15">
+<A E="133" S="0" VID="400001"/>
+<A E="800" S="167" VID="3"/>
+<A E="1233" S="833" VID="6"/>
+<A E="1333" S="1267" VID="400002"/>
+</TRACK>
+<TRACK FID="4">
+<A E="967" S="333" VID="5"/>
+</TRACK>
+<TRACK FID="12">
+<A E="33" S="0" VID="400001"/>
+<A E="567" S="67" VID="4"/>
+<A E="767" S="600" VID="400001"/>
+<A E="867" S="800" VID="3"/>
+<A E="1000" S="900" VID="400001"/>
+<A E="1200" S="1033" VID="4"/>
+<A E="1333" S="1233" VID="400002"/>
+<A E="1867" S="1800" VID="2"/>
+</TRACK>
+</SEGMENT>
+</UTTERANCE>
+<UTTERANCE E="2766" EXCERPT="TEACH+AGENT FINISH PAST" ID="13" S="300">
+<NOTES></NOTES>
+<MEDIA-REF ID="370"/>
+<MEDIA-REF ID="372"/>
+<MEDIA-REF ID="371"/>
+<SEGMENT PARTICIPANT-ID="0" PRIMARY="true">
+<TRACK FID="10000">
+<A E="566" S="466">TEACH+AGENT</A>
+<A E="733" S="600">FINISH</A>
+<A E="1000" S="833">PAST</A>
+<A E="1300" S="1200">IN</A>
+<A E="1566" S="1433">HOUSE</A>
+<A E="1766" S="1700">IX-loc:i</A>
+<A E="2266" S="2000">QMwg</A>
+</TRACK>
+<TRACK FID="3">
+<A E="1100" S="566" VID="400001"/>
+<A E="1400" S="1133" VID="5"/>
+<A E="1700" S="1433" VID="400002"/>
+</TRACK>
+<TRACK FID="29">
+<A E="1300" S="1066" VID="400001"/>
+<A E="2100" S="1333" VID="5"/>
+<A E="2333" S="2133" VID="400001"/>
+<A E="2466" S="2366" VID="2"/>
+</TRACK>
+<TRACK FID="18">
+<A E="2266" S="466" VID="2"/>
+</TRACK>
+<TRACK FID="2">
+<A E="166" S="0" VID="400001"/>
+<A E="1233" S="200" VID="5"/>
+<A E="1533" S="1266" VID="400002"/>
+</TRACK>
+<TRACK FID="27">
+<A E="566" S="466" VID="0"/>
+<A E="733" S="600" VID="18"/>
+<A E="1000" S="833" VID="10"/>
+<A E="1300" S="1200" VID="11"/>
+<A E="1566" S="1433" VID="0"/>
+<A E="1766" S="1700" VID="10"/>
+<A E="2266" S="2000" VID="16"/>
+</TRACK>
+<TRACK FID="14">
+<A E="1066" S="633" VID="4"/>
+</TRACK>
+<TRACK FID="1">
+<A E="966" S="700" VID="400001"/>
+<A E="1166" S="1000" VID="6"/>
+<A E="2333" S="1200" VID="2"/>
+<A E="2466" S="2366" VID="400002"/>
+</TRACK>
+<TRACK FID="32"/>
+<TRACK FID="10">
+<A E="266" S="0" VID="400001"/>
+<A E="2166" S="300" VID="2"/>
+<A E="2466" S="2300" VID="400002"/>
+</TRACK>
+<TRACK FID="20001">
+<A E="2466" S="0">Has the teacher been in the house before? </A>
+</TRACK>
+<TRACK FID="11">
+<A E="733" S="533" VID="1"/>
+</TRACK>
+<TRACK FID="4">
+<A E="900" S="566" VID="4"/>
+</TRACK>
+<TRACK FID="8">
+<A E="1533" S="800" VID="10"/>
+</TRACK>
+<TRACK FID="12">
+<A E="266" S="0" VID="400001"/>
+<A E="2133" S="300" VID="4"/>
+<A E="2333" S="2166" VID="400001"/>
+<A E="2466" S="2366" VID="7"/>
+</TRACK>
+</SEGMENT>
+</UTTERANCE>
+<UTTERANCE E="4200" EXCERPT="LEARN+AGENT BOOK (2h)al" ID="26" S="1366">
+<NOTES></NOTES>
+<MEDIA-REF ID="417"/>
+<MEDIA-REF ID="419"/>
+<MEDIA-REF ID="418"/>
+<SEGMENT PARTICIPANT-ID="0" PRIMARY="true">
+<TRACK FID="10000">
+<A E="934" S="567">LEARN+AGENT</A>
+<A E="1434" S="1267">BOOK</A>
+<A E="2800" S="1567">(2h)alt.GIVE-recip++</A>
+</TRACK>
+<TRACK FID="10">
+<A E="400" S="0" VID="4"/>
+<A E="600" S="434" VID="400001"/>
+<A E="900" S="634" VID="2"/>
+<A E="1167" S="934" VID="400001"/>
+<A E="2834" S="1200" VID="4"/>
+</TRACK>
+<TRACK FID="29">
+<A E="567" S="0" VID="3"/>
+<A E="800" S="600" VID="400002"/>
+<A E="1567" S="1067" VID="400001"/>
+<A E="2200" S="1600" VID="3"/>
+<A E="2834" S="2234" VID="400002"/>
+</TRACK>
+<TRACK FID="20001">
+<A E="2834" S="0">The students exchanged books.</A>
+</TRACK>
+<TRACK FID="2">
+<A E="467" S="0" VID="5"/>
+<A E="667" S="500" VID="400001"/>
+<A E="2434" S="700" VID="3"/>
+<A E="2834" S="2467" VID="400002"/>
+</TRACK>
+<TRACK FID="27">
+<A E="934" S="567" VID="0"/>
+<A E="1434" S="1267" VID="0"/>
+<A E="2800" S="1567" VID="8"/>
+</TRACK>
+<TRACK FID="20">
+<A E="934" S="567" VID="2"/>
+</TRACK>
+<TRACK FID="4">
+<A E="1067" S="634" VID="4"/>
+</TRACK>
+<TRACK FID="14">
+<A E="2367" S="1534" VID="5"/>
+</TRACK>
+<TRACK FID="12">
+<A E="500" S="0" VID="7"/>
+<A E="667" S="534" VID="400001"/>
+<A E="900" S="700" VID="4"/>
+<A E="1000" S="934" VID="400001"/>
+<A E="1067" S="1034" VID="2"/>
+<A E="1134" S="1067" VID="400001"/>
+<A E="2834" S="1167" VID="9"/>
+</TRACK>
+<TRACK FID="1">
+<A E="667" S="600" VID="400001"/>
+<A E="1100" S="700" VID="6"/>
+<A E="1800" S="1134" VID="400001"/>
+<A E="2134" S="1834" VID="5"/>
+<A E="2334" S="2167" VID="400001"/>
+<A E="2400" S="2367" VID="3"/>
+<A E="2834" S="2434" VID="400002"/>
+</TRACK>
+</SEGMENT>
+</UTTERANCE>
+<UTTERANCE E="4400" EXCERPT="TEACH+AGENT GIFT-3p-pl-" ID="22" S="1333">
+<NOTES></NOTES>
+<MEDIA-REF ID="406"/>
+<MEDIA-REF ID="407"/>
+<MEDIA-REF ID="405"/>
+<SEGMENT PARTICIPANT-ID="0" PRIMARY="true">
+<TRACK FID="10000">
+<A E="367" S="233">TEACH+AGENT</A>
+<A E="1067" S="833">GIFT-3p-pl-arc</A>
+<A E="1400" S="1300">LEARN+AGENT</A>
+<A E="1567" S="1533">BOOK</A>
+<A E="2367" S="1800">ONE-distributive-3p-pl-arc</A>
+</TRACK>
+<TRACK FID="10">
+<A E="3067" S="0" VID="4"/>
+</TRACK>
+<TRACK FID="29">
+<A E="567" S="0" VID="6"/>
+<A E="867" S="600" VID="400002"/>
+<A E="1100" S="1000" VID="400001"/>
+<A E="2233" S="1133" VID="6"/>
+<A E="2833" S="2267" VID="400001"/>
+<A E="3067" S="2867" VID="2"/>
+</TRACK>
+<TRACK FID="20001">
+<A E="3067" S="0">The teacher gave each of the students one book.</A>
+</TRACK>
+<TRACK FID="2">
+<A E="1067" S="0" VID="5"/>
+<A E="1667" S="1100" VID="400001"/>
+<A E="2467" S="1700" VID="3"/>
+<A E="2867" S="2500" VID="400002"/>
+</TRACK>
+<TRACK FID="27">
+<A E="367" S="233" VID="0"/>
+<A E="1067" S="833" VID="8"/>
+<A E="1400" S="1300" VID="0"/>
+<A E="1567" S="1533" VID="0"/>
+<A E="2367" S="1800" VID="6"/>
+</TRACK>
+<TRACK FID="11">
+<A E="1867" S="1567" VID="7"/>
+</TRACK>
+<TRACK FID="4">
+<A E="1033" S="533" VID="4"/>
+<A E="2367" S="1700" VID="5"/>
+</TRACK>
+<TRACK FID="14">
+<A E="1067" S="567" VID="5"/>
+</TRACK>
+<TRACK FID="12">
+<A E="33" S="0" VID="400001"/>
+<A E="100" S="33" VID="2"/>
+<A E="200" S="133" VID="400001"/>
+<A E="300" S="233" VID="12"/>
+<A E="366" S="333" VID="400001"/>
+<A E="400" S="367" VID="2"/>
+<A E="800" S="433" VID="400001"/>
+<A E="1033" S="833" VID="7"/>
+<A E="1233" S="1067" VID="400001"/>
+<A E="2267" S="1267" VID="9"/>
+<A E="2333" S="2300" VID="400001"/>
+<A E="2433" S="2333" VID="2"/>
+<A E="3067" S="2467" VID="7"/>
+</TRACK>
+<TRACK FID="1">
+<A E="1333" S="0" VID="5"/>
+<A E="1767" S="1367" VID="400001"/>
+<A E="2400" S="1800" VID="3"/>
+<A E="2767" S="2433" VID="400002"/>
+</TRACK>
+</SEGMENT>
+</UTTERANCE>
+<UTTERANCE E="2666" EXCERPT="fs-JOHN (1h)GIFT:j TEAC" ID="9" S="400">
+<NOTES></NOTES>
+<MEDIA-REF ID="358"/>
+<MEDIA-REF ID="359"/>
+<MEDIA-REF ID="360"/>
+<SEGMENT PARTICIPANT-ID="0" PRIMARY="true">
+<TRACK FID="10000">
+<A E="566" S="266">fs-JOHN</A>
+<A E="833" S="700">(1h)GIFT:j</A>
+<A E="1300" S="1100">TEACH+AGENT</A>
+<A E="1633" S="1400">HOW-MANY/MANY</A>
+<A E="2166" S="1700">CAR</A>
+<A E="2266" S="1700" VID="400000"/>
+</TRACK>
+<TRACK FID="29">
+<A E="400" S="0" VID="400001"/>
+<A E="2000" S="433" VID="3"/>
+<A E="2266" S="2033" VID="400002"/>
+</TRACK>
+<TRACK FID="2">
+<A E="366" S="0" VID="400001"/>
+<A E="666" S="400" VID="3"/>
+<A E="733" S="700" VID="400001"/>
+<A E="900" S="766" VID="7"/>
+<A E="2266" S="933" VID="3"/>
+</TRACK>
+<TRACK FID="27">
+<A E="566" S="266" VID="1"/>
+<A E="833" S="700" VID="8"/>
+<A E="1300" S="1100" VID="0"/>
+<A E="1633" S="1400" VID="20"/>
+<A E="2166" S="1700" VID="0"/>
+</TRACK>
+<TRACK FID="17">
+<A E="2133" S="1400" VID="2"/>
+</TRACK>
+<TRACK FID="14">
+<A E="833" S="700" VID="18"/>
+</TRACK>
+<TRACK FID="1">
+<A E="1333" S="1200" VID="400001"/>
+<A E="2133" S="1366" VID="5"/>
+<A E="2266" S="2166" VID="400002"/>
+</TRACK>
+<TRACK FID="10">
+<A E="1333" S="0" VID="4"/>
+<A E="1399" S="1366" VID="400001"/>
+<A E="2133" S="1400" VID="3"/>
+<A E="2266" S="2166" VID="400002"/>
+</TRACK>
+<TRACK FID="5">
+<A E="1366" S="1300" VID="400001"/>
+<A E="2133" S="1400" VID="2"/>
+</TRACK>
+<TRACK FID="13">
+<A E="1366" S="1233" VID="400001"/>
+<A E="1633" S="1400" VID="4"/>
+<A E="1800" S="1666" VID="400002"/>
+</TRACK>
+<TRACK FID="20001">
+<A E="2266" S="0">How many cars did John give the teacher?</A>
+</TRACK>
+<TRACK FID="15">
+<A E="800" S="733" VID="2"/>
+</TRACK>
+<TRACK FID="12">
+<A E="100" S="0" VID="400001"/>
+<A E="1200" S="133" VID="7"/>
+<A E="1300" S="1233" VID="400001"/>
+<A E="1600" S="1333" VID="6"/>
+<A E="2166" S="1633" VID="12"/>
+<A E="2266" S="2200" VID="2"/>
+</TRACK>
+</SEGMENT>
+</UTTERANCE>
+<UTTERANCE E="1933" EXCERPT="MOTHER BUY ONE BOOK YES" ID="19" S="300">
+<NOTES></NOTES>
+<MEDIA-REF ID="395"/>
+<MEDIA-REF ID="393"/>
+<MEDIA-REF ID="394"/>
+<SEGMENT PARTICIPANT-ID="0" PRIMARY="true">
+<TRACK FID="10000">
+<A E="300" S="200">MOTHER</A>
+<A E="533" S="433">BUY</A>
+<A E="733" S="633">ONE</A>
+<A E="933" S="900">BOOK</A>
+<A E="1400" S="1166">YESTERDAY</A>
+</TRACK>
+<TRACK FID="3">
+<A E="800" S="666" VID="400001"/>
+<A E="1133" S="833" VID="5"/>
+<A E="1266" S="1166" VID="400002"/>
+</TRACK>
+<TRACK FID="10">
+<A E="1633" S="0" VID="3"/>
+</TRACK>
+<TRACK FID="29">
+<A E="1466" S="1266" VID="400001"/>
+<A E="1633" S="1500" VID="2"/>
+</TRACK>
+<TRACK FID="20001">
+<A E="1633" S="0">Mother bought one book yesterday.</A>
+</TRACK>
+<TRACK FID="2">
+<A E="133" S="0" VID="400001"/>
+<A E="1233" S="166" VID="3"/>
+<A E="1633" S="1266" VID="5"/>
+</TRACK>
+<TRACK FID="27">
+<A E="300" S="200" VID="0"/>
+<A E="533" S="433" VID="8"/>
+<A E="733" S="633" VID="6"/>
+<A E="933" S="900" VID="0"/>
+<A E="1400" S="1166" VID="10"/>
+</TRACK>
+<TRACK FID="14">
+<A E="100" S="0" VID="26"/>
+</TRACK>
+<TRACK FID="12">
+<A E="33" S="0" VID="400001"/>
+<A E="466" S="66" VID="7"/>
+<A E="933" S="500" VID="12"/>
+<A E="1200" S="966" VID="400002"/>
+<A E="1433" S="1333" VID="2"/>
+<A E="1533" S="1466" VID="400001"/>
+<A E="1633" S="1566" VID="7"/>
+</TRACK>
+<TRACK FID="1">
+<A E="66" S="0" VID="400001"/>
+<A E="533" S="100" VID="5"/>
+<A E="733" S="566" VID="400001"/>
+<A E="1200" S="766" VID="3"/>
+<A E="1633" S="1233" VID="400002"/>
+</TRACK>
+</SEGMENT>
+</UTTERANCE>
+<UTTERANCE E="2466" EXCERPT="FATHER (1h)GIFT:j fs-JO" ID="8" S="433">
+<NOTES></NOTES>
+<MEDIA-REF ID="355"/>
+<MEDIA-REF ID="356"/>
+<MEDIA-REF ID="357"/>
+<SEGMENT PARTICIPANT-ID="0" PRIMARY="true">
+<TRACK FID="10000">
+<A E="433" S="333">FATHER</A>
+<A E="767" S="600">(1h)GIFT:j</A>
+<A E="1067" S="867">fs-JOHN</A>
+<A E="1433" S="1233">HOW-MANY/MANY</A>
+<A E="1833" S="1533">BOOK</A>
+</TRACK>
+<TRACK FID="10">
+<A E="1033" S="0" VID="4"/>
+<A E="1200" S="1067" VID="400001"/>
+<A E="2033" S="1233" VID="3"/>
+</TRACK>
+<TRACK FID="5">
+<A E="1200" S="1067" VID="400001"/>
+<A E="1833" S="1233" VID="2"/>
+</TRACK>
+<TRACK FID="29">
+<A E="500" S="0" VID="400001"/>
+<A E="1767" S="533" VID="6"/>
+<A E="2033" S="1800" VID="400002"/>
+</TRACK>
+<TRACK FID="20001">
+<A E="2033" S="0">How many books did father give to John?</A>
+</TRACK>
+<TRACK FID="2">
+<A E="367" S="0" VID="400001"/>
+<A E="2033" S="400" VID="3"/>
+</TRACK>
+<TRACK FID="27">
+<A E="433" S="333" VID="0"/>
+<A E="767" S="600" VID="8"/>
+<A E="1067" S="867" VID="1"/>
+<A E="1433" S="1233" VID="20"/>
+<A E="1833" S="1533" VID="0"/>
+</TRACK>
+<TRACK FID="17">
+<A E="1833" S="1233" VID="2"/>
+</TRACK>
+<TRACK FID="12">
+<A E="400" S="0" VID="7"/>
+<A E="467" S="433" VID="400001"/>
+<A E="533" S="500" VID="2"/>
+<A E="1033" S="567" VID="7"/>
+<A E="1367" S="1067" VID="6"/>
+<A E="1433" S="1400" VID="400001"/>
+<A E="1833" S="1467" VID="12"/>
+<A E="2033" S="1867" VID="6"/>
+</TRACK>
+<TRACK FID="1">
+<A E="1100" S="867" VID="400001"/>
+<A E="1900" S="1133" VID="6"/>
+<A E="2033" S="1933" VID="400002"/>
+</TRACK>
+</SEGMENT>
+</UTTERANCE>
+</UTTERANCES>
+</SIGNSTREAM-DATABASE>

@@ -1,0 +1,587 @@
+<SIGNSTREAM-DATABASE DATABASE-VERSION="1.0" SIGNSTREAM-VERSION="2" SOURCE="">
+<DISTRIBUTOR>Carol Neidle, American Sign Language Linguistic Research Project, Boston University, Boston, MA</DISTRIBUTOR>
+<AUTHOR>Robert G. Lee, Carol Neidle, Michael Schlang, Quinn Duffy.  We gratefully acknowledge assistance from Ben Bahan, Fran Conlin, Lana Cook, Carla Dasilva, Sarah Fish, Judith Labath, Dana Schlang, Norma Tourangeau, Vassilis Athitsos, and Stan Sclaroff.</AUTHOR>
+<PARTICIPANTS>
+<PARTICIPANT AGE="" GENDER="male" ID="0" LABEL="Ben" LANGUAGE="ASL" NAME="Benjamin Bahan">
+<BACKGROUND></BACKGROUND>
+</PARTICIPANT>
+</PARTICIPANTS>
+<CODING-SCHEME>
+<FIELD CONSTRAINT="free-text" ID="3" LABEL="hp: jut" NAME="head pos: jut">
+<VALUE ID="2" LABEL="for" NAME="forward"/>
+<VALUE ID="7" LABEL="-for" NAME="slightly forward"/>
+<VALUE ID="6" LABEL="+for" NAME="further forward"/>
+<VALUE ID="5" LABEL="back" NAME="back"/>
+<VALUE ID="8" LABEL="-back" NAME="slightly back"/>
+<VALUE ID="9" LABEL="+back" NAME="further back"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD COLOR="5b87f2" CONSTRAINT="free-text" ID="29" LABEL="POS2" NAME="Non-dominant POS">
+<VALUE ID="0" LABEL="N" NAME="Noun"/>
+<VALUE ID="1" LABEL="PN" NAME="Proper Noun"/>
+<VALUE ID="2" LABEL="Pro" NAME="Pronoun"/>
+<VALUE ID="3" LABEL="Det" NAME="Determiner"/>
+<VALUE ID="4" LABEL="Quant" NAME="Quantifier"/>
+<VALUE ID="5" LABEL="Wh" NAME="Wh-word"/>
+<VALUE ID="6" LABEL="Num" NAME="Number"/>
+<VALUE ID="7" LABEL="Neg" NAME="Negation"/>
+<VALUE ID="8" LABEL="V" NAME="Verb"/>
+<VALUE ID="9" LABEL="Adj" NAME="Adjective"/>
+<VALUE ID="10" LABEL="Adv" NAME="Adverb"/>
+<VALUE ID="11" LABEL="Prep" NAME="Preposition"/>
+<VALUE ID="12" LABEL="Poss" NAME="Possessive"/>
+<VALUE ID="13" LABEL="Modal" NAME="Modal"/>
+<VALUE ID="14" LABEL="Tns" NAME="Tense"/>
+<VALUE ID="15" LABEL="CL" NAME="Classifier"/>
+<VALUE ID="18" LABEL="Conj" NAME="Conjunction"/>
+<VALUE ID="16" LABEL="Prt" NAME="Particle"/>
+<VALUE ID="26" LABEL="Refl" NAME="Reflexive"/>
+<VALUE ID="25" LABEL="Dem" NAME="Demonstrative"/>
+<VALUE ID="17" LABEL="DM" NAME="Discourse Marker"/>
+<VALUE ID="19" LABEL="Asp" NAME="Aspect"/>
+<VALUE ID="21" LABEL="Modal+Neg" NAME="Modal+Negation"/>
+<VALUE ID="24" LABEL="Neg+V" NAME="Negation+Verb"/>
+<VALUE ID="23" LABEL="Quant+Wh" NAME="Quantifier+Wh-word"/>
+<VALUE ID="22" LABEL="Tns+Neg" NAME="Tense+Negation"/>
+<VALUE ID="20" LABEL="V+Asp" NAME="Verb+Aspect"/>
+<VALUE ID="27" LABEL="Wh+Prt" NAME="Wh+Particle"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD COLOR="1822cd" CONSTRAINT="free-text" ID="27" LABEL="POS" NAME="POS">
+<VALUE ID="0" LABEL="N" NAME="Noun"/>
+<VALUE ID="1" LABEL="PN" NAME="Proper Noun"/>
+<VALUE ID="2" LABEL="Pro" NAME="Pronoun"/>
+<VALUE ID="3" LABEL="Det" NAME="Determiner"/>
+<VALUE ID="4" LABEL="Quant" NAME="Quantifier"/>
+<VALUE ID="5" LABEL="Wh" NAME="Wh-word"/>
+<VALUE ID="6" LABEL="Num" NAME="Number"/>
+<VALUE ID="7" LABEL="Neg" NAME="Negation"/>
+<VALUE ID="8" LABEL="V" NAME="Verb"/>
+<VALUE ID="9" LABEL="Adj" NAME="Adjective"/>
+<VALUE ID="10" LABEL="Adv" NAME="Adverb"/>
+<VALUE ID="11" LABEL="Prep" NAME="Preposition"/>
+<VALUE ID="19" LABEL="Poss" NAME="Possessive"/>
+<VALUE ID="12" LABEL="Modal" NAME="Modal"/>
+<VALUE ID="13" LABEL="Tns" NAME="Tense"/>
+<VALUE ID="14" LABEL="CL" NAME="Classifier"/>
+<VALUE ID="15" LABEL="Conj" NAME="Conjunction"/>
+<VALUE ID="16" LABEL="Prt" NAME="Particle"/>
+<VALUE ID="26" LABEL="Refl" NAME="Reflexive"/>
+<VALUE ID="25" LABEL="Dem" NAME="Demonstrative"/>
+<VALUE ID="17" LABEL="DM" NAME="Discourse Marker"/>
+<VALUE ID="18" LABEL="Asp" NAME="Aspect"/>
+<VALUE ID="21" LABEL="Modal+Neg" NAME="Modal+Negation"/>
+<VALUE ID="24" LABEL="Neg+V" NAME="Negation+Verb"/>
+<VALUE ID="23" LABEL="Quant+Wh" NAME="Quantifier+Wh-word"/>
+<VALUE ID="22" LABEL="Tns+Neg" NAME="Tense+Negation"/>
+<VALUE ID="20" LABEL="V+Asp" NAME="Verb+Aspect"/>
+<VALUE ID="27" LABEL="Wh+Prt" NAME="Wh+Particle"/>
+<VALUE ID="28" LABEL="Tns+Asp" NAME="Tense+Aspect"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD CONSTRAINT="free-text" ID="0" LABEL="hp: tilt fr/bk" NAME="head pos: tilt fr/bk">
+<VALUE ID="2" LABEL="front" NAME="front"/>
+<VALUE ID="4" LABEL="-front" NAME="slightly front"/>
+<VALUE ID="5" LABEL="+front" NAME="further front"/>
+<VALUE ID="3" LABEL="back" NAME="back"/>
+<VALUE ID="6" LABEL="-back" NAME="slightly back"/>
+<VALUE ID="7" LABEL="+back" NAME="further back"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD CONSTRAINT="free-text" ID="14" LABEL="mouth" NAME="mouth">
+<VALUE ID="2" LABEL="oo" NAME="lips pursed:oo"/>
+<VALUE ID="3" LABEL="oo-tight" NAME="lips pursed:oo-tight"/>
+<VALUE ID="4" LABEL="mm" NAME="lips pursed:mm"/>
+<VALUE ID="15" LABEL="th" NAME="tongue out"/>
+<VALUE ID="6" LABEL="thp" NAME="tongue sucked in quickly"/>
+<VALUE ID="7" LABEL="tml" NAME="tongue mvmt lateral"/>
+<VALUE ID="8" LABEL="cha" NAME="cha"/>
+<VALUE ID="9" LABEL="sta" NAME="sta"/>
+<VALUE ID="10" LABEL="puh" NAME="puh"/>
+<VALUE ID="11" LABEL="pow" NAME="pow"/>
+<VALUE ID="16" LABEL="sh" NAME="sh"/>
+<VALUE ID="12" LABEL="cs" NAME="cs"/>
+<VALUE ID="13" LABEL="int" NAME="intense"/>
+<VALUE ID="14" LABEL="open" NAME="open"/>
+<VALUE ID="18" LABEL="open/rd" NAME="open &amp; round"/>
+<VALUE ID="19" LABEL="open/tns" NAME="open &amp; tense"/>
+<VALUE ID="20" LABEL="open/cd" NAME="open &amp; corners down"/>
+<VALUE ID="5" LABEL="rul" NAME="raised upper lip"/>
+<VALUE ID="21" LABEL="ls" NAME="lips spread"/>
+<VALUE ID="22" LABEL="ls/cu" NAME="lips spread &amp; crnrs up"/>
+<VALUE ID="23" LABEL="ls/cd" NAME="lips spread &amp; crnrs down"/>
+<VALUE ID="17" LABEL="bl" NAME="blow"/>
+<VALUE ID="24" LABEL="bll" NAME="bite lower lip"/>
+<VALUE ID="25" LABEL="toll" NAME="tongue on lwr lip"/>
+<VALUE ID="26" LABEL="brr" NAME="brr"/>
+<VALUE ID="27" LABEL="open-smile" NAME="smile mouth open"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD COLOR="ed181e" CONSTRAINT="free-text" ID="17" LABEL="wh question" NAME="wh question">
+<VALUE ID="2" LABEL="q/wh" NAME="whq"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD CONSTRAINT="free-text" ID="6" LABEL="hm: side&lt;-&gt;side" NAME="head mvmt: side to side">
+<VALUE ID="2" LABEL="rapid" NAME="rapid"/>
+<VALUE ID="3" LABEL="slow" NAME="slow"/>
+<VALUE ID="4" LABEL="single" NAME="single"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD CONSTRAINT="free-text" ID="1" LABEL="hp: turn" NAME="head pos: turn">
+<VALUE ID="2" LABEL="left" NAME="left"/>
+<VALUE ID="4" LABEL="-left" NAME="slightly left"/>
+<VALUE ID="6" LABEL="+left" NAME="further left"/>
+<VALUE ID="3" LABEL="right" NAME="right"/>
+<VALUE ID="5" LABEL="-right" NAME="slightly right"/>
+<VALUE ID="7" LABEL="+right" NAME="further right"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD CONSTRAINT="free-text" ID="5" LABEL="hm: shake" NAME="head mvmt: shake">
+<VALUE ID="2" LABEL="rapid" NAME="rapid"/>
+<VALUE ID="5" LABEL="-rapid" NAME="slight rapid head shake"/>
+<VALUE ID="3" LABEL="slow" NAME="slow"/>
+<VALUE ID="6" LABEL="-slow" NAME="slight slow head shake"/>
+<VALUE ID="4" LABEL="single" NAME="single"/>
+<VALUE ID="7" LABEL="-single" NAME="slight single head shake"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD COLOR="ed181e" CONSTRAINT="free-text" ID="16" LABEL="negative" NAME="negative">
+<VALUE ID="2" LABEL="neg" NAME="negation"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD COLOR="ed181e" CONSTRAINT="free-text" ID="33" LABEL="rel. clause" NAME="relative clause">
+<VALUE ID="0" LABEL="rel-cl" NAME="rel-cl"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD CONSTRAINT="free-text" ID="11" LABEL="eye gaze" NAME="eye gaze" PREFIX="eg">
+<VALUE ID="0" LABEL="left" NAME="left"/>
+<VALUE ID="1" LABEL="right" NAME="right"/>
+<VALUE ID="2" LABEL="up" NAME="up"/>
+<VALUE ID="8" LABEL="up/lf" NAME="up/left"/>
+<VALUE ID="3" LABEL="up/rt" NAME="up/right"/>
+<VALUE ID="4" LABEL="down" NAME="down"/>
+<VALUE ID="7" LABEL="dn/lf" NAME="down/left"/>
+<VALUE ID="6" LABEL="dn/rt" NAME="down/right"/>
+<VALUE ID="5" LABEL="track-hd" NAME="watch hands"/>
+<VALUE ID="9" LABEL="adresee" NAME="to addressee"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD CONSTRAINT="free-text" ID="15" LABEL="cheeks" NAME="cheeks">
+<VALUE ID="2" LABEL="puf" NAME="puffed"/>
+<VALUE ID="5" LABEL="puf/lf" NAME="puff left"/>
+<VALUE ID="4" LABEL="puf/rt" NAME="puff right"/>
+<VALUE ID="3" LABEL="tns" NAME="tensed"/>
+<VALUE ID="6" LABEL="-tns" NAME="less tensed"/>
+<VALUE ID="8" LABEL="tns/lf" NAME="tensed left"/>
+<VALUE ID="7" LABEL="tns/rt" NAME="tensed right"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD CONSTRAINT="free-text" ID="4" LABEL="hm: nod" NAME="head mvmt: nod">
+<VALUE ID="2" LABEL="rapid" NAME="rapid"/>
+<VALUE ID="6" LABEL="-rapid" NAME="slight rapid head nod"/>
+<VALUE ID="3" LABEL="slow" NAME="slow"/>
+<VALUE ID="7" LABEL="-slow" NAME="slight slow head nod"/>
+<VALUE ID="4" LABEL="single" NAME="single"/>
+<VALUE ID="8" LABEL="-single" NAME="slight single head nod"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD CONSTRAINT="free-text" ID="12" LABEL="eye apert" NAME="eye aperture">
+<VALUE ID="2" LABEL="bl" NAME="blink"/>
+<VALUE ID="3" LABEL="sq" NAME="squint"/>
+<VALUE ID="9" LABEL="-sq" NAME="slightly squinted"/>
+<VALUE ID="10" LABEL="+sq" NAME="further squinted"/>
+<VALUE ID="5" LABEL="low" NAME="lowered lid"/>
+<VALUE ID="6" LABEL="-low" NAME="slightly lowered"/>
+<VALUE ID="7" LABEL="+low" NAME="further lowered"/>
+<VALUE ID="4" LABEL="wide" NAME="wide"/>
+<VALUE ID="11" LABEL="+wide" NAME="wider"/>
+<VALUE ID="8" LABEL="cl" NAME="closed"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD CONSTRAINT="free-text" ID="10000" LABEL="main gloss" NAME="main gloss">
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD CONSTRAINT="free-text" ID="30" LABEL="body mvmt" NAME="body mvmt">
+<VALUE ID="0" LABEL="down" NAME="down"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD CONSTRAINT="free-text" ID="7" LABEL="hm: jut" NAME="head mvmt: jut">
+<VALUE ID="2" LABEL="slow" NAME="slow"/>
+<VALUE ID="3" LABEL="for" NAME="forward"/>
+<VALUE ID="6" LABEL="back" NAME="back"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD COLOR="ed181e" CONSTRAINT="free-text" ID="18" LABEL="yes-no question" NAME="yes-no question">
+<VALUE ID="2" LABEL="q/y-n" NAME="yes-no question"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD CONSTRAINT="free-text" ID="2" LABEL="hp: tilt side" NAME="head pos: tilt side">
+<VALUE ID="2" LABEL="left" NAME="left"/>
+<VALUE ID="4" LABEL="-left" NAME="slightly left"/>
+<VALUE ID="5" LABEL="+left" NAME="further left"/>
+<VALUE ID="3" LABEL="right" NAME="right"/>
+<VALUE ID="7" LABEL="-right" NAME="slightly right"/>
+<VALUE ID="6" LABEL="+right" NAME="further right"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD COLOR="ed181e" CONSTRAINT="free-text" ID="20" LABEL="topic/focus" NAME="topic/focus">
+<VALUE ID="2" LABEL="foc/top1" NAME="focus/top1"/>
+<VALUE ID="3" LABEL="top2" NAME="top2"/>
+<VALUE ID="4" LABEL="top3" NAME="top3"/>
+<VALUE ID="5" LABEL="foc/ref" NAME="foc/prop-with-ref-to"/>
+<VALUE ID="6" LABEL="foc/adv" NAME="sentence-initial adverb"/>
+<VALUE ID="7" LABEL="focus" NAME="focus"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD CONSTRAINT="free-text" ID="20000" LABEL="literal" NAME="literal translation">
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD CONSTRAINT="free-text" ID="32" LABEL="neck" NAME="neck">
+<VALUE ID="2" LABEL="tns" NAME="tensed"/>
+<VALUE ID="3" LABEL="tns/lf" NAME="tensed/left"/>
+<VALUE ID="4" LABEL="tns/rt" NAME="tensed/right"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD COLOR="ed181e" CONSTRAINT="free-text" ID="21" LABEL="cond/when" NAME="conditional/when">
+<VALUE ID="2" LABEL="cond" NAME="conditional"/>
+<VALUE ID="3" LABEL="when" NAME="when"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD CONSTRAINT="free-text" ID="10" LABEL="eye brows" NAME="eye brows">
+<VALUE ID="2" LABEL="raised" NAME="raised"/>
+<VALUE ID="4" LABEL="-raised" NAME="slightly raised"/>
+<VALUE ID="5" LABEL="+raised" NAME="further raised"/>
+<VALUE ID="3" LABEL="lwrd" NAME="lowered"/>
+<VALUE ID="6" LABEL="-lwrd" NAME="slightly lowered"/>
+<VALUE ID="7" LABEL="+lwrd" NAME="further lowered"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD CONSTRAINT="free-text" ID="20001" LABEL="english" NAME="English translation">
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD CONSTRAINT="free-text" ID="13" LABEL="nose" NAME="nose">
+<VALUE ID="2" LABEL="wr" NAME="wrinkle"/>
+<VALUE ID="3" LABEL="tns" NAME="tensed"/>
+<VALUE ID="4" LABEL="-tns" NAME="slightly tensed"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD CONSTRAINT="free-text" ID="10001" LABEL="nd hand gloss" NAME="non-dominant hand gloss">
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD COLOR="ed181e" CONSTRAINT="free-text" ID="26" LABEL="adv" NAME="adverbial">
+<VALUE ID="2" LABEL="far" NAME="far"/>
+<VALUE ID="3" LABEL="cs" NAME="cs"/>
+<VALUE ID="4" LABEL="stress" NAME="stress"/>
+<VALUE ID="5" LABEL="mm" NAME="mm"/>
+<VALUE ID="6" LABEL="oo" NAME="oo"/>
+<VALUE ID="7" LABEL="cha" NAME="cha"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD COLOR="ed181e" CONSTRAINT="free-text" ID="22" LABEL="role shift" NAME="role shift" PREFIX="rs">
+<VALUE ID="0" LABEL="John" NAME="John"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD CONSTRAINT="free-text" ID="9" LABEL="shoulders" NAME="shoulders">
+<VALUE ID="2" LABEL="left" NAME="left"/>
+<VALUE ID="6" LABEL="-left" NAME="slightly left"/>
+<VALUE ID="7" LABEL="lf/dn" NAME="left/down"/>
+<VALUE ID="8" LABEL="lf/raised" NAME="left/raised"/>
+<VALUE ID="3" LABEL="right" NAME="right"/>
+<VALUE ID="9" LABEL="-right" NAME="slightly right"/>
+<VALUE ID="10" LABEL="rt/dn" NAME="right/down"/>
+<VALUE ID="11" LABEL="rt/raised" NAME="right/raised"/>
+<VALUE ID="12" LABEL="down" NAME="down"/>
+<VALUE ID="13" LABEL="raised" NAME="raised"/>
+<VALUE ID="14" LABEL="+raised" NAME="further raised"/>
+<VALUE ID="4" LABEL="for" NAME="forward"/>
+<VALUE ID="15" LABEL="for/lf" NAME="forward/left"/>
+<VALUE ID="16" LABEL="for/rt" NAME="forward/right"/>
+<VALUE ID="5" LABEL="back" NAME="back"/>
+<VALUE ID="17" LABEL="bk/lf" NAME="back/left"/>
+<VALUE ID="18" LABEL="bk/rt" NAME="back/right"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD COLOR="ed181e" CONSTRAINT="free-text" ID="19" LABEL="rhq" NAME="rhetorical question">
+<VALUE ID="2" LABEL="rhq" NAME="rhq"/>
+<VALUE ID="3" LABEL="rhq/wh" NAME="wh rhq"/>
+<VALUE ID="4" LABEL="rhq/y-n" NAME="yes-no rhq"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+<FIELD CONSTRAINT="free-text" ID="8" LABEL="body lean" NAME="body lean">
+<VALUE ID="2" LABEL="left" NAME="left"/>
+<VALUE ID="3" LABEL="right" NAME="right"/>
+<VALUE ID="4" LABEL="for" NAME="forward"/>
+<VALUE ID="11" LABEL="-for" NAME="slightly forward"/>
+<VALUE ID="6" LABEL="for/lf" NAME="forward/left"/>
+<VALUE ID="10" LABEL="for/rt" NAME="forward/right"/>
+<VALUE ID="5" LABEL="back" NAME="back"/>
+<VALUE ID="7" LABEL="-back" NAME="slightly back"/>
+<VALUE ID="8" LABEL="bk/lf" NAME="back/left"/>
+<VALUE ID="9" LABEL="bk/rt" NAME="back/right"/>
+<VALUE ID="400000" NAME="HOLD"/>
+<VALUE ID="400001" NAME="ONSET"/>
+<VALUE ID="400002" NAME="OFFSET"/>
+</FIELD>
+</CODING-SCHEME>
+<MEDIA-FILES>
+<MEDIA-FILE ID="2" LEGACY-PATH="NCSLGRv2:video files:slave2:549_slave2_small.mov"/>
+<MEDIA-FILE ID="0" LEGACY-PATH="NCSLGR:Movies-from-CDs:NCSLGRv2:video files:master:549_master_small.mov"/>
+<MEDIA-FILE ID="1" LEGACY-PATH="NCSLGRv2:video files:slave1:549_slave1_small.mov"/>
+</MEDIA-FILES>
+<UTTERANCES>
+<UTTERANCE E="2500" EXCERPT="TEACH+AGENT NOW IX-loc:" ID="0" S="0">
+<NOTES></NOTES>
+<MEDIA-REF ID="2"/>
+<MEDIA-REF ID="0"/>
+<MEDIA-REF ID="1"/>
+<SEGMENT PARTICIPANT-ID="0" PRIMARY="true">
+<TRACK FID="10000">
+<A E="933" S="700">TEACH+AGENT</A>
+<A E="1233" S="1100">NOW</A>
+<A E="1600" S="1466">IX-loc:i</A>
+<A E="2433" S="1800">MOVIE</A>
+<A E="2500" S="1800" VID="400000"/>
+</TRACK>
+<TRACK FID="3">
+<A E="1066" S="633" VID="400001"/>
+<A E="2500" S="1100" VID="5"/>
+</TRACK>
+<TRACK FID="29">
+<A E="1233" S="1100" VID="10"/>
+</TRACK>
+<TRACK FID="2">
+<A E="1333" S="0" VID="7"/>
+<A E="1766" S="1366" VID="400001"/>
+<A E="2033" S="1800" VID="4"/>
+<A E="2433" S="2066" VID="400002"/>
+</TRACK>
+<TRACK FID="27">
+<A E="933" S="700" VID="0"/>
+<A E="1233" S="1100" VID="10"/>
+<A E="1600" S="1466" VID="10"/>
+<A E="2433" S="1800" VID="0"/>
+</TRACK>
+<TRACK FID="0">
+<A E="33" S="0" VID="4"/>
+<A E="233" S="33" VID="400002"/>
+<A E="2066" S="1600" VID="400001"/>
+<A E="2500" S="2100" VID="4"/>
+</TRACK>
+<TRACK FID="14">
+<A E="1233" S="1066" VID="13"/>
+</TRACK>
+<TRACK FID="1">
+<A E="1300" S="600" VID="400001"/>
+<A E="1700" S="1333" VID="5"/>
+<A E="1900" S="1733" VID="400002"/>
+</TRACK>
+<TRACK FID="10">
+<A E="666" S="233" VID="400001"/>
+<A E="933" S="700" VID="3"/>
+<A E="1000" S="966" VID="400001"/>
+<A E="1266" S="1033" VID="7"/>
+<A E="1366" S="1300" VID="400001"/>
+<A E="2333" S="1400" VID="3"/>
+<A E="2466" S="2366" VID="400001"/>
+<A E="2533" S="2500" VID="2"/>
+</TRACK>
+<TRACK FID="20001">
+<A E="2500" S="0">The teacher is at the movies. </A>
+</TRACK>
+<TRACK FID="13">
+<A E="600" S="366" VID="400001"/>
+<A E="966" S="633" VID="4"/>
+<A E="1066" S="1000" VID="400001"/>
+<A E="1233" S="1100" VID="2"/>
+<A E="1366" S="1266" VID="400002"/>
+</TRACK>
+<TRACK FID="10001">
+<A E="1233" S="1100">NOW</A>
+<A E="1366" S="1100" VID="400000"/>
+</TRACK>
+<TRACK FID="15">
+<A E="1233" S="1066" VID="3"/>
+</TRACK>
+<TRACK FID="11">
+<A E="1200" S="1033" VID="1"/>
+</TRACK>
+<TRACK FID="4">
+<A E="1666" S="1333" VID="4"/>
+</TRACK>
+<TRACK FID="8">
+<A E="800" S="600" VID="400001"/>
+<A E="2066" S="833" VID="7"/>
+<A E="2333" S="2100" VID="400002"/>
+</TRACK>
+<TRACK FID="12">
+<A E="500" S="0" VID="5"/>
+<A E="800" S="533" VID="400001"/>
+<A E="1266" S="833" VID="3"/>
+<A E="1366" S="1300" VID="400001"/>
+<A E="2066" S="1400" VID="6"/>
+<A E="2133" S="2100" VID="400001"/>
+<A E="2199" S="2166" VID="2"/>
+<A E="2500" S="2200" VID="5"/>
+</TRACK>
+</SEGMENT>
+</UTTERANCE>
+<UTTERANCE E="7133" EXCERPT="MOVIE END FUTURE BUY BO" ID="1" S="2500">
+<NOTES></NOTES>
+<MEDIA-REF ID="2"/>
+<MEDIA-REF ID="0"/>
+<MEDIA-REF ID="1"/>
+<SEGMENT PARTICIPANT-ID="0" PRIMARY="true">
+<TRACK FID="10000">
+<A E="933" S="366">MOVIE</A>
+<A E="2033" S="1133">END</A>
+<A E="2300" S="2266">FUTURE</A>
+<A E="2633" S="2500">BUY</A>
+<A E="2900" S="2766">BOOK</A>
+<A E="3333" S="3066">j:(1h)GIFT:k</A>
+<A E="3833" S="3533">LEARN+AGENT</A>
+<A E="4233" S="3900">READ+</A>
+</TRACK>
+<TRACK FID="21">
+<A E="2100" S="366" VID="3"/>
+</TRACK>
+<TRACK FID="3">
+<A E="33" S="0" VID="5"/>
+<A E="333" S="66" VID="400002"/>
+<A E="2500" S="2233" VID="400001"/>
+<A E="2800" S="2533" VID="5"/>
+<A E="3133" S="2833" VID="400002"/>
+<A E="4100" S="3866" VID="400001"/>
+<A E="4633" S="4133" VID="5"/>
+</TRACK>
+<TRACK FID="10">
+<A E="1866" S="0" VID="2"/>
+<A E="2266" S="1900" VID="400001"/>
+<A E="4166" S="2300" VID="6"/>
+<A E="4633" S="4200" VID="400002"/>
+</TRACK>
+<TRACK FID="20001">
+<A E="4633" S="0">After the movie ends, the teacher will buy a book to give to the student to read.</A>
+</TRACK>
+<TRACK FID="2">
+<A E="700" S="366" VID="400001"/>
+<A E="2233" S="733" VID="4"/>
+<A E="2966" S="2266" VID="2"/>
+<A E="3533" S="3000" VID="400001"/>
+<A E="4033" S="3566" VID="7"/>
+<A E="4633" S="4066" VID="400002"/>
+</TRACK>
+<TRACK FID="27">
+<A E="933" S="366" VID="0"/>
+<A E="2033" S="1133" VID="8"/>
+<A E="2300" S="2266" VID="13"/>
+<A E="2633" S="2500" VID="8"/>
+<A E="2900" S="2766" VID="0"/>
+<A E="3333" S="3066" VID="8"/>
+<A E="3833" S="3533" VID="0"/>
+<A E="4233" S="3900" VID="8"/>
+</TRACK>
+<TRACK FID="0">
+<A E="33" S="0" VID="4"/>
+<A E="866" S="33" VID="400001"/>
+<A E="1000" S="900" VID="6"/>
+<A E="1766" S="1033" VID="400001"/>
+<A E="2033" S="1800" VID="2"/>
+<A E="2100" S="2066" VID="400001"/>
+<A E="2800" S="2133" VID="4"/>
+<A E="3266" S="2833" VID="400001"/>
+<A E="3833" S="3300" VID="6"/>
+<A E="4266" S="3866" VID="400002"/>
+</TRACK>
+<TRACK FID="11">
+<A E="2000" S="200" VID="1"/>
+<A E="3166" S="2900" VID="0"/>
+</TRACK>
+<TRACK FID="12">
+<A E="33" S="0" VID="5"/>
+<A E="166" S="66" VID="2"/>
+<A E="900" S="200" VID="400001"/>
+<A E="1933" S="933" VID="4"/>
+<A E="2000" S="1966" VID="400001"/>
+<A E="2100" S="2033" VID="2"/>
+<A E="2266" S="2133" VID="400001"/>
+<A E="4166" S="2300" VID="6"/>
+<A E="4233" S="4200" VID="400001"/>
+<A E="4633" S="4266" VID="5"/>
+</TRACK>
+<TRACK FID="1">
+<A E="533" S="0" VID="400001"/>
+<A E="2000" S="566" VID="3"/>
+<A E="2566" S="2033" VID="400001"/>
+<A E="3233" S="2600" VID="4"/>
+<A E="3866" S="3266" VID="400001"/>
+<A E="4266" S="3900" VID="5"/>
+<A E="4633" S="4300" VID="400002"/>
+</TRACK>
+</SEGMENT>
+</UTTERANCE>
+</UTTERANCES>
+</SIGNSTREAM-DATABASE>

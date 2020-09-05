@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup as BS
 import re
 
-partial_path = r'C:\Users\manua\Desktop\NCSLGR_data\ncslgr-xml'
+partial_path = """<write the path to "ncslgr-xml">"""  # Write the path location where ncslgr-xml is saved on your local machine
 
 dominant_hand_pos_id_list = []  # A list of lists of [[<POS>, <POS ID>], [<POS>, <POS ID>]] for the dominant hand
 non_dominant_hand_pos_id_list = []  # A list of lists of [[<POS>, <POS ID>], [<POS>, <POS ID>]] for the non-dominant hand
@@ -117,9 +117,9 @@ between quotes gets replaced with an underscore. For example, BCL"holding and ex
 BCL"holding_and_examining_hand". This is because OpenCCG cannot recognize words within quotes separated by whitespace as 
 belonging together. 
 """
-with open(r'C:\Users\manua\Desktop\NIX_BYU_THESIS\NCSLGR_Corpus_data\pos_and_gloss.txt', 'a') as f_OUT_POS_gloss:
-    with open(r'C:\Users\manua\Desktop\NIX_BYU_THESIS\NCSLGR_Corpus_data\only_gloss.txt', 'a') as f_OUT_gloss:
-        with open(r'C:\Users\manua\Desktop\NIX_BYU_THESIS\NCSLGR_Corpus_data\only_pos.txt', 'a') as f_OUT_POS:
+with open("""PATH NAME TO SAVE OUTPUT TO""", 'a') as f_OUT_POS_gloss:  # creates file of <POS> <GLOSS>
+    with open("""PATH NAME TO SAVE OUTPUT TO""", 'a') as f_OUT_gloss:  # creates file of only <GLOSS>
+        with open("""PATH NAME TO SAVE OUTPUT TO""", 'a') as f_OUT_POS:  # creates file of only <POS>
             for dom_item in dominant_hand_GLOSS_POS_id_num_list:
                 if 'Discourse Marker' in dom_item[1]:
                     dom_item[1] = re.sub('Discourse Marker', 'Discourse_Marker', dom_item[1])

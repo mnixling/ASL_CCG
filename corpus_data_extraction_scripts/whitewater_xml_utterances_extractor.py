@@ -3,17 +3,16 @@ The output has all the dominant-hand gloss first followed by the non-dominant ha
 utterance will begin with NO NON-DOM. If there is non-dominant hand gloss in the utterance there will be **NON-DOM** followed by the non-dominant hand 
 gloss."""
 
-
 from bs4 import BeautifulSoup as BS
 import re
 
-partial_path = r'C:\Users\manua\Desktop\NCSLGR_data\ncslgr-xml'
+partial_path = """<write the path to "ncslgr-xml">"""  # Write the path location where ncslgr-xml is saved on your local machine
 
 dominant_only_gloss = ()
 dominant_and_non_dominant_gloss = ()
 
 with open(partial_path + r'\whitewater.xml', 'r') as f_IN:
-    with open(r'C:\Users\manua\Desktop\NIX_BYU_THESIS\NCSLGR_Corpus_data\ncslgr_corpus_utterances.txt', 'a') as f_OUT_utts:
+    with open("""Path name to file output""", 'a') as f_OUT_utts:  # Write path to the file name you want to use to save the output to
         soup = BS(f_IN.read(), 'xml')
 
         for utterance_tag in soup.find_all('UTTERANCES'):

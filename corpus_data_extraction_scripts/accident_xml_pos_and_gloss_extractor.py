@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup as BS
 import re
 
-partial_path = """<write the path to "ncslgr-xml">"""
+partial_path = """<write the path to "ncslgr-xml">"""  # Write the path location where ncslgr-xml is saved on your local machine
 
 dominant_hand_pos_id_list = []  # A list of lists of [[<POS>, <POS ID>], [<POS>, <POS ID>]] for the dominant hand
 non_dominant_hand_pos_id_list = []  # A list of lists of [[<POS>, <POS ID>], [<POS>, <POS ID>]] for the non-dominant hand
